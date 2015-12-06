@@ -1,0 +1,100 @@
+{{WikiProject Computing}}
+{{archives}}
+
+== F and AS plus G ==
+
+The article at the page http://en.wikipedia.org/wiki/Logic_family says that F and AS came out in 1979 and 1980, not in 1985 like in this article. Something needs to be changed and corrected. The G family from 2004 is not mentioned in this article.
+
+I fixed the "Sub-types" section by moving out of the dotted list the last three sentences since they really weren't in the right place.
+
+[[User:ICE77|ICE77]] ([[User talk:ICE77|talk]]) 23:16, 19 February 2011 (UTC)
+
+==Schematic diagram question==
+
+Why is not in fig "Two-input TTL NAND gate" a bias resistor for the base of output transistor?  <small><span class="autosigned">— Preceding [[Wikipedia:Signatures|unsigned]] comment added by [[User:Oabernhardt|Oabernhardt]] ([[User talk:Oabernhardt|talk]] • [[Special:Contributions/Oabernhardt|contribs]]) 14:49, 11 June 2012 (UTC)</span></small><!-- Template:Unsigned --> <!--Autosigned by SineBot-->
+
+:For one thing, it's a simplified diagram. For another, current will flow from V<sub>cc</sub> through the resistor to the base of the input transistor, then through the base-collector junction to the base of the output transistor. [[User:Jc3s5h|Jc3s5h]] ([[User talk:Jc3s5h|talk]]) 16:08, 11 June 2012 (UTC)
+
+:: Yes, it is an oversimplified diagram. The output transistor will either get is base drive from the resistor through the multiple emitter transistor's B-C junction, or the collector of the of ME transistor will suck out the base charge. If you consider the threshold voltage in the simple diagram, it is around 0.7V -- not the 1.4V of a typical TTL gate. The totem pole circuit lower down is better for details. [[User:Glrx|Glrx]] ([[User talk:Glrx|talk]]) 17:13, 11 June 2012 (UTC)
+
+== Sub-types ==
+
+There seems to be a lot of overlap between
+the [[Transistor–transistor logic#Sub-types]] section and
+the [[7400 series#7400 series derivative families]] section.
+
+Could we merge that information together somehow?
+
+Are there any Fast (F) or Advanced-Schottky (AS) chips other than
+the ones in the 7400 series -- the 74F and 74AS, respectively?
+
+--[[User:DavidCary|DavidCary]] ([[User talk:DavidCary|talk]]) 14:18, 16 October 2014 (UTC)
+
+:There were CMOS versions, for instance 74HC00 and 74HCT00.  The HCT version was intended to more closely simulate the 0.4 volt/2.4 volt inputs; the HC version had a symmetrical input centering on 1/2 of VCC, for instance 2.5 volts if the VCC is 5.0 volts.  The outputs of both of these versions were close to GND and VCC+
+:Further, there were high-speed CMOS versions, for instance 74AC00 and 74ACT00.  See above for the input voltage.    [[Special:Contributions/174.25.9.105|174.25.9.105]] ([[User talk:174.25.9.105|talk]]) 07:06, 28 October 2015 (UTC)
+
+Seems to me that the HC and HCT are not subtypes of TTL. The use the numbering system of TTL, but otherwise are somewhat different. The important idea behind TTL, successor of RTL and DTL, is using bipolar transistors for both logic and output drivers. The logic transistors can go into reverse active mode and such charge out of the following transistor, speeding up the logic. Now, many S and LS circuits use Schottky diodes for logic functions, so aren't strictly TTL, but otherwise are similar enough. Not that HC and HCT should be ignored, but they aren't subtypes of TTL. [[User:Gah4|Gah4]] ([[User talk:Gah4|talk]]) 23:04, 28 October 2015 (UTC)
+
+== Pin counts ==
+
+"Like most integrated circuits of the period 1965–1990, TTL devices are usually packaged in through-hole, dual in-line packages with between 14 and 24 lead wires" this seems a strange and unsupported claim. Most of what I have on hand is 6 or 8 pin. Original research, but why would there be a good cite that would have average pin counts that would support the claim? It seems very dubious. Obviously in certain applications it would be true, but how would it be true generally for TTL devices? Any TTL device with 14 or more pins is going to contain a large number of components, and those smaller components are probably all available for order as discrete units with less pins, and still in PDIP. [[Special:Contributions/76.105.216.34|76.105.216.34]] ([[User talk:76.105.216.34|talk]]) 23:48, 21 January 2015 (UTC)
+:I would have trouble remembering much about TTL, but I do not think I've ever seen 6 or 8 pin TTL chips. What are they? Can you link to a description somewhere (no problem if you can't; just my curiosity). Have a look at [[7400 series]] to see confirmation of the statement in the article. By modern standards, there are hardly any components at all in a 7400, yet it has 14 pins simply because it has to, per the diagram in the lead. [[User:Johnuniq|Johnuniq]] ([[User talk:Johnuniq|talk]]) 05:55, 22 January 2015 (UTC)
+::I agree.  Most TTL parts were 14 or 16 pins; a few were 20 or more.  What comes with fewer than 14?  Is a [[555 timer]] considered TTL?  I don't think so. [[User:Dicklyon|Dicklyon]] ([[User talk:Dicklyon|talk]]) 06:56, 22 January 2015 (UTC)
+:::Easily verified: simply go to [[List of 7400 series integrated circuits]], pick a few at random, look at the data sheet and count the pins. Mostly 14 and 16, occasionally 20. Of course there is the 741G series, for those times when you have to cram one more gate into an overcrowded surface-mount board, but those are modern HC parts. There was nothing like that in the days when TTL was king. --[[User:Guy Macon|Guy Macon]] ([[User talk:Guy Macon|talk]]) 11:56, 22 January 2015 (UTC)
+::::You're right, but you're not Wikipedia right.  We can't use Wikipedia as a [[WP:RS|source]] to settle arguments on Wikipedia. We can't flip through data books and count how many parts have how many pins - that's [[WP:OR]]. What we Wikishould do is tag the offending line with "Citation needed", which will stay on it till the end of time waiting for someone to find a reliable third party secondary source making the statement. --[[User:Wtshymanski|Wtshymanski]] ([[User talk:Wtshymanski|talk]]) 23:00, 23 January 2015 (UTC)
+:::::I have seldom met a data sheet that does not specify the number of pins a part has, so counting them is completely unnecessary. Since the data sheet itself is the cite for the pin count, you are just talking bollocks. [[Special:Contributions/31.48.73.38|31.48.73.38]] ([[User talk:31.48.73.38|talk]]) 17:34, 24 January 2015 (UTC)
+::::::Wtshymanski, who disagrees with certain Wikipedia policies, in this case pretty much accurately describes the policies in question. If someone seriously questions that claim "TTL devices are usually packaged in through-hole, dual in-line packages with between 14 and 24 lead wires", then we as an encyclopedia [[WP:V|must back up the claim]] with a citation to a [[WP:RS|reliable source]].
+::::::In my comment above, I was inexact in my language. Checking a bunch of datasheets should be enough to convince any reasonable person  how many pins TTL devices "usually" have, but Wtshymanski is entirely correct when he says that that doing that violates our policy on [[WP:OR|original research]]. It's actually a pretty good example illustrating why Wtshymanski disagrees with those Wikipedia policies.
+::::::My personal view is that, while Wtshymanski has a point about our policies being flawed, his proposed alternative (as far as I can tell -- he hasn't really detailed exactly how he thinks Wikipedia should change, but I ''think'' he wants it to be more like [[Nupedia]]) is worse. I would love to have a serious discussion about this -- or about anything else, for that matter -- with Wtshymanski, but he has shown no interest in doing that. --[[User:Guy Macon|Guy Macon]] ([[User talk:Guy Macon|talk]]) 16:42, 25 January 2015 (UTC)
+:::::::{{replyto|Guy Macon}}If I read you right: then what you are both saying is that if anyone puts a claim in a Wikipedia article, having found a book, website or whatever that supports the claim and cites the reference in the article (as millions of such claims are cited), then all such claims can be deleted as [[WP|OR|original research]] because the act of looking the claim up in the book is original research??  I have to disagree here.  I accept that if I emptied out my box of 7400 series chips and counted the pins that would be original research (which is what {{u|Wtshymanski}} was suggesting).  I cannot accept that citing the data sheets that specify the number of pins on the chips to be original research.
+:::::::Alternatively, of course, I could photograph the chips with numbered stickers on each pin and include that because [[WP:OI|original research]] is allowed in images.  [[Special:Contributions/31.48.73.38|31.48.73.38]] ([[User talk:31.48.73.38|talk]]) 13:35, 26 January 2015 (UTC)
+::::::::No. You have an incorrect grasp of Wikipedia's rules on original research. Citing a source is not original research. You might find [[WP:SYNTH]] helpful in understanding the policy. --[[User:Guy Macon|Guy Macon]] ([[User talk:Guy Macon|talk]]) 23:02, 26 January 2015 (UTC)
+:::::::::{{replyto|Guy Macon}} Which bit of, "''I cannot accept that citing the data sheets that specify the number of pins on the chips to be original research''" is any different to, "''Citing a source is not original research"''.  I merely provided a précis of what you posted.  [[Special:Contributions/31.48.73.38|31.48.73.38]] ([[User talk:31.48.73.38|talk]]) 17:30, 1 February 2015 (UTC)
+Let's just cite a book.  How about [https://books.google.com/books?id=9g8BBQAAQBAJ&pg=PA16&dq=TTL+14-pin+16&hl=en&sa=X&ei=9yzFVLbKH43noATEiIDgBQ&ved=0CCkQ6AEwAg#v=onepage&q=TTL%2014-pin%2016&f=false this one] that says "these devices are usually encapsulated in a plastic 14-pin, 16-pin, or 24-pin dual-in-line package (DIP)" (referring to 7400 series TTL in particular).  [[User:Dicklyon|Dicklyon]] ([[User talk:Dicklyon|talk]]) 17:52, 25 January 2015 (UTC)
+:My character plays  {{cite book |last1= Lancaster|first1=Don |author-link1=[[Don Lancaster]] |year= 1974|chapter=1  |title=TTL Cookbook |language=English |publisher=Howard W. Sams and Co., Inc The Bobbs-Merril Co., Inc. |publication-date= 1974|page=14 |pages= |at= |nopp= |arxiv= |asin= |bibcode= |doi= |doi_brokendate= |isbn=0-672-21035-5 |issn= |jfm= |jstor= |lccn= |mr= |oclc= |ol= |osti= |pmc= |pmid= |rfc=  |quote="The majority of devices are available in the common 14-pin and 16-pin DIP or dual in-line package... "|separator= |postscript= |ref= }} and walks off in a cloud of Wikismugness, showing his superiority by proving a [[WP:BLUE|reference for the bloody obvious]] exists.  Suggested ripostes include[[WP:OUTDATED]],[[WP:SPS]], [[WP:QS]], [[WP:1R]] and I'm sure there's a whole bunch of procedurally sound objections based on more than 14 years of carefully planned policies and sacred consensus. And 40 pins is not 49 pins.  --[[User:Wtshymanski|Wtshymanski]] ([[User talk:Wtshymanski|talk]]) 18:07, 25 January 2015 (UTC)
+
+I think sometimes the idea of original research isn't well defined. Seems like a reference to the TTL data book, describing hundreds of TTL chips, should be enough to settle the question. I don't think we need a government funded, peer-reviewed study on the number of pins on a chip to know how many there are. I do agree that there are plenty of cases where original research is a problem, when no sources are available to show the difference, and reliable funded, and reviewed studies are needed. I don't believe that this is one of those. In the case of TTL I suspect (uh-oh, original research) that standardizing on 14 and 16 pin packages helped with the economy of scale, and kept prices down. It also might have made board layout easier when computers were slower. [[User:Gah4|Gah4]] ([[User talk:Gah4|talk]]) 23:16, 28 October 2015 (UTC)
+
+== Citations ==
+:<small> Re guideline [[WP:CITEVAR]]</small>
+
+Move to change citation method
+
+Style is basically Harvard footnotes.
+
+Harvard expression were inconsistent. See https://en.wikipedia.org/w/index.php?title=Transistor%E2%80%93transistor_logic&oldid=644140821 Some had year, some didn't. Some gave initials, some didn't. Some used ampersand; some didn't. Some had comma-year; some didn't. The linkage specified material twice:
+:<code><nowiki><ref>[[#CITEErin2003|Eren, H., 2003.]]</ref></nowiki></code>
+
+To make it consistent, use the simpler (with a rename of CITEErin2003 to CITERefEren2003) (also note that Eren was mispelled):
+:<code><nowiki><ref>{{harvnb|Eren|2003}}</ref></nowiki></code>
+
+That basically takes you to this version (harv templates to existing citation style): https://en.wikipedia.org/w/index.php?title=Transistor%E2%80%93transistor_logic&oldid=645034423
+
+If you actually look at the references, you'll see
+:<code><nowiki>* <cite id=CITEHorowitzHill1989>Horowitz, P. and Winfield Hill, W. ''The Art of Electronics.'' 2nd Ed. Cambridge University Press. 1989. ISBN 0-521-37095-7</cite></nowiki></code>
+
+With the doubled single quotes, the intention was to italicize the title but not the authors, but that doesn't happen inside the cite tag. That's when I switched to the citation templates in the reference section. You'll also notice author Hill is confused.
+
+In templating the refs, other errors came out and I added dois.
+
+[[User:Glrx|Glrx]] ([[User talk:Glrx|talk]]) 17:47, 2 February 2015 (UTC)
+
+:After looking around, I see that the &lt;cite...> HTML elements were introduced in September 2008. I also see at [[Help:HTML in wikitext]] that the meaning of the &lt;cite...> element has changed between HTML 4 and HTML 5. I suppose the citations looked right back in 2008 with the version of Wikimedia then in use, but clearly it getting the job done anymore. Glrx, what would you like to change to? I think a suitable approach would be a "Notes" section containing short footnotes made with the {{tl|sfn}} template and a "References" section made with the [[Help:Citation Style 1|Citation Style 1]] family of templates. [[User:Jc3s5h|Jc3s5h]] ([[User talk:Jc3s5h|talk]]) 19:04, 2 February 2015 (UTC)
+
+:: Blame the resulting change in CSS defaults for cite class.
+:: I don't care which citation style family is used; consistency and checks are the benefits I want; I don't care about periods vs commas; I believe CS1 gets more attention and is probably easier for most editors. If one uses {{tl|sfn}} or {{tl|harv}}, then CS1 needs an explicit <code>ref=harv</code> (see [[Help:Citation Style 1#Anchors]]), so I usually match Harvard refs with {{tl|citation}}. That way the sfn anchor is there by default.
+:: For this article, I believe sfn/harv is a poor choice because it makes the refs double indirect (look at note and then look at the biblio). sfn is worthwhile if the name of the authors are significant to the readers (often in psychology where different author's theories are discussed -- and then the Harvard refs are in the text rather than short footnotes) or when the refs are cited many times with different page numbers/pinpoints. In this article, most refs are cited once; the only benefit to sfn is the references can be sorted by name rather than cite order; some editors may want to retain that feature, but sorted by footnote number is good enough for me. That is, an easier method is long footnotes that put the CS1 template inside <code>ref</code> tags and invoke {{tl|reflist}} at the bottom of the page; an editor need not edit both inline (sfn/harv) and out-of-line (biblio). I think mouseover works better with long footnotes.
+:: [[User:Glrx|Glrx]] ([[User talk:Glrx|talk]]) 00:43, 3 February 2015 (UTC)
+
+:::I agree that short footnotes and an alphabetical list of references with full bibliographical details is most useful when many of the sources are cited several times each, but each citation is to a different page number; I had not looked to see how often each source was cited when I made my previous edit, thanks for checking that. (If the names of the authors were really important, I would tend to go for [[parenthetical referencing]]). Since neither of those applies to this article, the short footnotes are perhaps just extra work.
+
+:::Most outside citation styles that separate the elements of the citation with periods put those sources in an alphabetical list and use parenthetical citations. All the outside styles I've found that use footnotes separate the elements with commas. So if I get to pick, I use CS1 with alphabetical reference lists and {{tl|Citations}} when there are only footnotes (no alphabetical list). [[User:Jc3s5h|Jc3s5h]] ([[User talk:Jc3s5h|talk]]) 01:42, 3 February 2015 (UTC)
+
+:::: We agree on long footnote rather than sfn. I'm not wed to either cite x/CS1 or citation/CS2. Give a little time for others to weigh in. [[User:Glrx|Glrx]] ([[User talk:Glrx|talk]]) 02:17, 3 February 2015 (UTC)
+
+== V or Q ==
+
+Why are the transistors in the diagrams V?  Most use Q for transistors.  [[User:Gah4|Gah4]] ([[User talk:Gah4|talk]]) 00:40, 3 April 2015 (UTC)
+
+:The "V"s should be "Q"s, the "U"s shouldn't be there, and in general the style should be similar to that of the illustration above it. Does anyone have time to do a bit of drawing today to fix this? --[[User:Guy Macon|Guy Macon]] ([[User talk:Guy Macon|talk]]) 20:44, 3 April 2015 (UTC)
+::It's a pretty simple fix that I could do since it's just tweaking an svg diagram. Apparently those letters are per dewiki conventions, I guess. The three "U"s presumably represent the two input voltages and the output voltage, with upside-down arrows. I suppose the "U"s are redundant and should be removed along with the arrows. After removal, should the two inputs be labeled V1 and V2, and the output Vo (subscripted)? A tricky issue is where to put a new diagram. The original is [[:File:7400 Circuit.svg]] which is at Commons and is used in several Wikipedias. I'm not sure I'm cheeky enough to replace that. What do you think? Replace it? Make a new file? What name? [[User:Johnuniq|Johnuniq]] ([[User talk:Johnuniq|talk]]) 23:48, 3 April 2015 (UTC)

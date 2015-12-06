@@ -1,0 +1,32 @@
+{{Talk header}}
+{{ITN talk|1 April|2014}}
+{{ITN talk|5 December|2015}}
+{{WikiProjectBannerShell|1=
+{{WikiProject Japan|class=B|importance=high| b1 <!--Referencing & citations--> = y
+| b2 <!--Coverage & accuracy    --> = y
+| b3 <!--Structure              --> = y
+| b4 <!--Grammar & style        --> = y
+| b5 <!--Supporting materials   --> = y
+| b6 <!--Accessibility          --> = y|culture=y|food=y|history=y}}
+{{WikiProject Cetaceans|class=B|importance=high}}
+{{WikiProject Animal rights| class=B |importance=Top}}
+}}
+{{Archive box|
+* [[/Archive 1|1]], [[/Archive 2|2]]
+}}
+
+
+== Organized Whaling section neutrality ==
+
+Checking the section in question, it looks like the wording is very loaded such as
+
+'''Domestically, Japanese people have been trying to shift responsibility of whale declines to whaling by other nations for hundreds of years to even today, and claim that their whaling have been completely different to that by other nations'''.[1] Claiming that their whaling were unlike '''brutal hunts by foreigners, but being humble and emotional, and Japanese people use all the parts of whale bodies unlike westerners who hunt whales only for oils, and Japanese strictly controlled catch quotas for sake of whales, and they never hunted juveniles and cow-calf pairs as their respects to whales'''. When they kill whales, hunters invoked the Budda and pray for the repose of whales' souls,[1] and they held funerals for whales and built cenotaphs and graves to them, and gave posthumous Buddhist names to the dead whales, or released deceased fetuses back to the sea after incising cows' bellies, and '''people of Japan were the best in the world about building healthy relationships with whales, being strongly connected with elitism, antiforeignism, and nationalism.'''[2][3]
+
+Are these quotations or something, and perhaps this section could be reworded? Seems to take a very cynical/hostile tone against Japanese whaling. Perhaps someone could look further into this. [[User:ZeroDamagePen|ZeroDamagePen]] ([[User talk:ZeroDamagePen|talk]]) 14:58, 16 October 2015 (UTC) <small><span class="autosigned">—&nbsp;Preceding [[Wikipedia:Signatures|unsigned]] comment added by [[User:ZeroDamagePen|ZeroDamagePen]] ([[User talk:ZeroDamagePen|talk]] • [[Special:Contributions/ZeroDamagePen|contribs]]) 15:40, 10 October 2015 (UTC)</span></small><!-- Template:Unsigned --> <!--Autosigned by SineBot-->
+
+{{done}} Cleaned up the section, tried to remove POV wording, make it more neutral and more accurate, and added another reference.  I haven't removed the "Neutrality Disputed" banner, so if you concur with the editing changes I've made, and the tone of neutrality is no longer in dispute, please feel free to remove the banner. - [[User:Boneyard90|Boneyard90]] ([[User talk:Boneyard90|talk]]) 14:06, 20 October 2015 (UTC)
+
+== Whalocaust returns to Japan. ==
+
+The japanese high-seas fleet has decided to resume large scale whaling for the 2016 season, the corresponding article in now on the BBC News website:
+http://www.bbc.com/news/world-asia-34952538 [[Special:Contributions/82.131.150.14|82.131.150.14]] ([[User talk:82.131.150.14|talk]]) 16:33, 28 November 2015 (UTC)

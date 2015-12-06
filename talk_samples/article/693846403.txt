@@ -1,0 +1,301 @@
+{{Skip to talk}}
+{{Talk header|noarchive=yes|search=no}}
+{{Vital article|level=3|topic=History|class=GA}}
+{{British English|date=September 2010}}
+{{Article history|action1=FAC
+|action1date=21:31, 18 Feb 2005
+|action1link=Wikipedia:Featured article candidates/World War II/archive 1
+|action1result=not promoted
+|action1oldid=10403635
+|action2=FAC
+|action2date=05:08, 22 May 2005
+|action2link=Wikipedia:Featured article candidates/World War II/archive 2
+|action2result=not promoted
+|action2oldid=14078797
+|action3=PR
+|action3date=21:16, 20 September 2005
+|action3link=Wikipedia:Peer review/World War II/archive1
+|action3result=reviewed
+|action3oldid=23622467
+|action4=FAC
+|action4date=19:26, 26 January 2006
+|action4link=Wikipedia:Featured article candidates/World War II/archive1
+|action4result=not promoted
+|action4oldid=36827665
+|action5=PR
+|action5date=14:36, 13 April 2006
+|action5link=Wikipedia:Peer review/World War II/archive2
+|action5result=reviewed
+|action5oldid=48277531
+|action6=FAC
+|action6date=03:35, 18 May 2006
+|action6link=Wikipedia:Featured article candidates/World War II/Archive I
+|action6result=not promoted
+|action6oldid=53709401
+|action7=GAN
+|action7date=19:09, 25 September 2006
+|action7result=listed
+|action7oldid=77765493
+|action8=FAC
+|action8date=06:03, 17 February 2007
+|action8link=Wikipedia:Featured article candidates/World War II/archive2
+|action8result=not promoted
+|action8oldid=108787006
+|action9=WAR
+|action9date=23 March 2007
+|action9link=Wikipedia:WikiProject Military history/Assessment/World War II
+|action9result=failed
+|action10=GAR
+|action10date=04:00, 14 April 2007
+|action10link=Wikipedia:Good article review/Archive 16#World War II
+|action10result=kept
+|action10oldid=122664413
+|action11=GAR
+|action11date=October 8, 2007
+|action11link=Talk:World_War_II/Archive_27#GA_Sweeps_Review:_Delisted
+|action11result=delisted
+|action11oldid=163173719
+|action12=WPR
+|action12date=10 May 2008
+|action12link=Wikipedia:WikiProject Military history/Peer review/World War II
+|action12result=reviewed
+|action12oldid=211399776
+|action13=GAN
+|action13date=04:50, 6 March 2010 (UTC)
+|action13link=Talk:World War II/GA1
+|action13result=listed
+|action13oldid=348037951
+|aciddate=18 December 2005
+|currentstatus=GA
+|topic=History}}
+{{Old peer review|archive=3}}
+{{WikiProjectBannerShell|collapsed=yes|1=
+{{WikiProject Military history|class=GA |old-peer-review=yes |A-Class=fail |Aviation=yes |Historiography=Yes |Maritime=Yes |Memorials=Yes |Science=Yes |Technology=Yes |Weaponry=Yes |African=Yes |Australian=Yes |Balkan=Yes |British=Yes |Canadian=Yes |Chinese=Yes |Dutch=Yes |French=Yes |German=Yes |Indian=Yes |Italian=Yes |Japanese=Yes |Korean=Yes |New-Zealand=Yes |Polish=Yes |Russian=Yes |Spanish=Yes |US=Yes |WWII=Yes|Middle-Eastern-task-force= yes|portal1-name=United States|portal1-link=Selected article/15}}
+{{WikiProject European history|class=GA|importance=Top}}
+{{WikiProject Albania|class=GA|importance=High}}
+{{WikiProject Australia|class=GA|importance=Top}}
+{{WikiProject Austria|class=GA|importance=High}}
+{{WikiProject Bosnia and Herzegovina|class=GA|importance=High}}
+{{WikiProject Bulgaria|class=GA|importance=High}}
+{{WikiProject Croatia|class=GA|importance=High}}
+{{WikiProject Czech Republic|class=GA|importance=High}}
+{{WikiProject France|class=GA|importance=Top}}
+{{WikiProject Germany|class=GA |importance=Top|B-Class-1=yes |B-Class-2=yes |B-Class-3=yes |B-Class-4=yes |B-Class-5=yes}}
+{{WikiProject Greece|class=GA|importance=High|topic=history}}
+{{WikiProject Hungary|class=GA|importance=High}}
+{{WikiProject Italy|class=GA|importance=High}}
+{{WikiProject Japan|class=GA |b1=yes|b2=yes|b3=yes|b4=yes|b5=yes|b6=yes |history=yes |importance=high |milhist=yes}}
+{{WikiProject Moldova|class=GA|importance=Top}}
+{{WikiProject Netherlands|class=GA}}
+{{WikiProject New Zealand|class=GA|importance=Top}}
+{{WikiProject Poland|class=GA|importance=Top}}
+{{WikiProject Russia|class=GA|importance=top|mil=yes|hist=yes}}
+{{WikiProject Serbia|class=GA|importance=High}}
+{{WikiProject Silesia|class=GA|importance=High}}
+{{WikiProject Slovakia|class=GA|importance=High}}
+{{WikiProject Slovenia|class=GA|importance=High}}
+{{WikiProject Soviet Union|class=GA|importance=top}}
+{{WikiProject United Kingdom|class=GA|importance=High}}
+{{WikiProject United States|class=GA|importance=Top|USMIL=Yes|portal1-name=United States|portal1-link=Selected article/15}}
+{{WikiProject Vietnam|class=GA|importance=High}}
+{{WikiProject Zimbabwe|class=GA|importance=Mid|Rhodesia=y|Rhodesia-importance=High}}
+{{WP1.0|v0.5=pass|class=GA|category=History|VA=yes|coresup=yes|WPCD=yes|importance=Top}}
+}}
+{{Outline of knowledge coverage|World War II}}
+{{Medcabbox|2008-06-13_World_War_II|closed}}
+{{-}}
+<!-- Archive Index code - HighInBCBot maintains the archive index at /Archive Index -->{{User:HBC Archive Indexerbot/OptIn |target=Talk:World War II/Archive Index |mask=Talk:World War II/Archive <#> |mask1=Talk:World War II/Archive Combatants|mask2=Talk:World War II/Archive Combatants 2|mask3=Talk:World War II/Archive Length|mask4=Talk:World War II/Archive Photos|mask5=Talk:World War II/Archive Casus Belli|mask6=Talk:World War II/Archive Start date|mask7=Talk:World War II/Infobox|mask8=Talk:World War II/Infobox/Archive <#> |leading_zeros=0 |indexhere=yes}}
+{{archives |auto=no |search=yes |bot=MiszaBot I |age=3 |units=month |index=/Archive Index |editbox=no|
+<center>
+;Chronological archives</center>
+2004-2005: [[Talk:World War II/Archive 1|1]], [[Talk:World War II/Archive 2|2]], [[Talk:World War II/Archive 3|3]], [[Talk:World War II/Archive 4|4]], [[Talk:World War II/Archive 5|5]], [[Talk:World War II/Archive 6|6]], [[Talk:World War II/Archive 7|7]], [[Talk:World War II/Archive 8|8]]<br/>
+2006: [[Talk:World War II/Archive 9|9]], [[Talk:World War II/Archive 10|10]], [[Talk:World War II/Archive 11|11]], [[Talk:World War II/Archive 12|12]], [[Talk:World War II/Archive 13|13]], [[Talk:World War II/Archive 14|14]], [[Talk:World War II/Archive 15|15]], [[Talk:World War II/Archive 16|16]], [[Talk:World War II/Archive 17|17]]<br/>
+2007: [[Talk:World War II/Archive 18|18]], [[Talk:World War II/Archive 19|19]], [[Talk:World War II/Archive 20|20]], [[Talk:World War II/Archive 21|21]], [[Talk:World War II/Archive 22|22]], [[Talk:World War II/Archive 23|23]], [[Talk:World War II/Archive 24|24]], [[Talk:World War II/Archive 25|25]], [[Talk:World War II/Archive 26|26]], [[Talk:World War II/Archive 27|27]], [[Talk:World War II/Archive 28|28]]<br/>
+2008: [[Talk:World War II/Archive 29|29]], [[Talk:World War II/Archive 30|30]]<br/>
+2009: [[Talk:World War II/Archive 33|33]], [[Talk:World War II/Archive 34|34]], [[Talk:World War II/Archive 35|35]], [[:Talk:World War II/Archive 36|36]] [[:Talk:World War II/Archive 37|37]]<br/>
+2010: [[:Talk:World War II/Archive 37|37]], [[Talk:World War II/Archive 38|38]], [[Talk:World War II/Archive 39|39]], [[Talk:World War II/Archive 40|40]], [[Talk:World War II/Archive 41|41]], [[Talk:World War II/Archive 42|42]], [[Talk:World War II/Archive 43|43]], [[Talk:World War II/Archive 44|44]] <br/>
+2011: [[/Archive 45|45]], [[/Archive 46|46]] <br/>
+2012: [[/Archive 47|47]], [[/Archive 48|48]] <br/>
+2013: [[/Archive 49|49]] <br/>
+2014-2015: [[/Archive 50|50]], [[/Archive 51|51]] <br/>
+<center>
+;Topical archives<br/>
+Combatants: [[Talk:World War II/Archive Combatants|Archive 1 (2006)]], [[Talk:World War II/Archive Combatants 2|Archive 2 (2007)]]<br/>
+[[Talk:World War II/Archive Length|Article Length]], [[Talk:World War II/Archive Photos|Photos]], [[Talk:World War II/Archive Casus Belli|Casus Belli]], [[Talk:World War II/Infobox|Infobox]], [[Talk:World War II/Archive Start date|Start date]]}}
+{{User:MiszaBot/config
+|archiveheader = {{Automatic archive navigator}}
+|maxarchivesize = 200K
+|counter = 51
+|minthreadsleft = 4
+|algo = old(90d)
+|archive = Talk:World War II/Archive %(counter)d
+}}
+__TOC__
+
+== Pyrrhic victory ==
+
+Some time ago I noticed through my watchlist that FilBox101 inserted 'pyrrhic' before 'victory' in the infobox. Later Alex Bakharev removed it. Can we get a consensus on this? Or has one already been reached? [[User:Green547|Green547]] ([[User talk:Green547|talk]]) 17:10, 15 July 2015 (UTC)
+
+: Why would the victory be [[pyrrhic victory|pyrrhic]]. The phrase pyrrhic victory is, as far as I know, generally reserved for a situation where a battle (or war) has lead to such devastating losses at the side of the victor, that another battle with the same enemy would almost certainly result in a decisive defeat of the earlier victor. By the end of WWII this is definitely not the case as the US-UK-USSR(and other allied) armies could easily crush any army fielded by either Germany or Japan (or any other Axis nation). [[User:Arnoutf|Arnoutf]] ([[User talk:Arnoutf|talk]]) 17:46, 15 July 2015 (UTC)
+
+::Well [[User:FilBox101]]'s edit summary was 'due to the massive number of casualties' and definitely it was a massive number of losses. I'd like to see his POV on this before moving ahead. [[User:Green547|Green547]] ([[User talk:Green547|talk]]) 18:03, 15 July 2015 (UTC)
+
+:::Probably none of the parties would be able to field the same power as they had in the field in 1940. But since there were no powers in the world at that time who could, that does not make it a Pyrrhic victory - a victory with so much casualties it would lead to almost certain loss if the ongoing war would continue from the status quo '''after''' the victory. If we redefine Pyrrhic victory to fit the outcome of WWII almost all major wars would have ended in a Pyrrhic victory. E.g. the outcome of the Napoleontic war would also be Pyrrhic (Wellington would not have been able to confront the Grande Armee immediately after Waterloo -- But that was a non-issue as Napoleon already lost that army in his ill-fated Russian campaign). Similarly the French would probably not have been able to withstand the original 1914 German attack in 1918, however the Germans were not able to execute that attack anymore in 1918.
+
+:::But I am interested in [[User:FilBox101]] detailed arguments why this would be a Pyrrhic victory as well [[User:Arnoutf|Arnoutf]] ([[User talk:Arnoutf|talk]]) 19:50, 15 July 2015 (UTC)
+
+::::Yes, I was going through that sort of arguments in my head, but I think the number of casualties and resources expended is relevant also. Pyrrhic victory could simply mean a victory won at a terrible cost. We need his imput on this. Cheers, [[User:Green547|Green547]] ([[User talk:Green547|talk]]) 21:07, 15 July 2015 (UTC)
+:::::In a summary like an infobox, when a qualifier such as Pyrrhic is at all debatable....then it should be left out. An editors opinion on it is not RS'd. Only if the consensus of mainstream historians employ it..should it ever be considered. [[User:JuanRiley|Juan Riley]] ([[User talk:JuanRiley|talk]]) 22:51, 15 July 2015 (UTC)
+
+::::::I, too, have not seen "pyrrhic victory" applied to World War II, and find it inappropriate. Perhaps it's the huge Russian losses that make that term seem suitable, but a pyrrhic victory is appropriate when the defeated has inherently greater resources and can eventually win a war of attrition. The Axis had no such reserve strength against the Allies. [[User:Dhtwiki|Dhtwiki]] ([[User talk:Dhtwiki|talk]]) 10:56, 16 July 2015 (UTC)
+
+:::::::I've also never seen any source describe World War II as a "Pyrrhic victory" or similar for the Allies. It's hard to see how that would be the case given that the Allies completely defeated the Axis powers and then went on to dominate the post-war world. [[User:Nick-D|Nick-D]] ([[User talk:Nick-D|talk]]) 11:56, 16 July 2015 (UTC)
+
+::::::::<s>WW2 was certainly a pyrrhic victory for Britain and France as the two countries were completely destroyed. ([[User:Dredernely|Dredernely]] ([[User talk:Dredernely|talk]]) 02:14, 21 July 2015 (UTC))</s> <small>Striking out comment from sockpuppet of banned editor HarveyCarter. [[User:Binksternet|Binksternet]] ([[User talk:Binksternet|talk]]) 14:51, 5 August 2015 (UTC)
+</small>
+:::::::::But being completely destroyed after being victorious is not necessarily a Pyrrhic victory - a Pyrrhic victory means that after such a victory the next battle to the same enemy is almost certainly lost. While Britain was very much damaged, Germany could not have fielded an army with any hopes of defeating Britain in mid 1945 (as Germany was even more damaged at the time). Therefor it was not a Pyrrhic victory.
+
+:::::::::In the larger scope of things WWII did result in the folding of the European colonial empires (not only British and French but also Dutch, Italian and German). So if we consider WWII as an episode in ongoing [[colonial war]]s it may be construed as a Pyrrhic victory. However that construal would be [[WP:OR|original research]]; and in any case be beyond the current article. [[User:Arnoutf|Arnoutf]] ([[User talk:Arnoutf|talk]]) 10:25, 28 July 2015 (UTC)
+
+::::::::::Two of the major parties emerged from the war with not only stronger armies, but with greater world power. Neither the USSR nor the USA were prepared to fight in the beginning. Both developed their militaries during the war and were stronger in 1945 than they were in 1940. The USSR took vast losses. The USSR's army was stronger at the end than at the beginning. That's not Pyrrhic in the slightest. Yes, Europe lost colonial empires but that took place for decades after the war, due the rise of the new powers that be, and only indirectly due to the war itself. Germany's motivation was to build an empire within Europe, not to simply take over colonies, so that makes it an existential war for Europe, not a colonial one.  Western Europe was then rebuilt under the Marshall Plan, money provided by one of their wartime allies. A Pyrrhic victory means you win the battle but lose the war. Yes, England, the Netherlands, Belgium and France, etc., lost influence and colonies, but they emerged nationally intact, were rebuilt with the assistance of a wartime ally (and were able to build a beneficial international alliance that did not exist pre-war), and were not subsumed into a Thousand Year Reich, so it's a vast stretch of the imagination to say the Allies won the battle and lost the war. Poland could make the argument they won the battle but lost the war, but I'm really not sure any other country could.[[Special:Contributions/71.160.33.132|71.160.33.132]] ([[User talk:71.160.33.132|talk]]) 19:26, 23 September 2015 (UTC)
+
+== Maps ==
+
+Reverted an edit that included maps of Colonies after WWII and Division of Czechoslovakia. The colonies map is a bit out of place, the war did not cause the loss of the colonial empires, this occurred in the 1960s, so the war itself did not have a great impact on colonial politics, to include the map in the Aftermath section is a bit premature for the events it tries to address. As for the Divisions of Czechoslovakia, it's a legitimate fit, but since we have an image of the Munich conference the item is highlighted in the section already. Lets avoid excessive mapping, we can add a map for everything — annexations of Austria, partition of Poland, invasion of Finland, annexation of the Baltic states and so on… --[[User:E-960|E-960]] ([[User talk:E-960|talk]]) 18:10, 26 September 2015 (UTC)
+
+:Regarding to this edit [https://en.wikipedia.org/w/index.php?title=World_War_II&diff=682876897&oldid=682873180]... Czechoslovakia was actually the first real victim of Nazi German aggression (the vast majority of Austrians welcomed the Anschluss). Its territory was divided among Germany, Hungary, Poland and the puppet Slovak state. The map shows two waves of annexations (1938–1939).
+
+:The Japanese victories over the Western powers in Asia between 1941 and 1943 (and German victories in Europe and North Africa) showed Indians, Indonesians, Vietnamese, Burmese, Arabs and other colonized nations that the colonial powers were not invincible. War had done terrible damage to their prestige. World War II left colonial powers like Britain, France and Netherlands weakened, unable to sustain their empires. ... Vietnam declared independence under Ho Chi Minh in 1945, but France continued to rule until its 1954 defeat. Indonesia under Sukarno fought a war of independence from the Netherlands from 1945 to 1949. There was a rapid wave of decolonization in the two decades following World War II.
+
+:Dates of independence of Asian and African countries: Philippines (1946), Syria (1946), Jordan (1946), India (1947), Pakistan (1947), Burma (1948), Ceylon (1948), Laos (1949), Indonesia (1949), Eritrea (1951), Libya (1951), Cambodia (1953), Vietnam (1954), Sudan (1956), Morocco (1956), Tunisia (1956), Ghana (1957), Malaysia (1957), Guinea (1958) ... -- [[User:Tobby72|Tobby72]] ([[User talk:Tobby72|talk]]) 08:03, 27 September 2015 (UTC)
+
+::Yes, you are correct, after WWII European powers did began to lose grip on their colonies, but the bulk of the breakaways happened in the 1960s. Generally, it is the [[Suez Crisis]] which marks the fall of the British and French colonial power. ''"The Suez crisis is widely believed to have contributed significantly to Britain's decline as a world power."'' [https://en.wikipedia.org/wiki/Suez_Crisis]. As for the Division of Czechoslovakia, it's a legitimate item, but do we really need that map in a crowded section, If anything you could add a map of the partition of Poland this is when the "shooting" war started in Europe. My recommendation is not to over do it with the maps. --[[User:E-960|E-960]] ([[User talk:E-960|talk]]) 10:57, 27 September 2015 (UTC)
+::*Sorry, one more thing, I think that the one map that should be added to the page is for the [[North Africa Campaign]], we have maps for the war in Europe and Asia, but nothing that shows the fighting in North Africa. --[[User:E-960|E-960]] ([[User talk:E-960|talk]]) 11:05, 27 September 2015 (UTC)
+
+:While after WWII the European began to lose their grip power, the two great power nation United States and Soviet Union appeared to engage an gobal [[Cold War]] until the year 1990-1991 the Soviet Union have finally disintegration and became now the country of Russia. [[User:SA 13 Bro|SA 13 Bro]] ([[User talk:SA 13 Bro|talk]]) 22:27, 21 October 2015 (UTC)
+
+== Pearl Harbor attack during World War Two ==
+
+Why Japanese Fascist want to make an perfect surprise attack in Hawaii during World War Two??? [[User:SA 13 Bro|SA 13 Bro]] ([[User talk:SA 13 Bro|talk]]) 16:42, 7 October 2015 (UTC)
+
+== France, Charles de Gaulle Main Allied Power ==
+
+France is currently not under the Main Allied Leaders section on the right hand column. I would argue that due to its inclusion in the United Nations as a veto power holding, permanant member of the Security Council, and the fact that it had regional influence zones in Germany and Austria after the war was over; it was and still should be considered a main Allied Power with General Charles de Gaulle labelled as its main commander.  <small class="autosigned">—&nbsp;Preceding [[Wikipedia:Signatures|unsigned]] comment added by [[Special:Contributions/2602:306:CD9A:7340:40B9:BC9D:29B0:CE72|2602:306:CD9A:7340:40B9:BC9D:29B0:CE72]] ([[User talk:2602:306:CD9A:7340:40B9:BC9D:29B0:CE72|talk]]) 23:34, 11 November 2015 (UTC)</small><!-- Template:Unsigned IP --> <!--Autosigned by SineBot-->
+
+:There have been several discussions on the importance of France and de Gaulle, and how they should be treated in this article. Have you read the archives to see whether and how your concerns have been addressed? [[User:Dhtwiki|Dhtwiki]] ([[User talk:Dhtwiki|talk]]) 07:41, 12 November 2015 (UTC)
+
+==Battle of Britain clarification==
+The official start date for the [[Battle of Britain]] is 10 July 1940, when the [[Kanalkampf]] intensified, operating under directions for a blockade, not August as shown. During the battle air superiority became the main aim in hope that bombing could defeat Britain: it was also a precondition for the conditionally planned [[Operation Sealion]] invasion which was more a political counter than a credible invasion plan. Multiple sources support that, but the existing text is either outdated or wrong. It also gives extraordinary prominence to a little known speech by Halifax, when Churchill's [[This was their finest hour]] was the most famous of that period.
+
+This is the existing text:
+{{quote|On 19 July, Hitler again publicly offered to end the war, saying he had no desire to destroy the [[British Empire]]. The United Kingdom rejected this, with [[E. F. L. Wood, 1st Earl of Halifax|Lord Halifax]] responding "there was in his speech no suggestion that peace must be based on justice, no word of recognition that the other nations of Europe had any right to self‑determination&nbsp;..."<ref name="ibiblio 1940">{{cite web|title= Major international events of 1940, with explanation|url= http://www.ibiblio.org/pha/events/1940.html|publisher= [[ibiblio]].org|accessdate= 15 May 2013}}</ref>
+
+Following this, Germany began an [[air superiority]] campaign over the United Kingdom (the [[Battle of Britain]]) to prepare for [[Operation Sealion|an invasion]].<ref name="autogenerated38">{{Harvnb|Kelly|Rees|Shuter|1998|p=38}}.</ref> The campaign failed, and the invasion plans were cancelled by September.<ref name="autogenerated38"/> Frustrated, and in part in response to repeated British air raids against Berlin, Germany began a strategic bombing offensive against British cities known as [[the Blitz]].<ref>[http://www.ibiblio.org/hyperwar/UN/UK/UK-Defence-UK/UK-DefenseOfUK-15.html The Battle of Britain: The Last Phase] THE DEFENSE OF THE UNITED KINGDOM 1957</ref> However, the air attacks largely failed to disrupt the British war effort.}}
+Here's a concise proposal, citing sources already in the references list:
+{{quote|What Churchill [[This was their finest hour|had already called]] the [[Battle of Britain]]<ref>{{harvnb|Keegan|1997|p=[http://books.google.com/books?id=TF8kcx9hTssC&pg=PA72 72]}}</ref> began in early July with [[Kanalkampf|Luftwaffe attacks on shipping and harbours]].<ref name="Murray BoB">{{harvnb | Murray | 1983 |loc=[http://www.ibiblio.org/hyperwar/AAF/AAF-Luftwaffe/AAF-Luftwaffe-2.html#cn70 The Battle of Britain]}}</ref> On 19 July, Hitler again publicly offered to end the war, saying he had no desire to destroy the [[British Empire]]. The United Kingdom rejected this ultimatum.<ref name="ibiblio 1940">{{cite web|title= Major international events of 1940, with explanation|url= http://www.ibiblio.org/pha/events/1940.html|publisher= [[ibiblio]].org|accessdate= 15 May 2013}}</ref> In August, the [[Adlertag|German air superiority campaign]] failed to defeat [[RAF Fighter Command]], and a [[Operation Sealion|proposed invasion]] was postponed indefinitely on 17 September. The German [[strategic bombing]] offensive intensified as night attacks on London and other cities in [[the Blitz]], but largely failed to disrupt the British war effort.<ref name="Murray BoB" />}}
+That keeps mention of Hitler's "appeal to reason" speech which had been drafted by [[Joachim von Ribbentrop|von Ribbentrop]] as a peace offer, but by the time Hitler made the speech he'd decided on preparations for Operation Sealion and it came over as an ultimatum. Not so well known, and we could perhaps trim that if space is at a premium. . . [[User:Dave souza|dave souza]], [[User talk:Dave souza|talk]] 01:00, 14 November 2015 (UTC)
+
+:That new wording looks good to me (the current first para is of little value), but I'd suggest trimming "What Churchill [[This was their finest hour|had already called]]" from the start of the new para as the history of the term "Battle of Britain" isn't really necessary. [[User:Nick-D|Nick-D]] ([[User talk:Nick-D|talk]]) 01:01, 16 November 2015 (UTC)
+
+::Looks like a considerable improvement to me. Good work. I would agree with Nick-D re "...had already...". Can I suggest adding "In August ''and September'' [or ''and early September''] the German air superiority...". This is both more accurate (IMO) and addresses the question which would arise from the proposed revision as it stands - if the Germans failed to defeat to the RAF in August, why did it take them until the second half of September to act on this. In fact they hoped right up to 15 September - realistically or not - that air superiority might be established. (Obviously I can supply references but I am hoping that this is common ground.)  [[User:Gog the Mild|Gog the Mild]] ([[User talk:Gog the Mild|talk]]) 11:04, 16 November 2015 (UTC)
+:::Thanks, have boldly edited this in with modifications to address these points, as below. I think saying the air superiority campaign '''started''' in August leaves it open as when it failed. Hope that's ok, will be glad to see any further improvements deemed necessary. . . [[User:Dave souza|dave souza]], [[User talk:Dave souza|talk]] 21:59, 17 November 2015 (UTC)
+{{quote|The [[Battle of Britain]]<ref>{{harvnb|Keegan|1997|p=[http://books.google.com/books?id=TF8kcx9hTssC&pg=PA72 72]}}</ref> began in early July with [[Kanalkampf|Luftwaffe attacks on shipping and harbours]].<ref name="Murray BoB">{{harvnb | Murray | 1983 |loc=[http://www.ibiblio.org/hyperwar/AAF/AAF-Luftwaffe/AAF-Luftwaffe-2.html#cn70 The Battle of Britain]}}</ref> On 19 July, Hitler again publicly offered to end the war, saying he had no desire to destroy the [[British Empire]]. The United Kingdom rejected this ultimatum.<ref name="ibiblio 1940">{{cite web|title= Major international events of 1940, with explanation|url= http://www.ibiblio.org/pha/events/1940.html|publisher= [[ibiblio]].org|accessdate= 15 May 2013}}</ref> The main [[Adlertag|German air superiority campaign]] started in August but failed to defeat [[RAF Fighter Command]], and a [[Operation Sealion|proposed invasion]] was postponed indefinitely on 17 September. The German [[strategic bombing]] offensive intensified as night attacks on London and other cities in [[the Blitz]], but largely failed to disrupt the British war effort.<ref name="Murray BoB" />}}
+
+{{reflist-talk}}
+
+== Antonescu ==
+
+Hello, I have a proposal: How about you also put Marshal Ion Antonescu in the Axis leaders category? I mean, if you put the top 4 Allied leaders, you got to put the Top 4 Axis leaders too, right? And as far as I know, Antonescu was the leader of the 4th most important Axis country, and the third most important in Europe. That empty space below Mussolini just begs to be filled, and Antonescu is the most plausible candidate for that.
+
+[[User:Romanian-and-proud|Romanian-and-proud]] ([[User talk:Romanian-and-proud|talk]]) 17:37, 29 November 2015 (UTC)
+
+:The actual contribution of Romania to axis war effort seems to have been largely limited to the ill fated Stalingrad siege. Neither before, after, nor politically did Romania play a major role. So I see no reason to add Romanian leaders. (NB after considerable discussion it was decided not to add France, which (under the Gaulle) had an important contribution to allied success (at least politically).
+
+:Also note that sometimes the world is just asymmetrical - and the current list reflects that - so I do not see any empty spaces begging to be filled. [[User:Arnoutf|Arnoutf]] ([[User talk:Arnoutf|talk]]) 18:02, 29 November 2015 (UTC)
+
+No, you're wrong. We went to Crimea, and to the Caucasus. Don't group us with the Hungarians and the Italians, who simply stopped at Stalingrad. Unlike them, we went all the way! We played an important part in the Capture of Sevastopol and the overall fighting in the Crimea. When the Romanian 2nd Mountain Division occupied Nalchik in the Caucasus, was the most Eastern point reached by the Axis, at that moment at least. How is that not something major? Or us supplying over a third of the total Axis fuel, how is that not something major? Or us contributing a force larger than all Germany's allies combined, how is that not something major? Or German troops being under nominal Romanian command (the 11th Army under Antonescu as part of Army Group Antonescu at the start of Barbarossa and the 6th Army under Dumitrescu as part of Army Group Dumitrescu from April to August 1944. Check the list of Army Gropus if you don't believe me.). Also out of the 43 foreigners who were awarded the Knight's Cross of the Iron Cross, 18 were Romanians, and only 8 Italians! That means that our command was much better, at least according to the Germans. There was also the siege of Odessa. The only Soviet Hero City, and one of the original 4, that was captured by mainly a non-German Axis force, another major thing! It is understandable that you did not add France, since France did next to nothing compared to Romania. I dare say that not even Italy did as much as we did, and yet they still got a place among the commanders! It is a common mistake that, in a conflict, more credit to be inherently given to the Great Powers, even if there are non-Great Powers that had a greater impact. Think at Romania in the context of World War 2, not in the general, stereotypical context. I just gave you 6 strong reasons for us to be considered as playing a major role. And that was just scratching the surface. If you don't want to understand, and don't want to put the Romanian leader in his rightful, well deserved place, then I'm sorry, but you're just biased.
+
+[[User:Romanian-and-proud|Romanian-and-proud]] ([[User talk:Romanian-and-proud|talk]]) 19:34, 29 November 2015 (UTC)
+
+:The Italians acted in the African and European theatres of War during many operations; as did the Free French under the Gaulle. The Romanians seem to have been only heavily involved in operation Barbarossa (where much of their military power was lost). Also the Italians and French had some political power in global negotiations.
+
+:So unless you can bring up other operations besides Barbarossa with major Romanian forces involved (outside Europe), as well as major political influence on the global development of the war, I do not see how the Romanians were a major Axis power (both military (only during one operation) and global political (no evidence of that at all), during most of the war (since their involved started late and effectively ended with the losses during Barbarossa) [[User:Arnoutf|Arnoutf]] ([[User talk:Arnoutf|talk]]) 21:56, 29 November 2015 (UTC)
+
+The Italians often had massive casualties when fighting others. Hell, they made us seem like proffessional fighters! And give me a brake with political power, I'm talking about real merits here, as in action in the field, real, concrete stuff. And what you mean by "single operation"? We fought in Barbarossa, Case Blue, Stalingrad and subsequent Operations: (Crimean Offensive, Dneipr Carpathian Offensive and the 2 Jassy Kishinev Offensives). And we had 2 separate Armies with their own command, we were not attachments. Italy ceased it's fighting in the East in 1943 while we continued until 1944. Yes, they also had troops in Africa, but they were mostly under direct German command and as I said before didn't fare well enough to make Italy deserve the name of "major power". I don't say we fared better, oh wait, we did! The much greater number of German decorations for Romania proves it!
+But let's talk a bit about Antonescu himself, because he's that deserves to be there. Well, to begin with, he was the only foreigner that Hitler consulted on military matters (From this point of view alone we should be on top of Italy!) and was also the very first foreigner to be awarded the Knight's Cross of the Iron Cross (Not that potato-head Mussolini, another clear example of Romania under Antonescu being a major Axis Power!). Finally, you want to go to the politics huh? Well, after the invasion of Yugoslavia, Hitler wanted to give the Serbian Banat to Hungary. But Antonescu opposed and told Hitler to keep the Hungarian Army out of the Banat. And guess what? Hitler complied! Look, it doesn't matter that Hitler was the ruler of Germany and Antonescu was ruler of Romania. Their relationship was based first and above all on military virtue, and by that virtue, a flimsy Corporal like Hitler must obey a proven General like Antonescu. Plus that Antonescu is the Axis leader that met Hitler for the most times. As in yeah, more than Mussolini! Just please, give him and my country the place they deserve! I don't think I'm asking for too much, or for something that isn't normal.
+:Romania had very little influence on the Axis war strategy. We don't need to list Antonescu to create some kind of false balance: the Allies had the "[[Four Policemen|big four]]", and the Axis didn't. [[User:Nick-D|Nick-D]] ([[User talk:Nick-D|talk]]) 07:11, 30 November 2015 (UTC)
+
+You know what really bothers me? That some time ago, not only Antonescu, bu also Hungary's Horthy was among the Axis leaders! You could have added de Gaulle on the allied list and make much more people happy! But no, making things as simple and stereotypical as possible and disregarding the efforts of others was much more important than making more people happy! You just HAD to be ignorant assholes and delete Antonescu and Horthy, didn't you? And what do you mean by "very little influence"? It is because Romania that Hitler took Crimea, so our oil fields he relied on so much would not be in danger! You say we didn't have major influence? Well after we defected on 23 August, the war was shortened by as much as 6 months! In what universe does that not translate as major influence? In what universe?
+:Please, stop this non sense. [[User:Romanian-and-proud|Romanian-and-proud]], instead of trying to convince some editors, you should find in current historiography, and show us, the source of your assertions, that is some historian placing Antonescu and Horthy among the Axis leaders. [[User:Carlotm|Carlotm]] ([[User talk:Carlotm|talk]]) 08:56, 30 November 2015 (UTC)
+
+Nonsense?...Wow, do you have any idea just how hypocritical you sound right now? Everything that I said, all of my sources, come from the Wiki itself. I used in my arguments only what I found on the Wiki articles, and I can give you a list of those articles if you don't believe me. You don't trust the Wiki sources? Well no wonder, as long as the Wiki is run by ignorant, stereotypical people that refuse to give other countries the place they deserve, and stereotypically put the Great Powers above them, even if they don't deserve it.
+But I guess it's useless to continue this though, I obviously can't get you to think outside the box, so I'll just leave it like that. But it's sad, you people need to change, to open up...Meanwhile, I will never doubt the place of my country. I know who we are, what we did and what we deserve, and I will never cease to defend what rightfully is Romania's. LONG LIVE THE GREAT ROMANIA!
+
+[[User:Romanian-and-proud|Romanian-and-proud]] ([[User talk:Romanian-and-proud|talk]]) 09:10, 30 November 2015 (UTC)
+
+:[[User:Romanian-and-proud|Romanian-and-proud]] you are violating about everything in a number of central Wikipedia policies. Notably [[WP:AGF|assume good faith]], [[WP:civil|civility]], [[WP:NPOV|neutral point of view]] and possibly [[WP:COI|conflict of interest]] the latter two strongly suggested by the ending shouted statement in your last post. Such behavior undermines, rather than strengthens the content of your posts and may even lead to sanctions. So stop that.
+
+:Content wise. I think Carlotm is a bit overly limited in their definition of leader. Yes Antonescu was an Axis leader. On the other hand, [[Charlotte, Grand Duchess of Luxembourg]] was an allied leader (as were [[Wilhelmina of the Netherlands]] and [[Leopold III of Belgium]]). Nobody suggests to add those. Some time ago we agreed to add only the most important leaders, those who, by today's mainstream historians are considered the key leaders. This is exactly the type of editorial decisions that Wikipedia MUST make to be a relevant tertiary source.
+
+:If you think Antonescu should be added, it is up to you to provide evidence that mainstream historian consensus list him as one the four Axis powers. If you cannot provide such evidence, you will not change current consensus and you should stop wasting everybody's time. [[User:Arnoutf|Arnoutf]] ([[User talk:Arnoutf|talk]]) 18:46, 30 November 2015 (UTC)
+
+Most "mainstream historians" are American, trying to get something from them that is not related to a Great Power is like trying to get fresh water from the Dead Sea. I just gave you enough reasons, if you actually bothered to read, for any reasonable, rational person to consider Antonescu as a main leader. Therefore, I consider that I did my part and now it's only up to you to understand. And all of those reasons, I took them from Wiki articles that I did not edit in any way, so if all those articles were according to "mainstream historians", then I see absolutely no problem, no reason to not add Antonescu. If not, then you are an immense hypocrite, because you ask me to provide for an article what maybe is not provided for all the articles I used as a source: [[Operation Munchen]] (Army Group Antonescu), [[Siege of Odessa]] and [[Hero City]], [[Crimean Campaign]] [[Siege of Sevastopol]], [[Case Blue]], [[Nalchik]], [[Crimean Offensive]], [[Dnieper–Carpathian Offensive]], [[Jassy-Kishinev Offensive]] (Army Group Dumitrescu), [[List of foreign recipients of the Knight's Cross of the Iron Cross]] and obviously, [[Ion Antonescu]], and many others. Look, I more than did my part, now it's time for you to do yours. And that's my final word on it. It's the National Day of my country, I got to watch the parade and feel good. Now goodbye to you.
+
+[[User:Romanian-and-proud|Romanian-and-proud]] ([[User talk:Romanian-and-proud|talk]]) 09:20, 1 December 2015 (UTC)
+
+:Thank for that flat out refusal to conform to one of the most central of all Wikipedia policies: [[WP:RS]]. You did your part and have not provided a single argument that passes the quality criteria of Wikipedia. I think we can close this as a clear case of no-consensus for change. [[User:Arnoutf|Arnoutf]] ([[User talk:Arnoutf|talk]]) 18:40, 1 December 2015 (UTC)
+
+== Greece at war with the Axis ==
+Greece entered WWII in October 28th 1940, and was fighting the Axis until its capture by German forces in late April 1941. Since Greece was an ally of the UK, the following passage in the lead is incorrect:
+<blockquote>For a year starting in late June 1940, the United Kingdom and the <!-- With the State of Westminster (1931), the UK recognised that the Dominions (at the time, Australia, Canada, New Zealand and South Africa) were _equal_ and _independent_ members of the "British Commonwealth" --> [[Commonwealth of Nations|British Commonwealth]]<!--"British Commonwealth" was the official name between 1926 and 1949. --> were the only Allied forces continuing the fight against the European Axis powers (...)</blockquote>
+[[User:Nxavar|Nxavar]] ([[User talk:Nxavar|talk]]) 18:53, 29 November 2015 (UTC)
+
+:As far as I know Greece was neutral until October 1940. So it would be a few months indeed; and Yugoslavia joined the allies after being invaded in April 1941. I guess the June 1941 allied entry would be Soviet Union.
+
+:We might perhaps rephrase as "For a year starting in late June 1940, the United Kingdom was the only Allied great power continuing the fight against the European Axis powers" or "From late June 1940 until the Soviet Union entry in the war, the United Kingdom and the British Commonwealth were the main Allied powers continuing the fight against the European Axis powers" [[User:Arnoutf|Arnoutf]] ([[User talk:Arnoutf|talk]]) 19:15, 29 November 2015 (UTC)
+
+::Greece was a UK ally before entering the war. Saying that Greece was not a "main Allied power" is a bit biased.  Greece  held back the Italian invading forces for 5 and a half months. Because the situation was rather complicated, I believe it is a good idea to remove that passage altogether. [[User:Nxavar|Nxavar]] ([[User talk:Nxavar|talk]]) 21:27, 29 November 2015 (UTC)
+:::What about this:<blockquote>For a year starting in late June 1940, the United Kingdom (........) as well as the long-running [[Battle of the Atlantic]]. However the war was spreading in the [[Balkans]] where the Germans decided to strengthen their positions ahead of [[Barbarossa]] and as a patch-up of the ill organized invasion of Greece by Mussolini Italy; hence Yugoslavia and Greece were heavily involved on the side of the Allied powers, having to defend their territory from overwhelming German forces, without success.</blockquote> [[User:Carlotm|Carlotm]] ([[User talk:Carlotm|talk]]) 03:12, 30 November 2015 (UTC)
+
+::::a) The edit preserves the wrong claim that is already in the lead. A good alternative should not contain false information. The problematic passage is not just inaccurate, in which case adding a clarification is an improvement. Greece must be included in the list of countries fighting the Axis in Europe in that period.
+
+::::b) The edit does not say when Greece got involved in the conflict. The clarification is inadequate. [[User:Nxavar|Nxavar]] ([[User talk:Nxavar|talk]]) 08:32, 30 November 2015 (UTC)
+
+{{unindent}}Can we try
+
+<blockquote>The United Kingdom and the British Commonwealth continued the fight against the European Axis powers in North Africa, the Horn of Africa, the aerial Battle of Britain and the Blitz bombing campaign, as well as the long-running Battle of the Atlantic. Early 1941 Axis forces conquered most of the allied [[Balkan Campaign (World War II)|Balkan countries]]. In June 1941, the European Axis powers launched an invasion of the Soviet Union, opening the largest land theatre of war in history, which trapped the major part of the Axis' military forces into a war of attrition. (...)</blockquote> The Balkan campaign hyperlink provides the dates for Greece, Albania and Yugoslavia. [[User:Arnoutf|Arnoutf]] ([[User talk:Arnoutf|talk]]) 18:33, 30 November 2015 (UTC)
+
+:This is very good. The only problem is that "early 1941" must be changed to "mid 1941" (the Germans invaded Greece in April 1941). [[User:Nxavar|Nxavar]] ([[User talk:Nxavar|talk]]) 20:35, 30 November 2015 (UTC)
+
+::Thanks. Happy with any suggestion for the early phrase. Perhaps "Between April and June 1941 Axis forces conquered..." [[User:Arnoutf|Arnoutf]] ([[User talk:Arnoutf|talk]]) 20:43, 30 November 2015 (UTC)
+:I suggest to mention China was the only country fighting with the Asian Axis power Japan in that period as well <small><span class="autosigned">—&nbsp;Preceding [[Wikipedia:Signatures|unsigned]] comment added by [[Special:Contributions/2604:2000:6b45:500:9978:3dfe:1cd6:a513|2604:2000:6b45:500:9978:3dfe:1cd6:a513]]</span></small><!-- Template:Unsigned -->
+:::{{ping|Arnoutf}} No problem with that. [[User:Nxavar|Nxavar]] ([[User talk:Nxavar|talk]]) 12:33, 1 December 2015 (UTC)
+
+::::I suggest to implement the agreed changes. If the non-signing editor wants to discuss China status, I would suggest they start a new thread with a clear proposal how to adjust the text. [[User:Arnoutf|Arnoutf]] ([[User talk:Arnoutf|talk]]) 18:37, 1 December 2015 (UTC)
+:::::{{ping|Nxavar}} {{ping|Arnoutf}} I'm the previous non-signing editor. My ip address is too long (2604:2000:6b45:500:9978:3dfe:1cd6:a513). I suggest to mention China was the only country fighting with the Asian Axis power Japan in that period as well but I don't have a clear proposal how to adjust.<small><span class="autosigned">—&nbsp;Preceding [[Wikipedia:Signatures|unsigned]] comment added by [[Special:Contributions/2604:2000:6b45:500:9978:3dfe:1cd6:a513|2604:2000:6b45:500:9978:3dfe:1cd6:a513]]</span></small><!-- Template:Unsigned -->
+
+::::::With Arnoutf's edit, no mention is made about someone fighting the Axis forces alone at some point. This had some sense when the list was (erroneously) short. I don't think this is appropriate anymore, because the lead should be short and making detailed accounts of secondary facts is discouraged. [[User:Nxavar|Nxavar]] ([[User talk:Nxavar|talk]]) 13:50, 3 December 2015 (UTC)
+:::::::{{ping|Nxavar}} I mean I just propose a simple mention the fact that the war between Japan and China was still continued in that time. I never asked for a detailed accounts. It just needs a short sentence or even just some words (5 or 6 words). However, this is just my suggestion. I don't have the right to determine which is primary or secondary.  By previous non-signing editor
+
+== The addition of war generals under Allied and Axis leaders ==
+
+Because generals in WWII were the ones commanding infantry, it might be desirable to add these generals to the infobox along with the heads of state of governments involved in the war. This would be useful for students researching WWII. Should we add them? [[User:CatcherStorm|<b><span style="color:#FF00FF">The StormCatcher</span></b>]] [[User talk:CatcherStorm|<b><span style="color:#FF0000">(talk)</span></b>]] [[Special:Contributions/CatcherStorm|<b><span style="color:#FFA500">(contribs)</span></b>]] 06:59, 2 December 2015 (UTC)
+:I don't think so - very large numbers would need to be added, and this wouldn't be helpful to readers. The political leaders were the key figures in the governments of the countries. [[User:Nick-D|Nick-D]] ([[User talk:Nick-D|talk]]) 08:03, 2 December 2015 (UTC)
+
+::Sounds like an excellent idea. Please start with adding the essential generals [[Henri Winkelman]] and [[Godfried van Voorst tot Voorst]] ;-)
+
+::But no kidding, the list would be incredibly long even if we limited ourselves to four star generals (such as aforementioned Winkelman) who generally did NOT command infantry but considerably larger units (i.e. an army). [[User:Arnoutf|Arnoutf]] ([[User talk:Arnoutf|talk]]) 18:13, 2 December 2015 (UTC)
+
+:::{{ping|Nick-D}} We would only add the most substantial and notable generals like [[Dwight D. Eisenhower]], [[Georgy Zhukov]], and [[Erwin Rommel]]. [[User:CatcherStorm|<b><span style="color:#FF00FF">The StormCatcher</span></b>]] [[User talk:CatcherStorm|<b><span style="color:#FF0000">(talk)</span></b>]] [[Special:Contributions/CatcherStorm|<b><span style="color:#FFA500">(contribs)</span></b>]] 21:00, 2 December 2015 (UTC)
+
+::::And who would decide who are substantial and notable generals. Henri Winkelman was commander in chief of all armed forces of a country so definitely notable and substantial, in fact (arguably) a more substantial general than either, Zhukov, Rommel, Eisenhower or Montgomery who never were commander in chief of all armed forces of a country (during WWII).
+
+::::And no, of course Winkelman should not be listed, the example illustrates the potentially endless POV discussions we would get into if we go this way. [[User:Arnoutf|Arnoutf]] ([[User talk:Arnoutf|talk]]) 21:12, 2 December 2015 (UTC)
+
+::::Should be limited to basically heads of state. Separate articles can list for battles or theaters the generals. [[User:JuanRiley|Juan Riley ]] ([[User talk:JuanRiley|talk]]) 21:16, 2 December 2015 (UTC)
+
+== Hideki Tojo ==
+
+I tried adding him to the list of main Axis leaders but it was reverted and I was told to start a discussion here. I think he should be added because he was responsible for most Japanese military operations including Pearl Harbor which started the war between the US and Japan in the first place. He was also the one convicted of war crimes after the war instead of Hirohito. Hirohito should also be kept in the list, but I feel Tojo should also be added too. What do you think? [[User:CatcherStorm|<b><span style="color:#FF00FF">The StormCatcher</span></b>]] [[User talk:CatcherStorm|<b><span style="color:#FF0000">(talk)</span></b>]] [[Special:Contributions/CatcherStorm|<b><span style="color:#FFA500">(contribs)</span></b>]]
+
+:*My understanding is that Hirohito is generally regarded by modern historians as having been the key figure in the Japanese government throughout the war - he's no longer regarded as having been a figurehead, and it's well known that he only escaped prosecution at the end of the war as the Allies were worried that doing so would lead to widespread unrest. The consensus from previous discussions has been to add the most important leader for the major combatants, and I think that's Hirohito. Tojo was certainly significant, but not as much as Hirohito was - especially as he resigned a bit over a year before the end of the conflict. [[User:Nick-D|Nick-D]] ([[User talk:Nick-D|talk]]) 07:31, 5 December 2015 (UTC)

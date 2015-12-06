@@ -1,0 +1,308 @@
+{{bots|deny=AWB,SineBot,DPL bot}}
+<div style="margin-bottom: 4.25em; position: absolute; bottom: -5em; right: 1em; "><div style="font-style: roman; background-color: #CBEBFF; font-weight:bold; border: 1px steelblue solid; color:black; padding:5px 5px">Please leave a message, and I'll reply here. No copyediting requests for now, please.</div></div>
+
+{{top icon
+| imagename    =  Wikipedia Administrator.svg
+| wikilink     = Wikipedia:Administrators
+| description  = Administrator
+| id           = administrator-icon
+| icon_nr      = 0
+| extra_offset = 0
+| width        = 24
+| style        = {{#ifeq: |tan|margin-top:-6px;}}
+}}
+{{top icon
+| imagename    = US-O12 insignia.svg
+| wikilink     = Wikipedia:WikiProject Military history/Coordinators/September 2011
+| description  = Lead Coordinator, Military History Project, 2011/2012
+| id           = Milhist3
+| icon_nr      = 1
+| extra_offset = 0
+| width        = 24
+| style        = {{#ifeq: |tan|margin-top:-6px;}}
+}}
+{{top icon
+| imagename    =  US-O12 insignia.svg
+| wikilink     = Wikipedia:WikiProject Military history/Coordinators/September 2012
+| description  = Co-Lead Coordinator, Military History Project, 2012/2013
+| id           = Milhist2
+| icon_nr      = 2
+| extra_offset = 0
+| width        = 24
+| style        = {{#ifeq: |tan|margin-top:-6px;}}
+}}
+{{top icon
+| imagename    =  Green fez with Featured article star.svg
+| wikilink     = WP:TFAA
+| description  = I co-write the Today's Featured Article section on the Main Page
+| id           = TFA-icon
+| icon_nr      = 3
+| extra_offset = 0
+| width        = 32
+}}
+
+{| class="wikitable"
+|-style="background:white;"
+| '''[[User:Dank/Copyediting|Copyediting]]'''
+|| '''[[User:Dank/Library|Library]]'''
+|| '''[[User:Dank/Links|Links]]'''
+|| '''[[Wikipedia:WikiProject Military history/Article alerts#FAC|Milhist Alerts]]'''
+|| '''[[WP:UPDATE|Policy update]]'''
+|| '''[[User:Dank/Admins#Support|RFA]]'''
+|| '''[[User:Dank/RFCs|RFCs]]'''
+|| '''[https://en.wikipedia.org/w/index.php?title=Special%3APrefixIndex&prefix=Dank%2FScripts%2F&namespace=2 Scripts]'''
+|| '''[[User:Dank/Shiny things|Shiny things]]'''
+|}
+
+{{WPMILHIST Review alerts|collapse=no}}
+
+[[Image:Obscured jaguar.jpg|228px|thumbnail|right|My talk page is <span class="plainlinks">[https://en.wikipedia.org/w/index.php?title=User:Dank&action=info watched]</span> by friendly '''[[Wikipedia:Talk page stalker|talk page stalkers]]'''. Their input is welcome and their help with messages that I cannot reply to quickly is '''appreciated.''']]
+
+{| class="infobox" style="up:300px;margin: 0 0 1em 1em;"
+!| <imagemap>File:Material in the New Orleans city archives.jpg|225px
+ default [[Help:Archiving a talk page|Archives]]
+ desc none
+</imagemap>
+|-
+|<hr />
+|- style="font-size:115%;"
+|[[User talk:Dank/Archive 1|(2007-4/08)]], [[User talk:Dank/Archive 2|(5-7/08)]], [[User talk:Dank/Archive 3|(8-11/08)]]
+|- style="font-size:120%;"
+|[[User talk:Dank/Archive 4|(12/08-2/09)]], [[User talk:Dank/Archive 5|Mar]], [[User talk:Dank/Archive 6|Apr]], [[User talk:Dank/Archive 7|May]], [[User talk:Dank/Archive 8|Jun]]
+|- style="font-size:120%;"
+| [[User talk:Dank/Archive 9|Jul/Aug 2009]] - [[User talk:Dank/Archive 10|Sep/Oct]] - [[User talk:Dank/Archive 11|Nov/Dec]]
+|- style="font-size:120%;"
+| [[User talk:Dank/Archive 12|Jan/Feb 2010]] - [[User talk:Dank/Archive 13|Mar/Apr]] - [[User talk:Dank/Archive 14|May/Jun]]
+|- style="font-size:120%;"
+| [[User talk:Dank/Archive 15|Jul/Aug 2010]] -  [[User talk:Dank/Archive 16|Sep/Oct]] - [[User talk:Dank/Archive 17|Nov/Dec]]
+|- style="font-size:120%;"
+| [[User talk:Dank/Archive 18|Jan/Feb 2011]] - [[User talk:Dank/Archive 19|Mar/Apr]] - [[User talk:Dank/Archive 20|May/Jun]]
+|- style="font-size:120%;"
+| [[User talk:Dank/Archive 21|Jul/Aug 2011]] -  [[User talk:Dank/Archive 22|Sep/Oct]] - [[User talk:Dank/Archive 23|Nov/Dec]]
+|- style="font-size:120%;"
+| [[User talk:Dank/Archive 24|Jan/Feb 2012]] - [[User talk:Dank/Archive 25|Mar/Apr]] - [[User talk:Dank/Archive 26|May/Jun]]
+|- style="font-size:120%;"
+| [[User talk:Dank/Archive 27|Jul/Aug 2012]] -  [[User talk:Dank/Archive 28|Sep/Oct]] - [[User talk:Dank/Archive 29|Nov/Dec]]
+|- style="font-size:120%;"
+| [[User talk:Dank/Archive 30|Jan/Feb 2013]] - [[User talk:Dank/Archive 31|Mar/Apr]] - [[User talk:Dank/Archive 32|May/Jun]]
+|- style="font-size:120%;"
+| [[User talk:Dank/Archive 33|Jul/Aug 2013]] -  [[User talk:Dank/Archive 34|Sep/Oct]] - [[User talk:Dank/Archive 35|Nov/Dec]]
+|- style="font-size:120%;"
+| [[User talk:Dank/Archive 36|Jan/Feb 2014]] - [[User talk:Dank/Archive 37|Mar/Apr]] - [[User talk:Dank/Archive 38|May/Jun]]
+|- style="font-size:120%;"
+| [[User talk:Dank/Archive 39|Jul/Aug 2014]] -  [[User talk:Dank/Archive 40|Sep/Oct]] - [[User talk:Dank/Archive 41|Nov/Dec]]
+|- style="font-size:120%;"
+| [[User talk:Dank/Archive 42|Jan/Feb 2015]] - [[User talk:Dank/Archive 43|Mar/Apr]] - [[User talk:Dank/Archive 44|May/Jun]]
+|- style="font-size:120%;"
+| [[User talk:Dank/Archive 45|Jul/Aug 2015]] -  [[User talk:Dank/Archive 46|Sep/Oct]] - [[User talk:Dank/Archive 47|Nov/Dec]]
+|- style="font-size:120%;"
+| [[User talk:Dank/Archive 48|Jan/Feb 2016]] - [[User talk:Dank/Archive 49|Mar/Apr]] - [[User talk:Dank/Archive 50|May/Jun]]
+|}
+{{clearleft}}
+
+== Requesting your review of the Wiki Education handbook on writing biography articles  ==
+Hi Dan! I work with the non-profit [http://wikiedu.org/ Wiki Education Foundation]. We're creating a handbook for student editors in higher ed who are assigned to write biographies on Wikipedia. You've been recommended to me as someone who knows a lot about that topic. Would you be willing to spare some time to review the text of that brochure and offer comments on the Talk page? You can find it [[User:Eryk_(Wiki_Ed)/Biographies|here]]. Thanks in advance! [[User:Eryk (Wiki Ed)|Eryk (Wiki Ed)]] ([[User talk:Eryk (Wiki Ed)|talk]]) 19:55, 31 August 2015 (UTC)
+:Sure, happy to help. I did some light proofreading; the edit summaries describe the changes. I'm not signing off on the text, of course, that's above my pay grade. - Dank ([[User talk:Dank|push to talk]]) 13:48, 1 September 2015 (UTC)
+::Thanks, Dan! [[User:Adam (Wiki Ed)|Adam (Wiki Ed)]] ([[User talk:Adam (Wiki Ed)|talk]]) 13:18, 2 September 2015 (UTC)
+
+== barnstar ==
+
+{| style="border: 1px solid gray; background-color: #fdffe7;"
+|rowspan="2" style="vertical-align:middle;" | {{#ifeq:{{{2}}}|alt|[[File:Brilliant Idea Barnstar Hires.png|100px]]|[[File:"What a Brilliant Idea!" Barnstar.png|100px]]}}
+|rowspan="2" |
+|style="font-size: x-large; padding: 0; vertical-align: middle; height: 1.1em;" | '''What a Brilliant Idea Barnstar'''
+|-
+|style="vertical-align: middle; border-top: 1px solid gray;" | For the brilliant idea of a "Today's Good Article" section on the front page and hope you see it through to fruition. [[User:LavaBaron|LavaBaron]] ([[User talk:LavaBaron|talk]]) 17:56, 5 September 2015 (UTC)
+|}
+:Thank you! - Dank ([[User talk:Dank|push to talk]]) 18:20, 5 September 2015 (UTC)
+
+== Netherlandish ==
+
+This is spillover from the current discussion at ERRORS (see [https://en.wikipedia.org/w/index.php?title=Wikipedia:Main_Page/Errors&oldid=680061493 this]). An IP saw "by the [[Early Netherlandish painting|Early Netherlandish]] artist [[Jan van Eyck]]" and complained loudly that "Netherlandish" isn't a word; presumably they thought we wanted "Dutch" but we didn't know any better. It's now changed to "by Jan van Eyck, an Early Netherlandish artist" (with links). There was discussion at ERRORS that I might be pandering to the IP ... that the proper solution isn't to rewrite it to lose the ambiguity, but to inform the IP that they're wrong and they need to learn what the word means. The problem with that is that, last I heard, we have around 10M hits on the Main Page per day, so we're going to get a wide range of casual readers. I hope most Wikipedians are aware that most readers don't click on most links most of the time ... links are handy if people want to click on them, but for most readers, they don't resolve ambiguities in the text. The link plus the capital "E" should have been a clue that "Early Netherlandish" meant something different from "early Netherlandish" ... but again, most people don't pick up clues from capitalization most of the time. In ''[[The Sense of Style]]'' (p. 36, hardcover), Steven Pinker says that good writing makes readers feel smart and bad writing makes them feel stupid. I'd prefer that as many readers of TFAs as possible catch our meaning on the first read-through. This philosophy is what propels many of the edits I make at TFA, so if I'm on the wrong track, I want to know. Thoughts? - Dank ([[User talk:Dank|push to talk]]) 13:40, 8 September 2015 (UTC)
+:You're fine; there's no need for us to insist on confusing the readers if there is a way of rewording it to make it clear; my pandering comment was directed, not at you, but at the indignant complainant who thought setting us straight was preferable to clicking the link. Also, I really would like it if more people pandered to my every whim. [[User:Belle|Belle]] ([[User talk:Belle|talk]]) 13:53, 8 September 2015 (UTC)
+::I can do that, I've got lots of whim-pandering experience. - Dank ([[User talk:Dank|push to talk]]) 13:56, 8 September 2015 (UTC)
+:::Send me a CV (and chocolates, champagne, a masseuse; you get the picture). [[User:Belle|Belle]] ([[User talk:Belle|talk]]) 14:15, 8 September 2015 (UTC)
+:They were earlier, and still in Dutch, the  "Flemish primitives", but "Early Netherlandish" is the term in English for the school since the early 1900s; "primitives" was deemed a bit pejorative when translated. I can certainly see how it might be confusing. Your solution was a good call, Dan. [[User:Ceoil|Ceoil]] ([[User talk:Ceoil|talk]]) 23:33, 11 September 2015 (UTC)
+
+== WPTC copyediting project ==
+
+Hi Dank, I hope you're well. I'm quite late on this, but I just came across your post on the copyediting project [[Wikipedia talk:WikiProject Tropical cyclones/Style|over here]]. There's currently a sparsity of proficient copyeditors at WPTC; I'm one of the very few, and even my on-wiki activity is intermittent. As such, I'm very eager to help out (and, as you put it, "trade notes") if this is still something you're interested in doing in the near future. Let me know what you think!
+
+Cheers, [[User:Hylian Auree|<font face="charter BT"><b><font color="black">Auree</font></b></font>]] <small>[[Special:Contributions/Hylian Auree|<sup><font color="hotpink">★</font></sup>]][[User Talk:Hylian Auree|<font color="#E31C76">★</font>]]</small> 08:59, 9 September 2015 (UTC)
+:Your timing couldn't be better. For people who are already participating at FAC (such as you), I'll be happy to help out in any way you like ... any ideas? Also, I see you're interested in neuropsychology. I recommend Steven Pinker's ''The Sense of Style'' (it's US$11 at Amazon, and lots of libraries have it) to anyone interested in copyediting, but I think neuropsychology students in particular will enjoy it. I mention a few of his talking points at [[WT:TFAC]]. - Dank ([[User talk:Dank|push to talk]]) 11:48, 9 September 2015 (UTC)
+:::Inserted in case anyone takes my advice: much of the specific advice he gives in the first chapter and half of the second chapter isn't particularly relevant to encyclopedic writing, but it's worth reading anyway. The rest is very relevant. - Dank ([[User talk:Dank|push to talk]]) 14:06, 12 September 2015 (UTC)
+::Great! I really liked the script you were working on for common redundancies/misuses of terms. We could expand upon that, and maybe include notes for some of the exceedingly technical jargon that pervades the project. I will go through some popular articles later, and compile a list of the most frequent issues. And thank you for the recommendation! I did some brief researching and it is indeed very intriguing; it also coincides with a current course of mine on the neurocognitive aspects of language processing and organization. [[User:Hylian Auree|<font face="charter BT"><b><font color="black">Auree</font></b></font>]] <small>[[Special:Contributions/Hylian Auree|<sup><font color="hotpink">★</font></sup>]][[User Talk:Hylian Auree|<font color="#E31C76">★</font>]]</small> 12:58, 10 September 2015 (UTC)
+:::Sounds good. There's another project i'm thinking about ... I'm running it by a few people via email, so if you like, send me an email via the link in the left column so we can get started. - Dank ([[User talk:Dank|push to talk]]) 13:05, 10 September 2015 (UTC)
+::::Alright, I sent the email:) [[User:Hylian Auree|<font face="charter BT"><b><font color="black">Auree</font></b></font>]] <small>[[Special:Contributions/Hylian Auree|<sup><font color="hotpink">★</font></sup>]][[User Talk:Hylian Auree|<font color="#E31C76">★</font>]]</small> 16:48, 10 September 2015 (UTC)
+
+Auree, since you're specifically interested in [[WP:TROP]], and since I've done some copyediting for them, and since every wikiproject's FAC needs are different, I'm going back through my notes and edits (and other stuff) to come up with a list of suggestions for a script to help TROP reviewers. It will take me a few days. If you want to post or email suggestions in the meantime, please feel free. - Dank ([[User talk:Dank|push to talk]]) 14:03, 12 September 2015 (UTC)
+
+== TFA 19 September ==
+I have made a late change to the TFA for 19 September, following the discussion  [[Wikipedia talk:Today's featured article/requests#Cucurbita TFA date|here]]. The request was made ungraciously, and their case was by no means self-evident, but I decided to go along with it. I'm sorry for the late notice; you will see that, to save you time, I have  attempted the blurb, but if you get a chance you should perhaps look at it. [[User:Brianboulton|Brianboulton]] ([[User talk:Brianboulton|talk]]) 11:36, 16 September 2015 (UTC)
+:Thanks for your dedication. On it. - Dank ([[User talk:Dank|push to talk]]) 12:49, 16 September 2015 (UTC)
+
+== [[Wikipedia:Today's featured article/September 22, 2015]] ==
+
+I got a question at [[WP:ERRORS]] about whether "located" is redundant in today's TFA summary, in the sentence "Chetro Ketl is an Ancestral Puebloan great house and American archeological site located in Chaco Culture National Historical Park, New Mexico." Short answer: I think it's probably a good choice for some readers and a bad choice for others. If the reader has peripherally skimmed ahead and already knows by the time they get to "located" that there's only one prepositional phrase left (of eight words) in the sentence, then "located" adds very little; for this reader, I'd delete it. But most readers most of the time don't know when they're only eight words and one prepositional phrase away from the end of the sentence, and for these readers, at the moment when they reach "located", the word might help avoid two [[garden path]]s, that is, plausible but incorrect parses, parses that turn out to be wrong by the time you get to the end of the sentence. One bad parse would be to
+anticipate that "Ancestral Puebloan great house and American archeological site in Chaco Culture National Historical Park, New Mexico" is just the start of the sentence, that the real payload is coming after that; that's a reasonable expectation for the first sentence in an encyclopedia article. The second bad parse would be to assume that "in" refers to "American archeological site" rather than a compound subject. "located" effectly undercuts both of those bad parses. Another reason to favor "located" is the length of this sentence; although the human brain is a formidable computer in many respects, our [[working memory#Capacity|working memory is pea-sized]], with only three to five slots. So our puny reading brains can be overtaxed by intricate enyclopedia articles, such as one that starts out: "Chetro Ketl is an Ancestral Puebloan great house and American archeological site". The more demanding the text, the less likely it is that a copyeditor will object to signposting, words that don't add a lot of meaning but help to indicate what direction the sentence is headed in. - Dank ([[User talk:Dank|push to talk]]) 16:13, 22 September 2015 (UTC)
+:Another constraint is that I'm always trying to keep the original wording, all else being equal. - Dank ([[User talk:Dank|push to talk]]) 18:03, 22 September 2015 (UTC)
+
+== wrestlers 404 ==
+
+hey, you have a customary "these are my edits" format, with a link. I've clicked it twice (two different articles, most recently wrestlers  but I forget which one was first) and got a 404 error each time. &nbsp;[[User:Lingzhi|Lingzhi]]&nbsp;&diams;&nbsp;[[User talk:Lingzhi|(talk)]] 20:51, 23 September 2015 (UTC)
+:The macro I use gives  the same link as you get under "history" for an article ... which also gives no result from time to time. I'll check to make sure I typed correctly. - Dank ([[User talk:Dank|push to talk]]) 20:56, 23 September 2015 (UTC)
+::Wait, crap, you're right, they made a small change in the pagename again, with no redirect. I'll fix it. - Dank ([[User talk:Dank|push to talk]]) 21:04, 23 September 2015 (UTC)
+
+== WikiProject Military history coordinator election ==
+
+Greetings from [[Wikipedia:WikiProject Military history|WikiProject Military history]]!  As a member of the project, you are invited to take part in our annual [[Wikipedia:WikiProject Military history/Coordinators|project coordinator]] election. If you wish to cast a vote, please do so on the [[Wikipedia:WikiProject Military history/Coordinators/September 2015|'''election page''']] by 23:59 (UTC) on 29 September. Yours, [[User:The ed17|Ed]]&nbsp;<sup>[[User talk:The ed17|[talk]]]&nbsp;[[WP:OMT|[majestic titan]]]</sup> 05:20, 25 September 2015 (UTC)
+<!-- Message sent by User:The ed17@enwiki using the list at https://en.wikipedia.org/w/index.php?title=Wikipedia:WikiProject_Military_history/Members/Active&oldid=682449732 -->
+
+== Congratulations!  ==
+
+[[File:US-O11 insignia.svg|220px|thumb|Coordinator of the Military History Project, September 2015 &ndash; September 2016]]
+In recognition of your successful election as a co-ordinator of the Military History Project for the next year, I hereby present you with these co-ord stars. I wish you luck in the coming year. [[User:TomStar81|TomStar81]] ([[User talk:TomStar81|Talk]]) 00:44, 30 September 2015 (UTC)
+:Thanks Tom! - Dank ([[User talk:Dank|push to talk]]) 01:13, 30 September 2015 (UTC)
+
+== The WikiProject Barnstar ==
+
+{| style="border: 1px solid gray; background-color: #fdffe7;"
+|rowspan="2" style="vertical-align:middle;" | [[File:WikiprojectBarnstar.png|100px]]
+|rowspan="2" |
+|style="font-size: x-large; padding: 0; vertical-align: bottom; height: 1.1em;" | '''The WikiProject Barnstar'''
+|-
+|style="vertical-align: top; border-top: 1px solid gray;" | In gratitude for your coordination services to the Military history WikiProject, from September 2014 to September 2015, please accept this WikiProject Barnstar. [[User:TomStar81|TomStar81]] ([[User talk:TomStar81|Talk]]) 01:36, 30 September 2015 (UTC)
+|}
+Thanks again. - Dank ([[User talk:Dank|push to talk]]) 03:39, 30 September 2015 (UTC)
+
+== A kitten for you! ==
+
+[[File:Young cats.jpg|left|150px]]
+Can substitute the animal of your choice. Still, you have earned it.
+
+[[User:Kafka Liz|Kafka Liz]] ([[User talk:Kafka Liz|talk]]) 10:27, 3 October 2015 (UTC)
+<br style="clear: both;"/>
+:Heh, thanks Liz! - Dank ([[User talk:Dank|push to talk]]) 13:28, 3 October 2015 (UTC)
+
+== Copyediting ==
+
+Hey there! I am one of the many Wikipedians who think you're a terrific copyeditor. Would you mind giving [[Sonam Kapoor]], the article I want to make an FA, a slight copy-edit? Thanks in advance. -- '''[[User:FrB.TG|<span style="color:#00308F;cursor:help">Frankie</span>]] <sub>[[User talk:FrB.TG|<font color="#6E7F80">talk</font>]]'''</sub> 15:35, 3 October 2015 (UTC)
+:Thanks much. I can't take on any new copyediting requests now; see below. - Dank ([[User talk:Dank|push to talk]]) 15:59, 3 October 2015 (UTC)
+
+== July to September 2015 Reviewing Award ==
+
+{| style="border: 2px solid lightsteelblue; background-color: whitesmoke;"
+|rowspan="2" style="vertical-align:middle;" | [[Image:WikiChevrons.png|80px]]
+|rowspan="2" |
+|style="font-size: x-large; padding: 0; vertical-align: middle; height: 1.1em;" |&ensp;'''The ''[[Wikipedia:WikiProject_Military_history/Awards#WikiChevrons|WikiChevrons]]'''''&ensp;
+|-
+|style="vertical-align: middle; border-top: 1px solid lightsteelblue;" | On behalf of the WikiProject Military history coordinators, I hereby award you the WikiChevrons for an awesome 29 FA, A-Class, Peer and GA reviews during the period July to September 2015. Well done! [[User:Peacemaker67|Peacemaker67]]  ([[User_talk:Peacemaker67#top|crack... thump]]) 10:26, 5 October 2015 (UTC)
+|}
+:Thanks PM. - Dank ([[User talk:Dank|push to talk]]) 12:30, 5 October 2015 (UTC)
+
+== Italics ==
+
+re: [https://en.wikipedia.org/w/index.php?title=Wikipedia:Today%27s_featured_article/October_18,_2015&curid=48011441&diff=684345654&oldid=684317597], is there something with using italics on the front page or was this changed for some other reason? ''TeamXbox'' is a creative news publication and should be italicized per [[Wikipedia:Manual of Style/Titles#Major_works]]: "Online magazines, newspapers, and news sites with original content should generally be italicized" <span style="background:#F0F0FF; padding:3px 11px 4px">[[user talk:czar|<span style='font:bold small-caps 1.2em Avenir;color:#B048B5'>czar</span>]]</span> 02:19, 6 October 2015 (UTC)
+:It's fine to italicize it. - Dank ([[User talk:Dank|push to talk]]) 02:42, 6 October 2015 (UTC)
+:[[user:czar|czar]], things have been crazy today, sorry. A better explanation: it's fine to italicize it, and MOS certainly allows it, but most websites aren't italicized on WP. I was just going by the non-italics in the relevant article, but as long as you're italicizing both, that works. - Dank ([[User talk:Dank|push to talk]]) 19:28, 6 October 2015 (UTC)
+
+== RFA brainstorming ==
+
+Anyone who wants to comment, jump in. When I closed [[WP:RFA2013]], there were potential downsides to various proposals, and personally, I was neutral on the main questions. At this point, I don't think I'm neutral on the biggest question ... I think we need more admins. I'm open to suggestions, but I've been reading back through various RfCs, and I'm already close to favoring one approach, one that aims to take a more gentle approach after failed RFAs. But if anyone has any ideas they're really hot to try, lay it on me, and we'll talk about your ideas first. I don't want to step on anyone's toes if they've been working on filing an RfC. (Biblioworm has an RfC going currently at WT:RFA ... if my RfC has any effect at all on that one, I would think the effect would be positive.) - Dank ([[User talk:Dank|push to talk]]) 15:11, 13 October 2015 (UTC)
+:Go ahead with your RfC. I wasn't planning on proposing any actual fixes until the first phase of my project (identifying the problem) was over. I'm interested to see what you're thinking. --[[User:Biblioworm|<span style="color:#6F4E37;">'''''Biblio'''''</span>]][[User_talk:Biblioworm|<span style="color:#6F4E37">'''''worm'''''</span>]] 16:32, 13 October 2015 (UTC)
+::Thanks. I'm ready to roll, and there are no objections so far, so I'll go post over at [[WT:RFA]]. - Dank ([[User talk:Dank|push to talk]]) 13:32, 14 October 2015 (UTC)
+:::Could I suggest posting it at VPP, and linking from RfA? I think that might get more fresh eyes in. [[User:Worm That Turned|<b style="text-shadow:0 -1px #DDD,1px 0 #DDD,0 1px #DDD,-1px 0 #DDD; color:#000;">''Worm''</b>]]<sup>TT</sup>([[User talk:Worm That Turned|<b style="color:#060;">talk</b>]]) 13:59, 14 October 2015 (UTC)
+::::I want to start the discussion at WT:RFA, then expand the discussion to VPP, then file the RfC at VPP. Reasoning: in the best of all possible worlds, I would like the RfA community to see this as a way of taking responsibility for a problem ... we're not the main architects of the problem, but we have a role to play in it, and I'd like to see us saying as a community "We have a responsibility to do something, so here's what we're doing, what do you think?" There's no chance of that happening if I start at VPP. - Dank ([[User talk:Dank|push to talk]]) 14:27, 14 October 2015 (UTC)
+
+== Possible canvassing ==
+
+Hey Dank, I noticed that you are inviting only those editors to comment on your thread at WT:RfA who have recently failed their RfA by a close margin. Since your RfC is related to something about unsuccessful RfA candidates, I think it's possible canvassing as the editors you have invited will benefit from the proposal. I think you should either self-revert or send the same message to some of the others. Cheers!  '''[[User:Jim Carter|<span style="color:#000000">Jim</span> <span style="border:1px solid transparent; border-radius:99px; background-color:Black"><span style="color:White">Car</span></span><span style="color:#FF0000">ter</span>]]''' 19:03, 14 October 2015 (UTC)
+:Thanks for bringing this up. I disagree, and I'll explain why at WT:RFA. - Dank ([[User talk:Dank|push to talk]]) 19:10, 14 October 2015 (UTC)
+
+== Unbundling ==
+
+While I am generally against mass unbundling on the whole, what about combining file (and file revision) deletion with Filemover.  The file namespace is grossly undeserved, I am thinking particularly of the [[:Category:Non-free files with orphaned versions more than 7 days old]], which can sit upwards of 1500 revision deletions required every few days.  It would also allow filemovers to take action in FFD. Not sure if this is technically feasible, but it would be a way to get some backlogs out of an often ignored namespace. --[[User:kelapstick|kelapstick]]<sup>([[User talk:Kelapstick#top|bainuu]]) </sup> 13:59, 18 October 2015 (UTC)
+:Thanks, I'll pass this on to the people who might be interested. - Dank ([[User talk:Dank|push to talk]]) 14:23, 18 October 2015 (UTC)
+
+== TFA 4 November ==
+I've scheduled ''[[Il ritorno d'Ulisse in patria]]'' for 4 November. This was one which Gerda nominated in January, but I deferred it (it needed an overhaul and I didn't have time then). I've since updated it, and I think it can run now. I've done the blurb, and had a shot at the image caption, but please look at it and tell me if you think it's OK. [[User:Brianboulton|Brianboulton]] ([[User talk:Brianboulton|talk]]) 22:33, 19 October 2015 (UTC)
+:Sure, I already made a few tweaks, it looks good to me. Levy is getting the captions, I think. - Dank ([[User talk:Dank|push to talk]]) 22:51, 19 October 2015 (UTC)
+
+== Pinging some RfA candidates ==
+
+Pinging: {{ping|Thine Antique Pen|Montanabw|APerson|Cyberpower678|Rich Farmbrough|EuroCarGT}}. (Guys, I might ping you a couple more times ... please let me know if you'd like for me to "unsubscribe" you.) So, I'm still working on this problem of how to help people pass RfA. My suggestions at [[WT:RFA]] aren't going anywhere. Here's another idea: look over the long list of academic researchers interested in Wikipedia at [[Meta:Research:People]] ... do any of those projects sound interesting to you guys? Academic researchers are always looking for Wikipedians they can trust to answer basic questions about how the community works. We might look into getting a special userright for you guys that would make it easier for you to access certain kinds of information. I have some general ideas, but first I need to know which projects you're interested in (if any) so I can get an idea what permissions would be helpful. - Dank ([[User talk:Dank|push to talk]]) 01:39, 20 October 2015 (UTC)
+:There is a "Researcher" user-right, which allows better visibility of deleted stuff (edit history, but not actual revisions IIRC).   As an Edit filter manager I can see the content of private edit filters.  OTRS might suit some of the other candidates - I can't remember the requirements, apart from self-declaring to the WMF.  It's a role (or a number of roles, considering the different queues) that requires trustworthiness and delivers community/process benefits, like the stereotypical admin.
+:That may be bye-the-bye, or it may be useful.
+:All&nbsp;the&nbsp;best: ''[[User:Rich Farmbrough|Rich]]&nbsp;[[User talk:Rich Farmbrough|Farmbrough]]'',<small> 04:28, 20 October 2015 (UTC).</small><br />
+::Right, that's the idea, all good suggestions. - Dank ([[User talk:Dank|push to talk]]) 15:12, 20 October 2015 (UTC)
+
+*It's OK to continue "pinging" me, I find the topic interesting.  That Meta list, by the way, is rather outdated... ;-)  What I am interested is primarily the wikignoming tools that allow me to do the things that I trip over on a frequent basis.  If I had to prioritize, this would be my list
+#Article moving is probably #1 - both moving article titles over redirects and the stuff like moving prep sets into DYK queues.
+#Almost of parallel importance, though, is that I'd also like to be able to protect articles; BLP violations need to b addressed quickly, as does stuff like "outing" editors and such.  Revdel would be nice as part of the toolset, but if that's a higher level function, I could live with one without the other
+#Viewing deleted content for the purpose of restoring certain things might be helpful, but my interest is primarily in the area of being able to userfy AfDs and such.
+#Farther down the queue would be stuff like closing debates, deleting articles after AfD, etc.
+:::Hope that helps. FWIW Blocking vandals isn't really high on my list of tools I wish I had, though on occasion it would be nice.  But at my RfA, the big panic seemed to be if I could be trusted with the block tool.  You see, over the years, I've had (horror of horrors!) opinions, and because I had opinions some feared I might use the mop to go after someone in a vindictive fashion. (which is utter nonsense to anyone who actually knows me, but once the dogpile started there was no stopping it). So userrights that exclude the block tool might be a good way to minimize the drama surrounding RfA.  [[User:Montanabw|<font color="006600">Montanabw</font>]]<sup>[[User talk:Montanabw|<font color="purple">(talk)</font>]]</sup> 19:59, 20 October 2015 (UTC)
+::::Agreed that the Meta list is outdated ... still, if a professor wrote a paper several years ago (or gave up on it), they might have students interested in getting help from an experienced Wikipedian. What I'm trying to figure out is if there's some minor userright, such as "researcher", that would be broadly useful in various ways for many of you guys. What I'm hearing is that that's not likely. This also seems to be the wrong time for a push for it. We might want to hang on until some kind of backlog crisis hits ... I don't like the "legislating by crisis" strategy, but sometimes that's all you're left with. - Dank ([[User talk:Dank|push to talk]]) 02:20, 21 October 2015 (UTC)
+
+== PR request ==
+
+Hey Dank, this isn't a copy-edit request. I had to withdraw [[Freida Pinto|this candidate]] last time as there were some reservations about the prose. Since then the article has had a thorough copy-edit by a couple of users. Any chance you could give a review [[Wikipedia:Peer review/Freida Pinto/archive2|here]]? <span style="white-space:nowrap;">&mdash;[[User:Vensatry|<font color = "indigo" >'''Vensatry'''</font>]] <sub> [[User talk:Vensatry|<font color = "Indigo" >'''(ping)'''</font>]] </sub></span> 18:28, 24 October 2015 (UTC)
+:I'm sorry, I'm not qualified to review Indian English. I'm taking a guess here on some InEng terms because I've seen them used in our InEng film articles:
+:INEng: she determined to be, BrEng: she wanted to be, or decided to be, or dedicated herself to becoming (I'm not sure)
+:InEng: at the St. Xavier's College, BrEng: at St. Xavier's College
+:InEng: well received from critics, BrEng: well received by critics
+:I'm not sure who's the right person for this job, but it's not me. - Dank ([[User talk:Dank|push to talk]]) 20:26, 24 October 2015 (UTC)
+::Leave the variations. I think you must be definitely having an idea about other aspects of the prose—punctuation, MOS fixes, etc., I would be really grateful if you could have another look and point out those. <span style="white-space:nowrap;">&mdash;[[User:Vensatry|<font color = "indigo" >'''Vensatry'''</font>]] <sub> [[User talk:Vensatry|<font color = "Indigo" >'''(ping)'''</font>]] </sub></span> 09:05, 26 October 2015 (UTC)
+:::No thanks. - Dank ([[User talk:Dank|push to talk]]) 12:57, 26 October 2015 (UTC)
+::::Nevermind, thanks <span style="white-space:nowrap;">&mdash;[[User:Vensatry|<font color = "indigo" >'''Vensatry'''</font>]] <sub> [[User talk:Vensatry|<font color = "Indigo" >'''(ping)'''</font>]] </sub></span> 13:51, 26 October 2015 (UTC)
+
+== Halloween cheer! ==
+
+<div style="border-style:solid; border-color:#000; background-color:#FFB924; border-width:2px; text-align:left; padding:8px;" class="plainlinks">[[File:Wikipedia Halloween's Day.png|214px|left]][[File:Halloween pumpkin night puzzle.jpg|246px|right]]
+
+{{Center|'''''{{resize|187%|Happy [[Halloween]]!}}'''''}}
+----
+'''Hello Dank:<br>Thanks for all of your contributions to improve Wikipedia, and have a happy and enjoyable [[Halloween]]!'''<br>&nbsp;&nbsp;&nbsp;{{spaced ndash}} <span class="smallcaps" style="font-variant:small-caps;">[[User:Northamerica1000|North America]]<sup>[[User talk:Northamerica1000|<font size="-2">1000</font>]]</sup></span> 23:39, 31 October 2015 (UTC)
+<br>{{Center|<small>Send Halloween cheer by  adding {{tls|Happy Halloween}} to user talk pages with a friendly message.<br>Sent to users on my [[User:Northamerica1000/Mailing list|mailing list]]. To opt-out forever, just remove your name.</small>}}
+</div>
+<!-- Message sent by User:Northamerica1000@enwiki using the list at https://en.wikipedia.org/w/index.php?title=User:Northamerica1000/Mailing_list&oldid=647373258 -->
+:Thanks, NA1000. - Dank ([[User talk:Dank|push to talk]]) 23:58, 31 October 2015 (UTC)
+
+== FAC review ==
+
+Hey, Dank! I hope you're doing fine. I just re-nominated [[Juan Manuel de Rosas]] for a FAC. The last one failed for lack of reviews. Would mind taking a look at it again (or repeating your vote, whichever you prefer). Also, could you invite someone to review it as well, if you can? Here's the nomination page: [[:Wikipedia:Featured article candidates/Juan Manuel de Rosas/archive3]]. Kind regards, --[[User:Lecen|Lecen]] ([[User talk:Lecen|talk]]) 13:25, 1 November 2015 (UTC)
+:Sure, I look at all the military history FACs. No need to solicit anyone; this FAC will soon show up at the top of this talk page with the other Milhist FACs, and many other pages too. - Dank ([[User talk:Dank|push to talk]]) 16:06, 1 November 2015 (UTC)
+
+== TFA November ==
+Just to let you know I'm away until 8 November, so I won't be able to respond immediately to TFA issues that arise this week. I hope things will rmain quiet. Thanks again for your indispensible "blurb" work. [[User:Brianboulton|Brianboulton]] ([[User talk:Brianboulton|talk]]) 08:35, 2 November 2015 (UTC)
+:Thanks kindly. I'll hold down the fort. - Dank ([[User talk:Dank|push to talk]]) 14:24, 2 November 2015 (UTC)
+::I'm sorry to bother you, Dan, but the image in [[Wikipedia:Today's featured article/November 11, 2015]] doesn't have a caption, and no text appears when the mouse is hovered over it. Do you think it might be possible to add the caption "Rhodesia (today Zimbabwe), highlighted on a map of Africa" or something along those lines, so people know what the image is? Thanks, —<span style="border:solid 0px;color:#fff;background:darkgreen;box-shadow:darkgray 0px 0px 3px">&nbsp;&nbsp;[[User:Cliftonian|<span style="color:#fff">Cliftonian</span>]]&nbsp;[[User talk:Cliftonian|<span style="color:#fff">(talk)</span>]]&nbsp;</span> 16:09, 10 November 2015 (UTC)
+:::Thanks. Pinging [[User:David Levy|David Levy]], since he's handling image issues. - Dank ([[User talk:Dank|push to talk]]) 17:32, 10 November 2015 (UTC)
+::::Ah, sorry about that. Cheers, hope you're well. —<span style="border:solid 0px;color:#fff;background:darkgreen;box-shadow:darkgray 0px 0px 3px">&nbsp;&nbsp;[[User:Cliftonian|<span style="color:#fff">Cliftonian</span>]]&nbsp;[[User talk:Cliftonian|<span style="color:#fff">(talk)</span>]]&nbsp;</span> 17:33, 10 November 2015 (UTC)
+:::::Yep. My colon problems of a few years ago have disappeared, and the best news is, if the problems come back, [[OpenBiome|there are now pills]] for related problems that provide cure rates of around 95%. Yay. - Dank ([[User talk:Dank|push to talk]]) 17:36, 10 November 2015 (UTC)
+::::I've added the requested caption.  —[[User:David Levy|David Levy]] 21:53, 10 November 2015 (UTC)
+
+== MacGregor ==
+
+This is just a note to let the participants at the MacGregor [[Wikipedia:Peer review/Gregor MacGregor/archive1|peer review]] know that the article is now up at FAC [[Wikipedia:Featured article candidates/Gregor MacGregor/archive1|here]]. Cheers and I hope you're having a great weekend. —<span style="border:solid 0px;color:#fff;background:darkgreen;box-shadow:darkgray 0px 0px 3px">&nbsp;&nbsp;[[User:Cliftonian|<span style="color:#fff">Cliftonian</span>]]&nbsp;[[User talk:Cliftonian|<span style="color:#fff">(talk)</span>]]&nbsp;</span> 12:41, 21 November 2015 (UTC)
+:Almost done. - Dank ([[User talk:Dank|push to talk]]) 13:36, 23 November 2015 (UTC)
+
+== [[WP:ACE2015|ArbCom elections are now open!]] ==
+
+Hi,<br>
+You appear to be eligible to vote in the current [[WP:ACE2015|Arbitration Committee election]]. The [[WP:ARBCOM|Arbitration Committee]] is the panel of editors responsible for conducting the Wikipedia [[WP:RFAR|arbitration process]]. It has the authority to enact binding solutions for disputes between editors, primarily related to serious behavioural issues that the community has been unable to resolve. This includes the ability to impose [[WP:BAN|site bans]], [[WP:TBAN|topic bans]], editing restrictions, and other measures needed to maintain our editing environment. The [[WP:ARBPOL|arbitration policy]] describes the Committee's roles and responsibilities in greater detail. If you wish to participate, you are welcome to [[WP:ACE2015/C|review the candidates' statements]] and submit your choices on [[Special:SecurePoll/vote/398|the voting page]]. For the Election committee, [[User:MediaWiki message delivery|MediaWiki message delivery]] ([[User talk:MediaWiki message delivery|talk]]) 13:39, 24 November 2015 (UTC)
+<!-- Message sent by User:Mdann52@enwiki using the list at https://en.wikipedia.org/w/index.php?title=User:Mdann52/list&oldid=692071653 -->
+
+== TFA (November 27, 2015) ==
+
+Firstly, my apologies for accidentally omitting the "e" (and thanks for catching this).
+
+Secondly, I don't think that we encountered an [[WP:ENGVAR|ENGVAR]] issue.  I'm American, but it was "resuming" that struck me as odd in this context (though I realize that it wasn't incorrect), so it must be a U.S. regional difference or just one of those things.  "Assuming" probably is the best choice, given that it's followed by "her former name" (which conveys the fact that the name was used previously).
+
+Thanks again.  —[[User:David Levy|David Levy]] 20:37, 26 November 2015 (UTC)
+:Sure, not a problem David. Well ... I was going to say that it probably is an Engvar issue, since "reassume" is a perfectly good word in BritEng, but I didn't get a hit in the two AmEng dictionaries I checked. (See [https://www.ahdictionary.com/word/search.html?q=reassume AHD].) But now that I check a second time, it does occur in M-W.com, but not on its own page: [http://www.merriam-webster.com/dictionary/reassume re-]. So you're right, it's not a WP:COMMONALITY issue, my apologies. But we're agreed that "assuming" probably works best. - Dank ([[User talk:Dank|push to talk]]) 20:45, 26 November 2015 (UTC)
+
+::I never heard the word "reassuming" even once before this. [[User:Corinne|Corinne]] ([[User talk:Corinne|talk]]) 19:36, 27 November 2015 (UTC)
+:::Twenty years ago, I wasn't doing much copyediting so I can't be sure, but my recollection is that AmEng dictionaries didn't record "reassuming" at that time, favoring "resuming". (And even if they had, AmEng dictionaries then weren't even in the same league as the best ones available now.) Nowadays ... for me personally, if either [[M-W]] or [[AMHER]] lists a word without noting that it's iffy in some way, I'm almost never going to put up a fight and say the word isn't good enough for Wikipedia. - Dank ([[User talk:Dank|push to talk]]) 19:42, 27 November 2015 (UTC)
+::::Apologies re "long after the war ended." My bad. :-( [[User:The ed17|Ed]]&nbsp;<sup>[[User talk:The ed17|[talk]]]&nbsp;[[WP:OMT|[majestic titan]]]</sup> 22:21, 27 November 2015 (UTC)
+:::::Not a problem, Ed, but it did reinforce for me that I need a better way of being notified of TFA changes. Stuff like this is going to happen. - Dank ([[User talk:Dank|push to talk]]) 22:24, 27 November 2015 (UTC)

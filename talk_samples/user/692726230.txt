@@ -1,0 +1,153 @@
+&nbsp;
+&nbsp;
+*[[ Special:Watchlist| My Watchlist]]
+** [https://en.m.wikipedia.org/w/index.php?title=Special:Watchlist&watchlistview=feed&filter=all My Watchlist: Modified]
+* [[Special:Gather/by/Thnidu| My Collections]]
+**[https://en.m.wikipedia.org/wiki/Special:GatherEditFeed?collection-id=3454 Edits to pages in my collections]
+*[[Special:MyContributions| My Contributions]]
+*[[User:Thnidu/sandbox| My sandbox]]
+*[[Special:PrefixIndex/User:Thnidu|All pages with prefix Thnidu]]
+*[[User:Thnidu/wiki tool notes]]
+*[[User talk:Thnidu/Archive| My talk page archive]]
+----
+:   '''<nowiki><small>({{subst:#time:y.m.d}})</small></nowiki>''' :: <small>(YY.MM.DD)</small> – ''used in [[User:Thnidu#Pages significantly copyedited]]''
+:   '''<nowiki><small>{{subst:#time:Y-m-d}}</small></nowiki>''' :: <small>YYYY.MM.DD</small>
+:   '''<nowiki>{{subst:#time:Y-m-d}}</nowiki>'''  :: YYYY.MM.DD
+:   '''<nowiki>{{subst:#time:y.m.d}}</nowiki>'''  :: YY.MM.DD
+:'''<nowiki>{{subst:User:Thnidu/Template:pingme}}</nowiki>'''
+:'''<nowiki>{{subst:User:Thnidu/Template:pingme0}}~~~~</nowiki>'''
+::'''''pingme0''' is for use in the [[WP:TEAHOUSE|Teahouse]] and any other pages where an entry must end with '''<nowiki>~~~~</nowiki>''' to be accepted''
+:'''<nowiki>{{db-self}}</nowiki>''' ''or'' '''<nowiki>{{db-u1}}</nowiki>''' :: ''user's request to delete user's own page''
+
+{{anchor|TOC}}__TOC__
+
+==Involvements==
+* [[Wikipedia:Meetup/Philadelphia/2015 GLAM Cafe]]
+** [[Wikipedia:Meetup/Philadelphia/2015 GLAM Cafe#Women in Science|Women in Science]]
+* [[Wikipedia:Meetup/Philadelphia/ArtAndFeminism 2015]]
+* [[Wikipedia:WikiProject Guild of Copy Editors]]
+
+=='''MEMOS TO SELF'''==
+#Learn about [[Wikipedia:AWB|AWB]].
+# [http://kalaity.com/2014/03/01/broad-universe-wikipedia-project/ Broad Universe Wikipedia Project]
+# Articles with the {{tl|copy edit}} tag on are different from requests. You did the right thing by removing the tag, and nothing else needs doing. By the way, requests are sections within [[Wikipedia:WikiProject Guild of Copy Editors/Requests]], not subpages of it, so a search like that would never work. You can see all requests (as opposed to tagged articles) by going to [[Wikipedia:WikiProject Guild of Copy Editors/Requests]] and doing a text search. Hope this helps. --[[User:Stfg|Stfg]] ([[User talk:Stfg|talk]]) 09:55, 1 February 2014 (UTC) ''([[Wikipedia talk:WikiProject Guild of Copy Editors/Requests/Archives/1#Can't log a completion; Archive search broken?|source]])
+#[[Wikipedia:Tools#Finding the responsible user]]
+#* [http://wikipedia.ramselehof.de/wikiblame.php WikiBlame] – searches for given text in versions of article
+#* Soxred93's [[tools:~tparis/blame|Article Blamer]] – similar to WikiBlame, identifies revisions that added given text
+#* [[User:AmiDaniel/WhodunitQuery]] – Windows application that identifies the edit and user who added a specific word or phrase
+
+
+==Archive==
+I've moved most old sections of my Talk page to [[User talk:Thnidu/Archive]]. 130424. 140202. 141128. 150222.
+
+{{clear}}
+
+== GOCE July 2013 barnstar ==
+
+{| style="border: 1px solid gray; background-color: #fdffe7;"
+|rowspan="2" valign="middle" | {{#ifeq:{{{2}}}|alt|[[File:Minor Barnstar Hires.png|100px]]|[[File:Minor_Barnstar.png|100px]]}}
+|rowspan="2" |
+|style="font-size: x-large; padding: 0; vertical-align: middle; height: 1.1em;" | '''The Minor Barnstar'''
+|-
+|style="vertical-align: middle; border-top: 1px solid gray;" | This barnstar is awarded for participation in the [[WP:GOCE]] [[Wikipedia:WikiProject Guild of Copy Editors/Backlog elimination drives/July 2013|July 2013 copy edit drive]]. Thank you for taking part! [[User:Diannaa|Diannaa]] ([[User talk:Diannaa|talk]]) 23:35, 5 August 2013 (UTC)
+|}
+
+:{{ping|Diannaa}} Oo! Oo! My first! I'm so excited! :-D No irony, no sarcasm here: I really am pleased. Thank you. --[[User:Thnidu|Thnidu]] ([[User talk:Thnidu#top|talk]]) 04:33, 6 August 2013 (UTC)
+
+== Cognitive Sociolinguistics ==
+
+Please help us out with [[Cognitive Sociolinguistics]], which needs links from other articles, improvements on the references, and a general checkup by an expert. (Good to see you at the CHF!)
+
+:{{ping|Dthomsen8}} Sure. Good to hear from you! But you left the above note unsigned, and I had to go to the History page to see who it was from. --[[User:Thnidu|Thnidu]] ([[User talk:Thnidu#top|talk]]) 01:04, 27 November 2013 (UTC)
+
+== Join the team? ==
+
+Just saw one of your edits and was reminded to peek in and check how you're doing ... very well, it seems. I'm putting together a team to help with copyediting questions at [[WP:TFA]]. Interested in theory? If so, I'll talk specifics. - Dank ([[User talk:Dank|push to talk]]) 15:17, 13 March 2015 (UTC) P.S. Saw that you just created [[User:Thnidu/Template:AHDEL]] ... although I check a lot of references when I need to dig, I'd have to say AHD is my go-to word reference ... thoughts on AHD? - Dank ([[User talk:Dank|push to talk]]) 15:20, 13 March 2015 (UTC)
+:Here's a for-instance: Pinker mentions on p. 6 of ''The Sense of Style'' that linguists have come up with some copyediting recommendations based on their study of what happens in short-term memory as a person reads. The requirements of "memory load" drive a lot of my copyediting decisions, but I'm not a linguist and I'm not sure where to look for readable accounts of these studies. Do you know what he's talking about, and do any citations or books come to mind? - Dank ([[User talk:Dank|push to talk]]) 19:14, 13 March 2015 (UTC)
+::'''{{u|Dank}}''':
+::team to help with copyediting questions at [[WP:TFA]]: Yes, I am.
+:::Great, the discussion page is [[WT:TFAC]]. At the moment, I'm working on a short questionnaire. Soon, I'll post questions I have when copyediting, and I hope others will too. - Dank ([[User talk:Dank|push to talk]]) 18:30, 14 March 2015 (UTC)
+:: AHD: Mine too, esp. since I no longer have from-home online access (through my now-former workplace) to OED Online.
+:: Pinker: No, I don't. Does he provide any references, maybe in the back of the book?
+::--[[User:Thnidu|Thnidu]] ([[User talk:Thnidu#top|talk]]) 17:22, 14 March 2015 (UTC)
+:::That's the problem ... I've read the first half of the references, but I'm not familiar with the lingo so I don't know which ones are likely to help. None of the titles say "memory load" or "short-term memory"; only one says "memory". I think I remember that he talks about memory load somewhere else in the book; I'll try to find that, and see if it has an endnote. - Dank ([[User talk:Dank|push to talk]]) 18:30, 14 March 2015 (UTC)
+::{{u|Dank}}: AHDEL: Would you take a look at it now? I think it's ready to use, after taking out the comments. I'm a bit concerned about the name, though, which keeps suggesting "delete" to me. What do you think about changing it to AHDict or AHDictE? --[[User:Thnidu|Thnidu]] ([[User talk:Thnidu#top|talk]]) 18:43, 14 March 2015 (UTC)
+:::I'm not a template guy, but it looks good. I'd go with AHDict. - Dank ([[User talk:Dank|push to talk]]) 18:53, 14 March 2015 (UTC)
+
+{{Ping|Dank}} While scanning down my Talk page, I realized that I'd mentally closed this topic when we wrapped up [[Template:AHDict]], forgetting all about WT:TFAC. So I went there for a look. I'm still willing to join the team, but not to get snarled up in the italicization brawl with Schrodinger's Cat and his(?) venomous fangs and claws. Other than that sh!+storm, where does "the team" stand now? --[[User:Thnidu|Thnidu]] ([[User talk:Thnidu#top|talk]]) 15:10, 7 July 2015 (UTC)
+:Great timing ... I was about to get back with you. I think I know where I want to go with this now, but I want to ponder for just a few more days. Bottom line: there are a lot of Wikipedia pages that work well from a variety of perspectives, even linguistic perspectives, and I'd like to invite guest columnists to write whatever strikes their fancy with a generally positive slant. Such columns might or might not be appropriate on Wikipedia itself, but they'd be appropriate somewhere. If this strikes a chord and there's something you already want to write about, great. If not, I should be able to show some examples soon-ish of what I'm talking about. - Dank ([[User talk:Dank|push to talk]]) 15:46, 7 July 2015 (UTC)
+::Well, it's always something ... in this case, [[User talk:Floquenbeam|this]]. I may be advertising soon for a new team member, of sorts; if so, I'll mention it on that page among others, and if you want to apply, that would be great. I'll have to wait till this mess is sorted out before I get back to the stuff I was thinking about earlier. - Dank ([[User talk:Dank|push to talk]]) 13:21, 9 July 2015 (UTC)
+::Update: as you might have seen at that link, Chris would rather help me himself when he gets free in August, so we're not looking for a new team member, but there are two other things starting up soon. If you've been active at [[WT:GAN]], you might be interested in the thread at the bottom of that page. Also, I'm becoming concerned about Wikidata's automatic translation ... Wikidata fields are showing up automatically in many Wikipedia infoboxes, and the walkthrough over at Wikidata touts the "feature" that some of these are the result of machine translation from a variety of languages. This strikes me as a problem, but also an opportunity for linguists (and for me) to do something that we know how to do and that would be widely appreciated. I just started thinking about this yesterday, I should have something to show you soon. Thoughts? - Dank ([[User talk:Dank|push to talk]]) 12:04, 13 July 2015 (UTC)
+::: {{ping|Dank}} Machine translation is certainly pretty wonky. Yes, when you've got something ready please ping me. --[[User:Thnidu|Thnidu]] ([[User talk:Thnidu#top|talk]]) 19:31, 14 July 2015 (UTC)
+
+== Neat page bookmarks ==
+
+* [[List of dates predicted for apocalyptic events]]
+
+== Your thoughts? ==
+
+[[Timeline of Philadelphia]] has a discussion about [[WP:LSC|selection and inclusion criteria]]. Two editors are discussing it, but we have divergent views. More opinions would be helpful. - <span style="color:#D70270;background-color:white;">Sum</span><span style="color:#734F96;background-color:white;">mer</span><span style="color:#0038A8;background-color:white;">PhD</span><sup>[[User talk:Tefkasp|v2.0]]</sup> 13:24, 23 June 2015 (UTC)
+
+== Earthsea ==
+
+Thanks for recent work at [[Earthsea]] and [[Ursula K. Le Guin]].
+
+FYI, my today revision --as of 22:00 UTC-- of the fantasy series article [[Earthsea]] is scrutable if you break the history in two after my first two edits [https://en.wikipedia.org/w/index.php?title=Earthsea&type=revision&diff=675936400&oldid=675697229] [https://en.wikipedia.org/w/index.php?title=Earthsea&type=revision&diff=675967154&oldid=675936400]. In particular, section 4 history is inscrutable as a whole, because of spacing changes. While I skimmed some of the sources in refs 7-18, I didn't do much for the article but expand them. More attention to content is needed, perhaps best after improvement of the two film adaptation articles. --[[User:P64|P64]] ([[User talk:P64|talk]]) 21:48, 13 August 2015 (UTC)
+
+:{{ping|P64}} My word! Thank ''you!'' — Thoughts, some less useful than others.
+:*Hmm... We don't have a template for "creative franchise", and in any case the multiple switches for sections that do or don't apply in different cases would be mind-boggling.
+:*(Definitely less useful) You changed "catalog{{uu|ue}}d" to the American spelling "cataloged", but {{slink|Earthsea|Radio}} has the British spelling "dramati{{uu|s}}ation".  I'm not saying to change it back, but how far is local-variety-of-English consistency supposed to go?
+::: Consistency in variety of English should be imposed at the article level. The same goes for the format of dates and the possibly distinct format of retrieved/archived dates. So a section on British adaptation(s) of a work, within an article where American English and date format are generally used, should use American ''dramatization'' and, say, premiered ''May 29''. --[[User:P64|P64]] ([[User talk:P64|talk]]) 17:23, 16 August 2015 (UTC)
+:*.... No more for now. I probably won't be able to do more on this till late next week. --[[User:Thnidu|Thnidu]] ([[User talk:Thnidu#top|talk]]) 01:05, 14 August 2015 (UTC)
+
+== October 2015 GOCE newsletter ==
+
+{| style="position: relative; margin-left: 2em; margin-right: 2em; padding: 0.5em 1em; background-color: #dfeff3; border: 2px solid #bddff2; border-color: rgba( 109, 193, 240, 0.75 ); {{border-radius}} {{box-shadow|8px|8px|12px|rgba( 0, 0, 0, 0.7 )}}"
+
+| <span style="font-size: 110%;">'''[[WP:GOCE|Guild of Copy Editors]] October 2015 Newsletter</span>
+
+<div style="float:right; width: 75px; height: 60px;"></div>
+<div style="position: absolute; top: -20px; right: -12px;">[[File:Writing Magnifying.PNG|100px|link=]]</div>
+<hr style="border-bottom: 1px solid rgba( 109, 193, 240, 0.75 );" />
+[[File:Copyeditors progress.png|right|thumb]]
+
+'''[[Wikipedia:WikiProject Guild of Copy Editors/Backlog elimination drives/September 2015|September drive]]:''' Thanks to everyone who participated in last month's backlog-reduction drive. Of the 25 editors who signed up, 18 copyedited at least one article. Final results, including barnstars awarded, are available [[Wikipedia:WikiProject Guild of Copy Editors/Backlog elimination drives/September 2015/Barnstars|'''here''']].
+
+'''[[Wikipedia:WikiProject Guild of Copy Editors/Blitzes/October 2015|October blitz]]:''' The one-week October blitz, targeting [[WP:GOCE/REQ|requests]], has just concluded. Of the nine editors who signed up, seven copyedited at least one request; check your talk page for your [[Wikipedia:WikiProject Guild of Copy Editors/Blitzes/October 2015/Barnstars|barnstar]]!
+
+The month-long '''[[Wikipedia:WikiProject Guild of Copy Editors/Backlog elimination drives/November 2015|November drive]],''' focusing on our oldest backlog articles (June, July, and August 2014) and the October requests, is just around the corner. Hope to [[Wikipedia:WikiProject Guild of Copy Editors/Backlog elimination drives/November 2015#Signing up|see you there]]!
+
+Thanks again for your support; together, we can improve the encyclopedia! Cheers from your GOCE coordinators {{noping|Jonesey95}}, {{noping|Baffle gab1978}}, {{noping|KieranTribe}}, {{noping|Miniapolis}} and {{noping|Pax85}}.
+
+{{center
+| <small>To discontinue receiving GOCE newsletters, please remove your name from [[Wikipedia:WikiProject Guild of Copy Editors/Mailing List|our mailing list]].</small>
+}}
+|}
+[[User:MediaWiki message delivery|MediaWiki message delivery]] ([[User talk:MediaWiki message delivery|talk]]) 13:55, 26 October 2015 (UTC)
+<!-- Message sent by User:Miniapolis@enwiki using the list at https://en.wikipedia.org/w/index.php?title=Wikipedia:WikiProject_Guild_of_Copy_Editors/Mailing_List&oldid=686876575 -->
+== [[:File:1980 German KISS Logo.jpg]] needs authorship information ==
+
+<div style="padding:5px; background-color:#E1F1DE;">'''Dear uploader:'''
+
+The media file you uploaded as [[:File:1980 German KISS Logo.jpg]] appears to be missing information as to its authorship (and or source), or if you did provide such information, it is confusing for others trying to make use of the image.
+
+It would be appreciated if you would consider updating the file description page, to make the authorship of the media clearer.
+
+Although some images may not need author information in obvious cases, (such where an applicable source is provided), authorship information aids users of the image, and helps ensure that appropriate credit is given (a requirement of some licenses).
+
+*If you created this media yourself, please consider explicitly including your user name, for which: {{tlxs|usernameexpand|{{PAGENAME}}}} will produce an appropriate expansion,</br> or use the {{tl|own}} template.
+
+If you have any questions please see [[Help:File page#File description|Help:File page]]. Thank you. [[User:Sfan00 IMG|Sfan00 IMG]] ([[User talk:Sfan00 IMG|talk]]) 00:02, 7 November 2015 (UTC)</div><!-- Template:Add-author -->
+[[User:Sfan00 IMG|Sfan00 IMG]] ([[User talk:Sfan00 IMG|talk]]) 00:02, 7 November 2015 (UTC)
+
+:{{ping|Sfan00 IMG}} When I posted this image, I put hours of research into trying to track down the sources, including trying to read the information on [[de:Datei:1980PressetextKISS-Logo.jpg|the de File page]] and follow the links there. This was the best I could do, and it was thought adequate at the time. See [[Wikipedia:Teahouse/Questions/Archive_336#Image_copyright_puzzle]]. (I have changed the Teahouse link on the File page to this Teahouse Archive link.) If you have any further ''specific'' suggestions, I would be glad to hear them. --[[User:Thnidu|Thnidu]] ([[User talk:Thnidu#top|talk]]) 02:24, 7 November 2015 (UTC)
+
+== [[WP:ACE2015|ArbCom elections are now open!]] ==
+
+{{Wikipedia:Arbitration Committee Elections December 2015/MassMessage}} [[User:MediaWiki message delivery|MediaWiki message delivery]] ([[User talk:MediaWiki message delivery|talk]]) 13:08, 23 November 2015 (UTC)
+<!-- Message sent by User:Mdann52@enwiki using the list at https://en.wikipedia.org/w/index.php?title=User:Mdann52/list&oldid=691995604 -->
+
+== [[WP:ACE2015|ArbCom elections are now open!]] ==
+
+{{Wikipedia:Arbitration Committee Elections December 2015/MassMessage}} [[User:MediaWiki message delivery|MediaWiki message delivery]] ([[User talk:MediaWiki message delivery|talk]]) 13:33, 23 November 2015 (UTC)
+<!-- Message sent by User:Mdann52@enwiki using the list at https://en.wikipedia.org/w/index.php?title=User:Mdann52/list&oldid=691995604 -->
