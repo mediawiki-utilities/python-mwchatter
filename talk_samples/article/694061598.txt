@@ -1,0 +1,69 @@
+{{ArticleHistory
+|action1=GAN
+|action1date=22:11, 31 January 2014
+|action1link=Talk:A Contract with God/GA1
+|action1result=listed
+|action1oldid=593347303
+
+|action2=PR
+|action2date=2014-02-25, 10:30:26
+|action2link=Wikipedia:Peer review/A Contract with God/archive1
+|action2result=reviewed
+|action2oldid= 594150085
+
+|action3=FAC
+|action3date=07:30, 17 May 2014
+|action3link=Wikipedia:Featured article candidates/A Contract with God/archive1
+|action3result=promoted
+|action3oldid=609540185
+
+|currentstatus=FA
+|topic=Language and literature
+
+|maindate=6 December 2015
+}}
+
+{{WikiProject Comics
+|class      = FA
+|importance = high}}
+
+== Publication date ==
+
+Indicia of copies indicate the work was first copyrighted in 1978, and [http://www.willeisner.com/lib/index.html Eisner's webpage] also lists that as year of publication.  However, some [http://www.google.com/search?q=%22A+Contract+with+God%22%2B1976 web sources] indicate a publication date of 1976, and [[Eddie Campbell|Eddie Campbell's]] ''Alec: How To Be An Artist'' gave the date as October of 1977. [[User:Hiding|Hiding]] 09:16, 8 Jun 2005 (UTC)
+
+==Move==
+
+I moved this page again to bring into line with the naming convention, since the work's full title is A Contract with God: And Other Tenement Stories. [[A Contract with God]] and [[A Contract With God]] both redirect here. [[User:Hiding|Hiding]] 09:06, 8 Jun 2005 (UTC)
+
+And I've put it back where Wikipedia naming conventions ''actually'' recommend it belongs. [[User:Tverbeek|Tverbeek]] 12:01, 8 Jun 2005 (UTC)
+
+== Jewish perspective content ==
+
+Although I ain't really a scholar on Judaism myself, but I saw the comments on the WikiProject Judaism talk page, and as someone kind of interested in comics, decided to have a little look-see.
+
+The content is basically sound, and I personally have no reservations whatsoever about having individuals with mainstream literary credentials included in such articles. Having said that, I have some reservations about the exact content added. I am not myself sure, for instance, that the phrase "not a recognizably Jewish story" really adds much, because, honestly, I'm not sure that anyone ever said it was necessarily a "Jewish story," but maybe just a story about American Jews of a particular era, which isn't quite the same thing. A lot of the other content added also seems to deal primarily if not exclusively with the idea of Jewishness as well, and the same reservations more or less apply there - that they seem to be criticizing the story on its apparent lack of understanding of Judaism. Maybe I'm wrong, but I think maybe a lot of the possibly real people Eisner used as the basis for his characters might have been comparatively "devoid of Jewish learning or insight," and on that basis the material might accuraately represent them, even if Klingenstein finds it a disappointment.
+
+The idea that Hersh unrealistically struggles with basic Jewish teaching does seem to me to be potentially the most encyclopedic material included, because it is talking about the story itself as a story, rather than as a story from the Jewish perspective. I might revise the paragraph to start with that material, and then maybe edit down the other material to maybe saying something to the effect that the characters are presented as being what a possibly Jewish scholar? said are "devoid of Jewish learning and insight," with perhaps a few examples. But, again, the story is allegedly more or less autobiographical, and it could well be that the real people used as bases for the characters might not have been particularly well informed Jews themselves for all I know. Just a few ideas, anyway. [[User:John Carter|John Carter]] ([[User talk:John Carter|talk]]) 15:24, 17 March 2013 (UTC)
+
+:Thanks for your feedback.  I'll try rearranging the paragraph along those lines.
+:As to the last point you made, I think that'd be fair to apply to the other characters in the book, but Hersh is depicted as particularly pious, and I think the criticism might come from that—that someone who was that religious wouldn't have struggled with such an (allegedly) elementary point.  "Cookalein" is an autobiographical story, but "A Contract with God" is autobiographical only in the base situation, where both Hersh and Eisner lost their teenaged daughters.  I think the idea is that Eisner channeled his feelings through Hersh, but the character of Hersh himself was not actually based on Eisner (who was born in the US, and, I get the feeling, was not devoutly Jewish(?) ). <span class="vcard"><span class="fn nickname">[[User:Curly Turkey|Curly Turkey]]</span> ([[User talk:Curly Turkey|gobble]])</span> 21:32, 17 March 2013 (UTC)
+::I don't know much about Eisner's religious life - I think the editors at the Comics project probably know more. I know he dealt with other Jewish issues in his other late work, but it could be possible that he might not have been particularly religiously Jewish. Alternately, it might be that the New Yorkers he grew up around might not have been, and I personally think that the latter might be the more likely. For all I know, this particular episode might be based on one or more real situation Eisner knew of as a child, which he in some way "edited down" to the story. [[User:John Carter|John Carter]] ([[User talk:John Carter|talk]]) 22:16, 17 March 2013 (UTC)
+:::Right.  Well, I guess this is why I was asking for help—I know little about the religious life, and much less about the religious lives of American Jews, so I wasn't confident if I was summing up the criticism adequately, or if I was giving it undue weight.  <s>I'll post something at WikiProject Comics.</s>  It looks like you've already posted there. <span class="vcard"><span class="fn nickname">[[User:Curly Turkey|Curly Turkey]]</span> ([[User talk:Curly Turkey|gobble]])</span> 22:54, 17 March 2013 (UTC)
+:::I've rewritten refocused it, cutting it down to roughly half the length it was. <span class="vcard"><span class="fn nickname">[[User:Curly Turkey|Curly Turkey]]</span> ([[User talk:Curly Turkey|gobble]])</span> 23:03, 17 March 2013 (UTC)
+:::::Schumacher, gives a lot of information about Eisner's relationship with Judaism. Neither he nor his parents seem to have been particularly religious. [[User talk:Maunus|User:Maunus ·ʍaunus·snunɐw·]] 00:24, 28 January 2014 (UTC)
+
+{{Talk:A Contract with God/GA1}}
+
+== Tellement truc unusité  ==
+
+Je recherche une liscense pour mes photos. Mes la photo en particulier est une photo de moi avec la lumière venant du soleil.Ou l"on peux voir une main de lumière me toucher le front. Puis je tombe sur cette pages mettant en lumière Le livres Contrat avec Dieu...... Bref sa m"étonne plus mais je devais marqué ce monent [[User:Ednozel|Ednozel]] ([[User talk:Ednozel|talk]]) 01:46, 6 December 2015 (UTC)
+
+== First "modern" graphic novel ==
+
+I'd like to improve some misleading descriptions in the [[A_Contract_with_God#Reception_and_legacy|'''Reception and legacy''']] section. Namely, the first sentence: "''A Contract with God'' has frequently, though erroneously, been cited as the first graphic novel;...." The statement is both right and wrong, however the "wrong" part is missing.
+
+For example, [http://books.wwnorton.com/books/The-Contract-with-God-Trilogy/ W.W. Norton] explains pretty clearly that it ''was'', in fact, considered the first "modern graphic novel," which it contrasts with the then traditional "comic-book format." This fact is also noted in Paul Levitz's ''Will Eisner: Champion of the Graphic Novel'' (Abrams, 2015), where Levitz notes that Eisner's obituary in the ''NY Times'' described him as having "created ... the first modern graphic novel." So the key word missing is "modern," which makes it somewhat erroneous to say that the book was "erroneously" cited as being the "first graphic novel." Expanding that aspect would be useful. Thoughts? --[[User:Light show|Light show]] ([[User talk:Light show|talk]]) 21:29, 6 December 2015 (UTC)
+
+BTW, this is how Schumacher, who is cited throughout the article, explains the difference:
+{{quote|"Using this knowledge of publishing, Eisner created a book that didn't look like a comic book. It was the size of a trade paperback, had lettering on its spine, boasted a cover design that didn't scream 'children's book' to bookstore owners and librarians, and provided an interior that eschewed the panel-by-panel artistry typical of comic books." (p. 204) --[[User:Light show|Light show]] ([[User talk:Light show|talk]]) 21:44, 6 December 2015 (UTC)}}
+* {{ec}} I have to wonder what "modern" is supposed to mean in this context.  There were books that were appearing in the few years before ''Contract'' that were advertised as graphic novels: aside from ''The First Kingdom'' in 1974, in 1976 there were ''[[Bloodstar]]'' and ''[[Chandler: Red Tide]]''.  How "modern" is "modern"?  Further muddying the waters is the fact the definition of the term "graphic novel" has never been set in stone, and in the 21st is getting closer and closer to be a synonym for "comics" in general.  What does "modern graphic novel" mean in ''that'' context? [[User:Curly Turkey|Curly&nbsp;Turkey]]&nbsp;<span style="color:red">🍁</span>&nbsp;[[User talk:Curly Turkey|''¡gobble!'']] 21:46, 6 December 2015 (UTC)
