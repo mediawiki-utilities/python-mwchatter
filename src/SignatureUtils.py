@@ -7,25 +7,26 @@ class NoSignature(Error): pass
 
 TIMESTAMP_RE = re.compile(r"[0-9]{2}:[0-9]{2}, [0-9]{1,2} [^\W\d]+ [0-9]{4} \(UTC\)")
 USER_RE = re.compile(r"(\[\[\W*user\W*:(.*?)\|[^\]]+\]\])", re.I)
-USER_TALK_RE = re.compile(r"(\[\[\W*user talk\W*:(.*?)\|[^\]]+\]\])", re.I)
-
-def has_signatures(text):
-    """
-    Determine if the text provided has one or more signatures
-    """
+USER_TALK_RE = re.compile(r"(\[\[\W*user[_ ]talk\W*:(.*?)\|[^\]]+\]\])", re.I)
 
 def extract_signatures(text):
     """
     Returns all signatures found in the text as a list of dictionaries
     [
-        {'user':<username>, 'timestamp':<timestamp_as_string>, 'text':<signature text>}
+        {'user':<username>,
+         'timestamp':<timestamp_as_string>,
+         'text':<signature text>,
+         'start':<start_location>,
+         'end':<end_location>}
     ]
     """
     signature_list = []
     divided_text = _divide_on_timestamp(text)
-    for t in divided_text:
+    for (t, base_start, _) in divided_text:
         s = _try_extract_signature(t)
         if s is not None:
+            s['start'] += base_start
+            s['end'] += base_start
             signature_list.append(s)
     return signature_list
 
@@ -34,7 +35,7 @@ def _divide_on_timestamp(text):
     locations = _find_timestamp_locations(text)
     old_end = 0
     for ( _, end) in locations:
-        divided_text.append(text[old_end:end])
+        divided_text.append((text[old_end:end], old_end, end))
         old_end = end
     return divided_text
 
@@ -50,7 +51,7 @@ def _extract_rightmost_signature(text):
         (user, u_start, u_end) = _extract_rightmost_user(text[:ts_start])
     except(NoTimestampError, NoUsernameError) as e:
         raise NoSignature(e)
-    return {'user':user, 'timestamp':timestamp, 'text':text[u_start:ts_end]}
+    return {'user':user, 'timestamp':timestamp, 'text':text[u_start:ts_end], 'start':u_start, 'end':ts_end}
 
 def _extract_rightmost_timestamp(text):
     ts_loc = _find_timestamp_locations(text)
