@@ -2,6 +2,8 @@ import pprint
 pp = pprint.PrettyPrinter(indent=4)
 
 import re
+import SignatureUtils
+import WikiIndentUtils
 
 TIMESTAMP_RE = re.compile(r"[0-9]{2}:[0-9]{2}, [0-9]{1,2} [^\W\d]+ [0-9]{4} \(UTC\)")
 USER_RE = re.compile(r"(?=(\[\[User:(.*?)\|.+\]\]))", re.I)
@@ -55,12 +57,21 @@ def extract_timestamp(line):
     raise NoTimestampError()
 
 with open("../talk_samples/user/687428034.txt", "r") as f:
-    lines = f.readlines()
-for line in lines:
-    if has_signature(line):
-        (u, d) = extract_username_and_date(line)
-        print(d, end=" ")
-        print(u)
+    text = f.read()
+    signatures = SignatureUtils.extract_signatures(text)
+    start = 0
+    for s in signatures:
+        end = s['end']
+        print ("===========================")
+        print(text[start:end])
+        print( s['timestamp'] + " " + s['user'])
+        print("Indent: {0}".format(WikiIndentUtils.find_min_indent(text[start:end])))
+        start = end
+# for line in lines:
+#     if has_signature(line):
+#         (u, d) = extract_username_and_date(line)
+#         print(d, end=" ")
+#         print(u)
 # pp.pprint(wikicode.get_tree())
 # for node in wikicode.nodes:
 #     if isinstance(node, mwp.nodes.Node):
