@@ -28,7 +28,7 @@ for f_path in talk_files:
         sections = wikicode.get_sections()
         for section in sections:
             section_text = str(section)
-            comments = wc.get_comment_blocks_linear_merge(section_text)
+            comments = wc.get_linear_merge_comment_blocks(section_text)
             for comment in comments:
                 signatures = SignatureUtils.extract_signatures(comment)
                 for s in signatures:

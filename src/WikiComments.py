@@ -1,7 +1,7 @@
 import SignatureUtils as su
 import WikiIndentUtils as wiu
 
-def get_comment_blocks_linear_merge(text):
+def get_linear_merge_comment_blocks(text):
     comment_blocks = []
     indent_blocks = wiu.extract_indent_blocks(text)
     working_block = ""
@@ -18,5 +18,6 @@ def get_comment_blocks_linear_merge(text):
             working_block = ""
     return comment_blocks
 
-def get_comment_blocks_level_merge(text):
-    pass
+def get_level_merge_comment_blocks(text):
+    comment_blocks = []
+    indent_blocks = wiu.extract_indent_blocks(text)
