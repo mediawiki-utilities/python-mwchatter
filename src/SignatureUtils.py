@@ -10,6 +10,16 @@ USER_RE = re.compile(r"(\[\[\W*user\W*:(.*?)\|[^\]]+\]\])", re.I)
 USER_TALK_RE = re.compile(r"(\[\[\W*user[_ ]talk\W*:(.*?)\|[^\]]+\]\])", re.I)
 USER_CONTRIBS_RE = re.compile(r"(\[\[\W*Special:Contributions/(.*?)\|[^\]]+\]\])", re.I)
 
+def extract_signature_blocks(text):
+    blocks = []
+    signatures = extract_signatures(text)
+    start = 0
+    for sig in signatures:
+        end = _find_next_endline(text, sig['end'])
+        blocks.append(text[start:end])
+        start = end
+    return blocks
+
 def extract_signatures(text):
     """
     Returns all signatures found in the text as a list of dictionaries

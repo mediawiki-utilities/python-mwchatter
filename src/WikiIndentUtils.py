@@ -1,3 +1,18 @@
+def extract_indent_blocks(text):
+    old_indent = 0
+    block_list = []
+    cur_block_lines = []
+    for line in text.split('\n'):
+        indent = find_line_indent(line)
+        if indent != old_indent and line.strip() != "":
+            block = "\n".join(cur_block_lines)
+            block_list.append(block)
+            cur_block_lines = []
+            old_indent = indent
+        cur_block_lines.append(line)
+    block = "\n".join(cur_block_lines)
+    block_list.append(block)
+    return block_list
 
 def find_min_indent(text):
     lines = text.split('\n')
