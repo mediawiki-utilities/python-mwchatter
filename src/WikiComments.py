@@ -28,6 +28,10 @@ class Comment:
             self._user = signature['user']
             self._timestamp = signature['timestamp']
 
+    def add_blocks(self, blocks):
+        for block in blocks:
+            self.add_block(block)
+
     @property
     def user(self):
         return self._user
@@ -84,32 +88,43 @@ def _break_block_text_by_signatures(text):
         sub_blocks = [text]
     return sub_blocks
 
-
 def get_level_merge_comment_blocks(text):
-    comment_blocks = []
-    indent_blocks = wiu.extract_indent_blocks(text)
+    blocks = _generate_blocks(text)
+    comments, unclaimed_blocks = _recursive_level_merge(blocks, 0, len(blocks))
 
-def recursive_level_merge(indent_blocks, start, end):
-    blocks = []
-    block_nums_at_level = _get_block_nums_at_start_level_between(indent_blocks, start, end)
-    if len(block_nums_at_level) == 1:
-        return [indent_blocks[block_nums_at_level[0]]]
-    else:
-        for (b_start,b_end) in _pairwise(block_nums_at_level):
-            blocks, undetermined = recursive_level_merge()
+def _recursive_level_merge(blocks, start, end):
+    # TODO
+    block_nums_at_top = _get_block_nums_at_start_indent_between(blocks, start, end)
+    comments = []
+    unclaimed_blocks = []
+    if len(block_nums_at_top) == 1:
+        block = blocks[block_nums_at_top[0]]
+        if su.has_signature(block.text)
+            comments.append(Comment().add_block(block))
+        else:
+            unclaimed_blocks.append(block)
+    cur_comment = Comment()
+    for (b_start, b_end) in _pairwise(block_nums_at_top):
+        block = blocks[b_start]
+        cur_comment.add_block(block)
+        if cur_comment.user is not None:
+            comments.append(cur_comment)
+            cur_comment = Comment()
+        lower_comments, lower_unclaimed = _recursive_level_merge(blocks, b_start, b_end)
+        comments.extend(lower_comments)
+        b_start += 1
+        if (b_start+1 == b_end):
 
-    return blocks, undetermined
+        blocks, undetermined = recursive_level_merge()
 
-def _get_block_nums_at_start_level_between(blocks, start, end):
-    level = wiu.find_min_indent(blocks[start])
-    return _get_block_numbers_at_level_between(blocks, level, start, end)
+    return comments, unclaimed_blocks
 
-def _get_block_numbers_at_level_between(blocks, level, start, end):
+def _get_block_nums_at_start_indent_between(blocks, start, end):
+    start_indent = blocks[start].indent
     numbers = []
     for i, block in enumerate(blocks):
         if start <= i and i < end:
-            indent = wiu.find_min_indent(block)
-            if indent == level:
+            if block.indent == start_indent:
                 numbers.append(i)
     return numbers
 
