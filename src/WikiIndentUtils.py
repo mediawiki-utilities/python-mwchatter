@@ -23,7 +23,7 @@ def find_min_indent(text):
 def find_line_indent(line):
     colons = _count_colons(line)
     stars = _count_stars(line)
-    return max([colons, stars])
+    return max(colons, stars-1)
 
 def _count_colons(line):
     return _count_leading_char(line, ':')
