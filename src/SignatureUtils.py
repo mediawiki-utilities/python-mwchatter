@@ -18,8 +18,12 @@ def extract_signature_blocks(text):
     blocks = []
     signatures = extract_signatures(text)
     start = 0
-    for sig in signatures:
+    for i, sig in enumerate(signatures):
         end = _find_next_endline(text, sig['end'])
+        if len(signatures) > i+1 and signatures[i+1]['end'] < end:
+            end = sig['end']
+        elif len(signatures) == i+1:
+            end = len(text)
         blocks.append(text[start:end])
         start = end
     return blocks

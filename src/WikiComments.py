@@ -6,9 +6,10 @@ class Error(Exception): pass
 class MultiSignatureError(Error): pass
 
 class Block:
-    def __init__(self, text, start):
+    def __init__(self, text, start, indent):
         self.text = text
         self.start = start
+        self.indent = indent
 
     @property
     def end(self):
@@ -65,6 +66,25 @@ def get_linear_merge_comment_blocks(text):
             working_block = ""
     return comment_blocks
 
+def _generate_blocks(text):
+    position = 0
+    blocks = []
+    indent_block_text = wiu.extract_indent_blocks(text)
+    for block_text in indent_block_text:
+        indent = wiu.find_min_indent(block_text)
+        sub_blocks = _break_block_text_by_signatures(block_text)
+        for sub_block_text in sub_blocks:
+            blocks.append(Block(sub_block_text, position, indent))
+            position += len(sub_block_text)
+    return blocks
+
+def _break_block_text_by_signatures(text):
+    sub_blocks = su.extract_signature_blocks(text)
+    if len(sub_blocks) == 0:
+        sub_blocks = [text]
+    return sub_blocks
+
+
 def get_level_merge_comment_blocks(text):
     comment_blocks = []
     indent_blocks = wiu.extract_indent_blocks(text)
@@ -93,7 +113,8 @@ def _get_block_numbers_at_level_between(blocks, level, start, end):
                 numbers.append(i)
     return numbers
 
-def _seperate_by_signed_unsigned(block_list)
+def _seperate_by_signed_unsigned(block_list):
+    pass
 
 def _block_list_has_signature(block_list):
     for block in block_list:
