@@ -1,11 +1,11 @@
 import WikiIndentUtils as wiu
 import SignatureUtils as su
-
+import IndentTree
 
 def generate_block_tree(text):
     blocks = _generate_blocks(text)
-    root_node = BlockTreeNode(None,None)
-    root_node.generate_block_tree(blocks)
+    root_node = IndentTree.IndentTreeNode(None,None)
+    root_node.generate_tree_from_list(blocks)
     return root_node
 
 def _generate_blocks(text):
@@ -36,49 +36,5 @@ class Block:
     def end(self):
         return self.start + len(self.text)
 
-class BlockTreeNode:
-    def __init__(self, parent, block):
-        self.parent = parent
-        self.block = block
-        self.children = []
-
-    def generate_block_tree(self, block_list):
-        level_block_nums = self._get_block_nums_at_start_level(block_list)
-        self.children = [BlockTreeNode(self, block_list[i]) for i in level_block_nums]
-        for i, child in enumerate(self.children):
-            sub_start = level_block_nums[i] + 1
-            if len(level_block_nums) > i+1:
-                sub_end = level_block_nums[i+1]
-            else:
-                sub_end = len(block_list)
-            child.generate_block_tree(block_list[sub_start:sub_end])
-
-    def _get_block_nums_at_start_level(self, blocks):
-        numbers = []
-        if len(blocks) > 0:
-            start_indent = blocks[0].indent
-            for i, block in enumerate(blocks):
-                    if block.indent == start_indent:
-                        numbers.append(i)
-        return numbers
-
     def __str__(self):
-        spacing = ""
-        self.pprint(spacing)
-
-    def walk(self):
-        yield self
-        for child in self.children:
-            for n in child.walk():
-                yield n
-
-    def pprint(self, spacing):
-        n = 100
-        if self.block is not None:
-            for line in self.block.text.split("\n"):
-                chunks = [spacing + line[i:i+n].strip() for i in range(0, len(line), n)]
-                for chunk in chunks:
-                    print(chunk)
-            print('\n')
-        for child in self.children:
-            child.pprint(spacing + "    ")
+        return self.text

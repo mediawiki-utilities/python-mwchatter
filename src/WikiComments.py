@@ -51,30 +51,19 @@ class Comment:
             return None
 
     def __str__(self):
-        output = ""
-        n = 100
-        chunks = []
-        for block in self._blocks:
-            for line in block.text.split("\n"):
-                chunks.extend([line[i:i+n].strip() for i in range(0, len(line), n)])
-        chunks.extend(["\n", self.timestamp, self.user])
-        return "\n".join(chunks).strip()
+        return "User:{0} | Time:{1}".format(self.user, self.timestamp)
 
 
 def get_linear_merge_comments(text):
     block_tree = tb.generate_block_tree(text)
     comments = []
     working_comment = Comment()
-    for block_node in block_tree.walk():
-        if block_node.block != None:
-            working_comment.add_block(block_node.block)
+    for node in block_tree.walk():
+        if node.value != None:
+            working_comment.add_block(node.value)
         if working_comment.user is not None:
             comments.append(working_comment)
             working_comment = Comment()
     if len(comments) > 0:
         comments[-1].add_blocks(working_comment.blocks)
     return comments
-
-def get_level_merge_comment_blocks(text):
-    blocks = _generate_blocks(text)
-    comments, unclaimed_blocks = _recursive_level_merge(blocks, 0, len(blocks))
