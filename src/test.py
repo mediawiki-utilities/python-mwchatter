@@ -26,9 +26,16 @@ sig_focused = True
 for f_path in talk_files:
     with open(f_path, "r") as f:
         text = f.read()
-        root_node = tb.generate_block_tree(text)
-        root_node.pprint("")
-        print("\n\n\n\n\n")
+        wikicode = mwp.parse(text)
+        sections = wikicode.get_sections()
+        for section in sections:
+            section_text = str(section)
+            # if "A cup of coffee for you!" in section_text:
+            #     import pdb; pdb.set_trace()
+            comments = wc.get_linear_merge_comments(section_text)
+            for comment in comments:
+                print("\n"+"# "*comment.indent + ("\n"+"# "*comment.indent).join(str(comment).split("\n")))
+                print("\n\n ####################################################### \n\n")
         # wikicode = mwp.parse(text)
         # sections = wikicode.get_sections()
         # for section in sections:

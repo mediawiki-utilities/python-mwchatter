@@ -66,6 +66,12 @@ class BlockTreeNode:
         spacing = ""
         self.pprint(spacing)
 
+    def walk(self):
+        yield self
+        for child in self.children:
+            for n in child.walk():
+                yield n
+
     def pprint(self, spacing):
         n = 100
         if self.block is not None:
