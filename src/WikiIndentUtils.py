@@ -21,17 +21,18 @@ def find_min_indent(text):
     return min(indents)
 
 def find_line_indent(line):
-    return _count_colons_then_starts(line)
+    return _count_indent_in_some_order(line)
 
-def _count_colons_then_starts(line):
-    count = _count_colons(line)
-    return count + _count_stars(line[count:])
-
-def _count_colons(line):
-    return _count_leading_char(line, ':')
-
-def _count_stars(line):
-    return _count_leading_char(line, '*')
+def _count_indent_in_some_order(line):
+    count = 0
+    indent_chars = [':', '*', '#']
+    while len(indent_chars) > 0:
+        if line[count] in indent_chars:
+            count += _count_leading_char(line[count:], line[count])
+            indent_chars.remove(line[count])
+        else:
+            break
+    return count
 
 def _count_leading_char(line, char):
     line = line.strip()
