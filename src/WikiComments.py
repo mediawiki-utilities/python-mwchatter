@@ -15,6 +15,50 @@ class Block:
     def end(self):
         return self.start + len(self.text)
 
+class _BlockTreeNode:
+    def __init__(self, parent, block):
+        self.parent = parent
+        self.block = block
+        self.children = []
+        self._comment = None
+
+    def generate_block_tree(self, block_list):
+        level_block_nums = self._get_block_nums_at_start_level(block_list)
+        self.children = [_BlockTreeNode(self, block_list[i]) for i in level_block_nums]
+        for i, child in enumerate(self.children):
+            sub_start = level_block_nums[i] + 1
+            if len(level_block_nums) > i+1:
+                sub_end = level_block_nums[i+1]
+            else:
+                sub_end = len(block_list)
+            child.generate_block_tree(block_list[sub_start:sub_end])
+
+    def _get_block_nums_at_start_level(self, blocks):
+        numbers = []
+        if len(blocks) > 0:
+            start_indent = blocks[0].indent
+            for i, block in enumerate(blocks):
+                    if block.indent == start_indent:
+                        numbers.append(i)
+        return numbers
+
+    def _get_comment(self, can_go_upwards = True):
+        if self.block is not None and self._comment is None:
+            if su.has_signature(self.block):
+                self._comment = Comment().add_block(self.block)
+            else:
+
+        return self._comment
+
+    def _get_comment_from_sibling(self, can_go_upwards = True):
+        if self.block is not None:
+            siblings = self.parent.children
+            next_index = siblings.index(self) + 1
+            if len(siblings) > next_index:
+                self._comment = siblings[next_index]._get_comment()
+            else
+        return self._comment
+
 class Comment:
     def __init__(self):
         self._blocks = []
@@ -99,7 +143,7 @@ def _recursive_level_merge(blocks, start, end):
     unclaimed_blocks = []
     if len(block_nums_at_top) == 1:
         block = blocks[block_nums_at_top[0]]
-        if su.has_signature(block.text)
+        if su.has_signature(block.text):
             comments.append(Comment().add_block(block))
         else:
             unclaimed_blocks.append(block)
@@ -114,8 +158,7 @@ def _recursive_level_merge(blocks, start, end):
         comments.extend(lower_comments)
         b_start += 1
         if (b_start+1 == b_end):
-
-        blocks, undetermined = recursive_level_merge()
+            blocks, undetermined = recursive_level_merge()
 
     return comments, unclaimed_blocks
 
@@ -142,3 +185,14 @@ def _pairwise(iterable):
     a, b = tee(iterable)
     next(b, None)
     return zip(a, b)
+
+sample = """
+         Level1
+         : Level2
+         Level1
+         : Level2
+         : Level2
+         :: Level3
+         : Level2
+         Level1
+         """
