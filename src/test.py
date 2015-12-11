@@ -7,6 +7,7 @@ import SignatureUtils
 import WikiIndentUtils
 import mwparserfromhell as mwp
 import WikiComments as wc
+import TextBlocks as tb
 
 def switch_marker(block_marker = ""):
     if block_marker == "#### ":
@@ -20,21 +21,25 @@ for (name, directories, files) in os.walk(talk_samples_base):
     talk_files.extend([name + "/" +f for f in files])
 
 
+
 sig_focused = True
 for f_path in talk_files:
     with open(f_path, "r") as f:
         text = f.read()
-        wikicode = mwp.parse(text)
-        sections = wikicode.get_sections()
-        for section in sections:
-            section_text = str(section)
-            comments = wc.get_linear_merge_comment_blocks(section_text)
-            for comment in comments:
-                signatures = SignatureUtils.extract_signatures(comment)
-                for s in signatures:
-                    print(comment)
-                    print( s['timestamp'] + " " + s['user'] + "\n" + s['text'])
-                    print("+++++++++++++++++++++++++++++++++++++++++++++++++")
+        root_node = tb.generate_block_tree(text)
+        root_node.pprint("")
+        print("\n\n\n\n\n")
+        # wikicode = mwp.parse(text)
+        # sections = wikicode.get_sections()
+        # for section in sections:
+        #     section_text = str(section)
+        #     comments = wc.get_linear_merge_comment_blocks(section_text)
+        #     for comment in comments:
+        #         signatures = SignatureUtils.extract_signatures(comment)
+        #         for s in signatures:
+        #             print(comment)
+        #             print( s['timestamp'] + " " + s['user'] + "\n" + s['text'])
+        #             print("+++++++++++++++++++++++++++++++++++++++++++++++++")
         # wikicode = mwp.parse(text)
         # sections = wikicode.get_sections()
         # block_marker = switch_marker()

@@ -33,6 +33,7 @@ class TestTextBlocks(unittest.TestCase):
         self.assertEqual(len(root_node.children[1].children[0].children), 1)
         self.assertEqual(len(root_node.children[1].children[1].children), 0)
         self.assertEqual(len(root_node.children[2].children), 0)
+        root_node.pprint("")
 
 class TestWikiIndentUtils(unittest.TestCase):
 

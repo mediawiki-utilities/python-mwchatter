@@ -1,6 +1,7 @@
 import WikiIndentUtils as wiu
 import SignatureUtils as su
 
+
 def generate_block_tree(text):
     blocks = _generate_blocks(text)
     root_node = BlockTreeNode(None,None)
@@ -60,3 +61,18 @@ class BlockTreeNode:
                     if block.indent == start_indent:
                         numbers.append(i)
         return numbers
+
+    def __str__(self):
+        spacing = ""
+        self.pprint(spacing)
+
+    def pprint(self, spacing):
+        n = 100
+        if self.block is not None:
+            for line in self.block.text.split("\n"):
+                chunks = [spacing + line[i:i+n].strip() for i in range(0, len(line), n)]
+                for chunk in chunks:
+                    print(chunk)
+            print('\n')
+        for child in self.children:
+            child.pprint(spacing + "    ")
