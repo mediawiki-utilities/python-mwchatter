@@ -5,60 +5,6 @@ import WikiIndentUtils as wiu
 class Error(Exception): pass
 class MultiSignatureError(Error): pass
 
-class Block:
-    def __init__(self, text, start, indent):
-        self.text = text
-        self.start = start
-        self.indent = indent
-
-    @property
-    def end(self):
-        return self.start + len(self.text)
-
-class _BlockTreeNode:
-    def __init__(self, parent, block):
-        self.parent = parent
-        self.block = block
-        self.children = []
-        self._comment = None
-
-    def generate_block_tree(self, block_list):
-        level_block_nums = self._get_block_nums_at_start_level(block_list)
-        self.children = [_BlockTreeNode(self, block_list[i]) for i in level_block_nums]
-        for i, child in enumerate(self.children):
-            sub_start = level_block_nums[i] + 1
-            if len(level_block_nums) > i+1:
-                sub_end = level_block_nums[i+1]
-            else:
-                sub_end = len(block_list)
-            child.generate_block_tree(block_list[sub_start:sub_end])
-
-    def _get_block_nums_at_start_level(self, blocks):
-        numbers = []
-        if len(blocks) > 0:
-            start_indent = blocks[0].indent
-            for i, block in enumerate(blocks):
-                    if block.indent == start_indent:
-                        numbers.append(i)
-        return numbers
-
-    def _get_comment(self, can_go_upwards = True):
-        if self.block is not None and self._comment is None:
-            if su.has_signature(self.block):
-                self._comment = Comment().add_block(self.block)
-            else:
-
-        return self._comment
-
-    def _get_comment_from_sibling(self, can_go_upwards = True):
-        if self.block is not None:
-            siblings = self.parent.children
-            next_index = siblings.index(self) + 1
-            if len(siblings) > next_index:
-                self._comment = siblings[next_index]._get_comment()
-            else
-        return self._comment
-
 class Comment:
     def __init__(self):
         self._blocks = []
@@ -113,24 +59,6 @@ def get_linear_merge_comment_blocks(text):
             comment_blocks.extend(su.extract_signature_blocks(working_block))
             working_block = ""
     return comment_blocks
-
-def _generate_blocks(text):
-    position = 0
-    blocks = []
-    indent_block_text = wiu.extract_indent_blocks(text)
-    for block_text in indent_block_text:
-        indent = wiu.find_min_indent(block_text)
-        sub_blocks = _break_block_text_by_signatures(block_text)
-        for sub_block_text in sub_blocks:
-            blocks.append(Block(sub_block_text, position, indent))
-            position += len(sub_block_text)
-    return blocks
-
-def _break_block_text_by_signatures(text):
-    sub_blocks = su.extract_signature_blocks(text)
-    if len(sub_blocks) == 0:
-        sub_blocks = [text]
-    return sub_blocks
 
 def get_level_merge_comment_blocks(text):
     blocks = _generate_blocks(text)

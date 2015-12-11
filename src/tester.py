@@ -1,8 +1,9 @@
 import unittest
 import WikiComments as wc
 import WikiIndentUtils as wiu
+import TextBlocks as tb
 
-class TestWikiComments(unittest.TestCase):
+class TestTextBlocks(unittest.TestCase):
 
     def test_basic_generate_blocks(self):
         sample = """Level1
@@ -13,7 +14,7 @@ class TestWikiComments(unittest.TestCase):
                     :: Level3
                     : Level2
                     Level1"""
-        blocks = wc._generate_blocks(sample)
+        blocks = tb._generate_blocks(sample)
         self.assertEqual(len(blocks), 7)
 
     def test_generate_block_tree(self):
@@ -25,9 +26,8 @@ class TestWikiComments(unittest.TestCase):
                     :: Level3a
                     : Level2d
                     Level1c"""
-        blocks = wc._generate_blocks(sample)
-        root_node = wc._BlockTreeNode(None, None)
-        root_node.generate_block_tree(blocks)
+
+        root_node = tb.generate_block_tree(sample)
         self.assertEqual(len(root_node.children), 3)
         self.assertEqual(len(root_node.children[1].children), 2)
         self.assertEqual(len(root_node.children[1].children[0].children), 1)
