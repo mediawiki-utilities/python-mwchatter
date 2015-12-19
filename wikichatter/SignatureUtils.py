@@ -96,7 +96,7 @@ def _extract_rightmost_user(text):
 
     func_picker = [(l[0], l[1], _extract_userpage_user) for l in up_locs]
     func_picker.extend([(l[0], l[1], _extract_usertalk_user) for l in ut_locs])
-    func_picker.extend([(l[0], l[1], _extract_usercontribs_user) for l in ut_locs])
+    func_picker.extend([(l[0], l[1], _extract_usercontribs_user) for l in uc_locs])
 
     if len(func_picker) == 0:
         raise NoUsernameError(text)
