@@ -1,6 +1,6 @@
-import WikiIndentUtils as wiu
-import SignatureUtils as su
-import IndentTree
+from . import WikiIndentUtils as wiu
+from . import SignatureUtils as su
+from . import IndentTree
 
 def generate_block_tree(text):
     blocks = _generate_blocks(text)

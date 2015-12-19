@@ -1,6 +1,6 @@
-import SignatureUtils as su
-import WikiIndentUtils as wiu
-import TextBlocks as tb
+from . import SignatureUtils as su
+from . import WikiIndentUtils as wiu
+from . import TextBlocks as tb
 
 class Error(Exception): pass
 class MultiSignatureError(Error): pass
