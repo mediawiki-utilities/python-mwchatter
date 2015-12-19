@@ -59,7 +59,7 @@ def get_linear_merge_comments(text):
     comments = []
     working_comment = Comment()
     for node in block_tree.walk():
-        if node.value != None:
+        if node.value is not None:
             working_comment.add_block(node.value)
         if working_comment.user is not None:
             comments.append(working_comment)
