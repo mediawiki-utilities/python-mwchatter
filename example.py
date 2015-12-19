@@ -3,13 +3,13 @@ pp = pprint.PrettyPrinter(indent=4)
 
 import re
 import os
-import SignatureUtils
-import WikiIndentUtils
+from wikichatter import SignatureUtils
+from wikichatter import WikiIndentUtils
 import mwparserfromhell as mwp
-import WikiComments as wc
-import TextBlocks as tb
-import IndentTree as indT
-import TalkPageParser
+from wikichatter import WikiComments as wc
+from wikichatter import TextBlocks as tb
+from wikichatter import IndentTree as indT
+from wikichatter import TalkPageParser
 
 def switch_marker(block_marker = ""):
     if block_marker == "#### ":

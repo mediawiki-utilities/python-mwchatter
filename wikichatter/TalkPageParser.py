@@ -1,6 +1,6 @@
 import mwparserfromhell as mwp
-import IndentTree
-import WikiComments as wc
+from . import IndentTree
+from . import WikiComments as wc
 
 class Page:
     def __init__(self):
