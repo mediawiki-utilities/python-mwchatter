@@ -4,7 +4,7 @@ from . import IndentTree
 
 def generate_block_tree(text):
     blocks = _generate_blocks(text)
-    root_node = IndentTree.IndentTreeNode(None,None)
+    root_node = IndentTree.IndentTreeNode(None, None)
     root_node.generate_tree_from_list(blocks)
     return root_node
 

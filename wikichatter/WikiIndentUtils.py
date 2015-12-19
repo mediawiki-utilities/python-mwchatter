@@ -38,7 +38,7 @@ def _count_indent_in_some_order(line):
 
 def _count_leading_char(line, char):
     line = line.strip()
-    if len(line)==0 or line[0]!=char:
+    if len(line) == 0 or line[0] != char:
         return 0
     else:
         return 1 + _count_leading_char(line[1:], char)

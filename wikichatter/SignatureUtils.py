@@ -53,7 +53,7 @@ def _divide_on_timestamp(text):
     divided_text = []
     locations = _find_timestamp_locations(text)
     old_end = 0
-    for ( _, t_end) in locations:
+    for _, t_end in locations:
         end = _find_next_endline(text, t_end)
         divided_text.append((text[old_end:end], old_end, end))
         old_end = end
@@ -68,7 +68,7 @@ def _find_next_endline(text, position):
 def _try_extract_signature(text):
     try:
         return _extract_rightmost_signature(text)
-    except NoSignature as e:
+    except NoSignature:
         return None
 
 def _extract_rightmost_signature(text):
@@ -79,7 +79,13 @@ def _extract_rightmost_signature(text):
         raise NoSignature(e)
     start = min(u_start, ts_start)
     end = max(u_end, ts_end)
-    return {'user':user, 'timestamp':timestamp, 'text':text[start:end], 'start':start, 'end':end}
+    return {
+        'user': user,
+        'timestamp': timestamp,
+        'text': text[start:end],
+        'start': start,
+        'end': end
+    }
 
 def _extract_rightmost_timestamp(text):
     ts_loc = _find_timestamp_locations(text)
@@ -113,7 +119,7 @@ def _extract_timestamp_user(text):
 
 def _extract_userpage_user(text):
     up = USER_RE.match(text)
-    #import pdb; pdb.set_trace()
+    # import pdb; pdb.set_trace()
     if up is None:
         raise NoUsernameError(text)
     raw_username = up.group(2)
