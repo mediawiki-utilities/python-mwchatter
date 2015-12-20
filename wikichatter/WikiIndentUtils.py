@@ -28,7 +28,7 @@ def _count_indent_in_some_order(line):
     count = 0
     indent_chars = [':', '*', '#']
     while len(indent_chars) > 0:
-        if len(line) > 0 and line[count] in indent_chars:
+        if len(line) > count and line[count] in indent_chars:
             char = line[count]
             count += _count_leading_char(line[count:], line[count])
             indent_chars.remove(char)
