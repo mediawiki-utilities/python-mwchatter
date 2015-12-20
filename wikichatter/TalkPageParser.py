@@ -20,7 +20,8 @@ class Section:
 def parse(text):
     root = IndentTree.IndentTreeNode(None, Page())
     parse_list = []
-    wikicode = mwp.parse(text)
+    # skip_style_tags is fix for https://github.com/kjschiroo/WikiChatter/issues/10
+    wikicode = mwp.parse(text, skip_style_tags=True)
     sections = wikicode.get_sections()
     for section in sections:
         section_text = str(section)
