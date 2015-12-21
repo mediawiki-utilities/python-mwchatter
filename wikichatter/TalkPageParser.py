@@ -2,12 +2,14 @@ import mwparserfromhell as mwp
 from . import IndentTree
 from . import WikiComments as wc
 
+
 class Page:
     def __init__(self):
         self.indent = -2
 
     def __str__(self):
         return "Talk_Page"
+
 
 class Section:
     def __init__(self, heading):
@@ -17,12 +19,12 @@ class Section:
     def __str__(self):
         return self.heading
 
+
 def parse(text):
     root = IndentTree.IndentTreeNode(None, Page())
     parse_list = []
-    # skip_style_tags is fix for https://github.com/kjschiroo/WikiChatter/issues/10
     wikicode = mwp.parse(text, skip_style_tags=True)
-    sections = wikicode.get_sections()
+    sections = wikicode.get_sections(flat=True)
     for section in sections:
         section_text = str(section)
         comments = wc.get_linear_merge_comments(section_text)
