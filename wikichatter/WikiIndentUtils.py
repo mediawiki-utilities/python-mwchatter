@@ -14,14 +14,17 @@ def extract_indent_blocks(text):
     block_list.append(block)
     return block_list
 
+
 def find_min_indent(text):
     lines = text.split('\n')
     non_empty = [line for line in lines if line.strip() != ""]
     indents = [find_line_indent(line) for line in non_empty]
     return min(indents)
 
+
 def find_line_indent(line):
     return _count_indent_in_some_order(line)
+
 
 def _count_indent_in_some_order(line):
     line = line.strip()
@@ -35,6 +38,7 @@ def _count_indent_in_some_order(line):
         else:
             break
     return count
+
 
 def _count_leading_char(line, char):
     line = line.strip()
