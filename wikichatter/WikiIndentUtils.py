@@ -1,3 +1,6 @@
+import mwparserfromhell as mwp
+
+
 def extract_indent_blocks(text):
     old_indent = 0
     block_list = []
@@ -6,7 +9,8 @@ def extract_indent_blocks(text):
         indent = find_line_indent(line)
         if indent != old_indent and line.strip() != "":
             block = "\n".join(cur_block_lines)
-            block_list.append(block)
+            if block.strip() != "":
+                block_list.append(block)
             cur_block_lines = []
             old_indent = indent
         cur_block_lines.append(line)
@@ -46,3 +50,14 @@ def _count_leading_char(line, char):
         return 0
     else:
         return 1 + _count_leading_char(line[1:], char)
+
+
+def has_continuation_indent(text):
+    wikicode = mwp.parse(text, skip_style_tags=True)
+    templates = wikicode.filter_templates()
+    if len(templates) > 0:
+        potential_cont = str(templates[0])
+        if text.startswith(potential_cont):
+            if "outdent" in potential_cont:
+                return True
+    return False
