@@ -30,3 +30,7 @@ a level. This has specifically been observed to happen when a user inserts an
 image, since attempting to indent the image may not make sense. In this cases
 users commenting below them will be interpreted to be replying to the person
 that broke indentation rather than the original poster.
+
+## Running tests ##
+From base directory
+`python -m unittest test.<text_file>`
