@@ -30,9 +30,14 @@ class Section(object):
         else:
             self.heading = wiki_headings[0].title
             self.level = wiki_headings[0].level
+        self.text = self._get_section_text_from_wikicode(wikicode)
 
     def append_subsection(self, subsection):
         self._subsections.append(subsection)
+
+    def _get_section_text_from_wikicode(self, wikicode):
+        sections = wikicode.get_sections(include_headings=False)
+        return str(sections[0])
 
     @property
     def subsections(self):
