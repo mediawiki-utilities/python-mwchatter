@@ -65,7 +65,7 @@ class Comment(object):
         signature = self._find_signature()
         if signature is not None:
             self.author = signature['user']
-            self.timestamp = signature['timestamp']
+            self.time_stamp = signature['timestamp']
 
     def _find_signature(self):
         sig_list = []
@@ -86,3 +86,13 @@ class Comment(object):
     @property
     def text(self):
         return "\n".join([b.text for b in self._text_blocks])
+
+    def simplify(self):
+        text_blocks = [b.simplify() for b in self._text_blocks]
+        comments = [c.simplify() for c in self.comments]
+        return {
+            "author": self.author,
+            "time_stamp": self.time_stamp,
+            "text_blocks": text_blocks,
+            "comments": comments
+        }

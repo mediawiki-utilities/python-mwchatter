@@ -15,7 +15,8 @@ def extract_indent_blocks(text):
             old_indent = indent
         cur_block_lines.append(line)
     block = "\n".join(cur_block_lines)
-    block_list.append(block)
+    if block.strip() != "":
+        block_list.append(block)
     return block_list
 
 

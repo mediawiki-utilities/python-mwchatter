@@ -17,6 +17,7 @@ class Section(object):
     def __init__(self, raw_text):
         self._raw_text = raw_text
         self._subsections = []
+        self.comments = []
         self._load_fields()
 
     def _load_fields(self):
@@ -28,16 +29,21 @@ class Section(object):
             self.heading = ""
             self.level = EPI_LEVEL
         else:
-            self.heading = wiki_headings[0].title
+            self.heading = str(wiki_headings[0].title)
             self.level = wiki_headings[0].level
         self.text = self._get_section_text_from_wikicode(wikicode)
 
     def append_subsection(self, subsection):
         self._subsections.append(subsection)
 
+    def extract_comments(self, extractor):
+        self.comments = extractor(self.text)
+        for s in self._subsections:
+                s.extract_comments(extractor)
+
     def _get_section_text_from_wikicode(self, wikicode):
         sections = wikicode.get_sections(include_headings=False)
-        return str(sections[0])
+        return str(sections[-1])
 
     @property
     def subsections(self):
@@ -48,6 +54,15 @@ class Section(object):
 
     def __repr__(self):
         return str(self)
+
+    def simplify(self):
+        subsections = [s.simplify() for s in self._subsections]
+        comments = [c.simplify() for c in self.comments]
+        return {
+            "heading": self.heading,
+            "subsections": subsections,
+            "comments": comments
+        }
 
 
 def generate_sections_from_raw_text(text):

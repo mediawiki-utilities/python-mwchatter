@@ -36,3 +36,6 @@ class TextBlock:
 
     def __str__(self):
         return self.text
+
+    def simplify(self):
+        return self.text
