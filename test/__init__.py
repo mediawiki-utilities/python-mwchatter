@@ -1,1 +1,2 @@
-from . import test_section
+from .test_section import *
+from .test_textblock import *
