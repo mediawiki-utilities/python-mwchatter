@@ -29,7 +29,7 @@ def _break_block_text_by_signatures(text):
     return sub_blocks
 
 
-class TextBlock:
+class TextBlock(object):
     def __init__(self, text, indent):
         self.text = text
         self.indent = indent
