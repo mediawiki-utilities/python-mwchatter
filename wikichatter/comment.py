@@ -1,4 +1,4 @@
-from . import SignatureUtils as su
+from . import signatureutils as su
 from . import WikiIndentUtils as wiu
 
 

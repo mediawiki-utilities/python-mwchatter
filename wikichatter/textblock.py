@@ -1,5 +1,5 @@
 from . import WikiIndentUtils as wiu
-from . import SignatureUtils as su
+from . import signatureutils as su
 
 
 def generate_textblock_list(text):

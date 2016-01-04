@@ -5,16 +5,16 @@ This is a library currently in development to parse conversations on Wikipedia
 talk pages
 
 ## Basic use ##
-    import TalkPageParser as tpp
+    import signatureutils as tpp
 
     text = open(some_talk_page).read()
     parse_tree = tpp.parse(text)
     print(parse_tree)
 
 ## Current output ##
-`TalkPageParser.parse()` outputs a parse tree. The first level of this tree
-will be an `IndentTree.IndentTreeNode` containing a `TalkPageParser.Page`.
-The second level will be nodes containing `TalkPageParser.Section`s. Every
+`signatureutils.parse()` outputs a parse tree. The first level of this tree
+will be an `IndentTree.IndentTreeNode` containing a `signatureutils.Page`.
+The second level will be nodes containing `signatureutils.Section`s. Every
 level down from that will contain `WikiComments.Comment`s.
 
 The children of a node containing a comment are nodes containing the responses
