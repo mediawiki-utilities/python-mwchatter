@@ -1,5 +1,5 @@
 from . import signatureutils as su
-from . import WikiIndentUtils as wiu
+from . import indentutils as wiu
 
 
 def identify_comments_linear_merge(text_blocks):
