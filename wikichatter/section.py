@@ -26,7 +26,7 @@ class Section(object):
         if len(wiki_headings) > 1:
             raise TooManyHeadingsError()
         if len(wiki_headings) == 0:
-            self.heading = ""
+            self.heading = None
             self.level = EPI_LEVEL
         else:
             self.heading = str(wiki_headings[0].title)
@@ -56,13 +56,12 @@ class Section(object):
         return str(self)
 
     def simplify(self):
-        subsections = [s.simplify() for s in self._subsections]
-        comments = [c.simplify() for c in self.comments]
-        return {
-            "heading": self.heading,
-            "subsections": subsections,
-            "comments": comments
-        }
+        basic = {}
+        basic["subsections"] = [s.simplify() for s in self._subsections]
+        basic["comments"] = [c.simplify() for c in self.comments]
+        if self.heading is not None:
+            basic["heading"] = self.heading
+        return basic
 
 
 def generate_sections_from_raw_text(text):

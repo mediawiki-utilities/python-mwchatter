@@ -88,11 +88,11 @@ class Comment(object):
         return "\n".join([b.text for b in self._text_blocks])
 
     def simplify(self):
-        text_blocks = [b.simplify() for b in self._text_blocks]
-        comments = [c.simplify() for c in self.comments]
-        return {
-            "author": self.author,
-            "time_stamp": self.time_stamp,
-            "text_blocks": text_blocks,
-            "comments": comments
-        }
+        basic = {}
+        basic["text_blocks"] = [b.simplify() for b in self._text_blocks]
+        basic["comments"] = [c.simplify() for c in self.comments]
+        if self.author is not None:
+            basic["author"] = self.author
+        if self.time_stamp is not None:
+            basic["time_stamp"] = self.time_stamp
+        return basic

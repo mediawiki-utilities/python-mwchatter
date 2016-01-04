@@ -11,8 +11,7 @@ class Page(object):
             s.extract_comments(extractor)
 
     def simplify(self):
-        sections = [s.simplify() for s in self.sections]
-        return {
-            "title": self.title,
-            "sections": sections
-        }
+        basic = {"sections": [s.simplify() for s in self.sections]}
+        if self.title is not None:
+            basic["title"] = self.title
+        return basic
