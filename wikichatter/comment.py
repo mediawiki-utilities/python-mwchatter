@@ -80,7 +80,7 @@ class Comment(object):
 
     @property
     def level(self):
-        levels = [wiu.find_min_indent(block.text) for block in self._text_blocks]
+        levels = [block.indent for block in self._text_blocks]
         return min(levels)
 
     @property
