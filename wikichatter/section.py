@@ -17,12 +17,18 @@ class Section(object):
     def __init__(self, wikitext):
         self._subsections = []
         self.comments = []
+        wikicode = self._get_wikicode_from_input(wikitext)
+        self._load_section_info(wikicode)
 
+    def _get_wikicode_from_input(self, wikitext):
         # wikitext can be either a wikicode object or a string
         if type(wikitext) is not mwp.wikicode.Wikicode:
             wikicode = mwp.parse(self.wikitext, skip_style_tags=True)
         else:
             wikicode = wikitext
+        return wikicode
+
+    def _load_section_info(self, wikicode):
         wiki_headings = [h for h in wikicode.filter_headings()]
 
         if len(wiki_headings) > 1:
