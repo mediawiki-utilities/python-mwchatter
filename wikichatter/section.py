@@ -14,15 +14,17 @@ EPI_LEVEL = 0
 
 class Section(object):
 
-    def __init__(self, raw_text):
-        self._raw_text = raw_text
+    def __init__(self, wikitext):
         self._subsections = []
         self.comments = []
-        self._load_fields()
 
-    def _load_fields(self):
-        wikicode = mwp.parse(self._raw_text, skip_style_tags=True)
+        # wikitext can be either a wikicode object or a string
+        if type(wikitext) is not mwp.wikicode.Wikicode:
+            wikicode = mwp.parse(self.wikitext, skip_style_tags=True)
+        else:
+            wikicode = wikitext
         wiki_headings = [h for h in wikicode.filter_headings()]
+
         if len(wiki_headings) > 1:
             raise TooManyHeadingsError()
         if len(wiki_headings) == 0:
@@ -72,7 +74,7 @@ def generate_sections_from_raw_text(text):
 def _generate_flat_list_of_sections(text):
     wikicode = mwp.parse(text, skip_style_tags=True)
     mw_sections = wikicode.get_sections(include_lead=True, flat=True)
-    sections = [Section(str(s)) for s in mw_sections if len(str(s).strip()) > 0]
+    sections = [Section(s) for s in mw_sections if len(s.nodes) > 0]
     return sections
 
 
