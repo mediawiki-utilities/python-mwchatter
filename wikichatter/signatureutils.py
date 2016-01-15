@@ -1,18 +1,32 @@
 import re
 
-class Error(Exception): pass
-class NoUsernameError(Error): pass
-class NoTimestampError(Error): pass
-class NoSignature(Error): pass
+
+class Error(Exception):
+    pass
+
+
+class NoUsernameError(Error):
+    pass
+
+
+class NoTimestampError(Error):
+    pass
+
+
+class NoSignature(Error):
+    pass
+
 
 TIMESTAMP_RE = re.compile(r"[0-9]{2}:[0-9]{2}, [0-9]{1,2} [^\W\d]+ [0-9]{4} \(UTC\)")
 USER_RE = re.compile(r"(\[\[\W*user\W*:(.*?)\|[^\]]+\]\])", re.I)
 USER_TALK_RE = re.compile(r"(\[\[\W*user[_ ]talk\W*:(.*?)\|[^\]]+\]\])", re.I)
 USER_CONTRIBS_RE = re.compile(r"(\[\[\W*Special:Contributions/(.*?)\|[^\]]+\]\])", re.I)
 
+
 def has_signature(text):
     signatures = extract_signatures(text)
     return len(signatures) > 0
+
 
 def extract_signature_blocks(text):
     blocks = []
@@ -20,13 +34,14 @@ def extract_signature_blocks(text):
     start = 0
     for i, sig in enumerate(signatures):
         end = _find_next_endline(text, sig['end'])
-        if len(signatures) > i+1 and signatures[i+1]['end'] < end:
+        if len(signatures) > i + 1 and signatures[i + 1]['end'] < end:
             end = sig['end']
-        elif len(signatures) == i+1:
+        elif len(signatures) == i + 1:
             end = len(text)
         blocks.append(text[start:end])
         start = end
     return blocks
+
 
 def extract_signatures(text):
     """
@@ -49,6 +64,7 @@ def extract_signatures(text):
             signature_list.append(s)
     return signature_list
 
+
 def _divide_on_timestamp(text):
     divided_text = []
     locations = _find_timestamp_locations(text)
@@ -59,17 +75,20 @@ def _divide_on_timestamp(text):
         old_end = end
     return divided_text
 
+
 def _find_next_endline(text, position):
     endlines = [i for i, letter in enumerate(text) if letter == '\n']
     candidates = [i for i in endlines if i >= position]
     candidates.append(len(text))
     return min(candidates)
 
+
 def _try_extract_signature(text):
     try:
         return _extract_rightmost_signature(text)
     except NoSignature:
         return None
+
 
 def _extract_rightmost_signature(text):
     try:
@@ -87,6 +106,7 @@ def _extract_rightmost_signature(text):
         'end': end
     }
 
+
 def _extract_rightmost_timestamp(text):
     ts_loc = _find_timestamp_locations(text)
     if len(ts_loc) == 0:
@@ -94,6 +114,7 @@ def _extract_rightmost_timestamp(text):
     (start, end) = max(ts_loc, key=lambda e: e[1])
     timestamp = _extract_timestamp_user(text[start:end])
     return (timestamp, start, end)
+
 
 def _extract_rightmost_user(text):
     up_locs = _find_userpage_locations(text)
@@ -110,12 +131,14 @@ def _extract_rightmost_user(text):
     user = extractor(text[start:end])
     return (user, start, end)
 
+
 def _extract_timestamp_user(text):
     ts = TIMESTAMP_RE.match(text)
     if ts is None:
         raise NoTimestampError(text)
     timestamp = ts.group(0)
     return timestamp
+
 
 def _extract_userpage_user(text):
     up = USER_RE.match(text)
@@ -125,12 +148,14 @@ def _extract_userpage_user(text):
     raw_username = up.group(2)
     return _clean_extracted_username(raw_username)
 
+
 def _extract_usertalk_user(text):
     ut = USER_TALK_RE.match(text)
     if ut is None:
         raise NoUsernameError(text)
     raw_username = ut.group(2)
     return _clean_extracted_username(raw_username)
+
 
 def _extract_usercontribs_user(text):
     uc = USER_CONTRIBS_RE.match(text)
@@ -139,27 +164,34 @@ def _extract_usercontribs_user(text):
     raw_username = uc.group(2)
     return _clean_extracted_username(raw_username)
 
+
 def _clean_extracted_username(raw_username):
     parts = re.split('#|/', raw_username)
     username = parts[0]
     return username.strip()
+
 
 def _find_user_locations(text):
     up = _find_userpage_locations(text)
     ut = _find_usertalk_locations(text)
     return up.extend(ut)
 
+
 def _find_timestamp_locations(text):
     return _find_regex_locations(TIMESTAMP_RE, text)
+
 
 def _find_userpage_locations(text):
     return _find_regex_locations(USER_RE, text)
 
+
 def _find_usertalk_locations(text):
     return _find_regex_locations(USER_TALK_RE, text)
 
+
 def _find_usercontribs_location(text):
     return _find_regex_locations(USER_CONTRIBS_RE, text)
+
 
 def _find_regex_locations(regex, text):
     regex_iter = regex.finditer(text)
