@@ -5,14 +5,14 @@ This is a library currently in development to parse conversations on Wikipedia
 talk pages
 
 ## Basic use ##
-    import talkpageparser as tpp
+    from wikichatter import talkpageparser as tpp
 
     text = open(some_talk_page).read()
     parsed_text = tpp.parse(text)
     print(parse_text)
 
 ## Current output ##
-`talkpageparser.parse()` generates output composed of dictionaries and lists
+`tpp.parse()` generates output composed of dictionaries and lists
 observing the following json schema
 
     {
