@@ -1,5 +1,5 @@
 import os
-from wikichatter import talkpageparser
+import wikichatter as wc
 import json
 
 talk_samples_base = "./talk_samples/"
@@ -10,5 +10,5 @@ for (name, directories, files) in os.walk(talk_samples_base):
 for f_path in talk_files:
     with open(f_path, "r") as f:
         text = f.read()
-        parsed = talkpageparser.parse(text)
+        parsed = wc.parse(text)
         print(json.dumps(parsed))
