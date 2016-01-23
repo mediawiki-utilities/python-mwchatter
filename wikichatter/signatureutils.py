@@ -23,11 +23,6 @@ USER_TALK_RE = re.compile(r"(\[\[\W*user[_ ]talk\W*:(.*?)\|[^\]]+\]\])", re.I)
 USER_CONTRIBS_RE = re.compile(r"(\[\[\W*Special:Contributions/(.*?)\|[^\]]+\]\])", re.I)
 
 
-def has_signature(text):
-    signatures = extract_signatures(text)
-    return len(signatures) > 0
-
-
 def extract_signature_blocks(text):
     blocks = []
     signatures = extract_signatures(text)
