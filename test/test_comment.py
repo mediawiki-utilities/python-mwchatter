@@ -1,4 +1,5 @@
 import unittest
+import mwparserfromhell as mwp
 import wikichatter.comment as comment
 import wikichatter.indentblock as indentblock
 
@@ -20,7 +21,8 @@ class CommentTest(unittest.TestCase):
             LEVEL1 + FILLER + SIGNATURE + EL +
             LEVEL0 + FILLER + SIGNATURE + EL
         )
-        blocks = indentblock.generate_indentblock_list(text)
+        code = mwp.parse(text)
+        blocks = indentblock.generate_indentblock_list(code)
 
         comments = comment.identify_comments_linear_merge(blocks)
 
@@ -35,7 +37,8 @@ class CommentTest(unittest.TestCase):
             LEVEL2 + FILLER + SIGNATURE + EL +
             LEVEL1 + FILLER + SIGNATURE + EL
         )
-        blocks = indentblock.generate_indentblock_list(text)
+        code = mwp.parse(text)
+        blocks = indentblock.generate_indentblock_list(code)
 
         comments = comment.identify_comments_linear_merge(blocks)
 
