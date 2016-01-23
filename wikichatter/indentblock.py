@@ -16,18 +16,9 @@ def generate_indentblock_list(wikicode):
         elif continues:
             continuation_indent = old_indent + 1
         indent = local_indent + continuation_indent
-        sub_blocks = _break_block_code_by_signatures(block_code)
-        for sub_block_code in sub_blocks:
-            text_blocks.append(IndentBlock(sub_block_code, indent))
+        text_blocks.append(IndentBlock(block_code, indent))
         old_indent = indent
     return text_blocks
-
-
-def _break_block_code_by_signatures(block_code):
-    sub_blocks = su.extract_signature_blocks(block_code)
-    if len(sub_blocks) == 0:
-        sub_blocks = [block_code]
-    return sub_blocks
 
 
 class IndentBlock(object):

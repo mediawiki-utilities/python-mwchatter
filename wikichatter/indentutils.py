@@ -21,7 +21,7 @@ def extract_indent_blocks(wikicode):
     wc_block = _join_wikicode(cur_block_wc_lines)
     block = str(wc_block)
     if block.strip() != "":
-        wc_block_list.append(block)
+        wc_block_list.append(wc_block)
     return wc_block_list
 
 

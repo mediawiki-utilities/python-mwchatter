@@ -39,9 +39,13 @@ class TestIndentUtils(unittest.TestCase):
         blocks = indentutils.extract_indent_blocks(wikicode)
 
         self.assertEqual(len(blocks), 4)
+        self.assertEqual(type(blocks[0]), mwp.wikicode.Wikicode)
         self.assertIn(block0, str(blocks[0]))
+        self.assertEqual(type(blocks[1]), mwp.wikicode.Wikicode)
         self.assertIn(block1, str(blocks[1]))
+        self.assertEqual(type(blocks[2]), mwp.wikicode.Wikicode)
         self.assertIn(block2, str(blocks[2]))
+        self.assertEqual(type(blocks[3]), mwp.wikicode.Wikicode)
         self.assertIn(block3, str(blocks[3]))
 
     def test_basic_find_min_indent(self):
