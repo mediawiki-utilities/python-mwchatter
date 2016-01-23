@@ -1,5 +1,5 @@
 import unittest
-import wikichatter.textblock as textblock
+import wikichatter.indentblock as indentblock
 
 
 LEVEL0 = "Level 0\n"
@@ -17,7 +17,7 @@ OUTDENT = "{{outdent}}"
 OUTDENT_LEVEL = "{{outdent|5}}"
 
 
-class TextBlockTest(unittest.TestCase):
+class IndentBlockTest(unittest.TestCase):
 
     def test_generates_list_from_basic_input(self):
         text = (
@@ -27,7 +27,7 @@ class TextBlockTest(unittest.TestCase):
             LEVEL3
         )
 
-        blocks = textblock.generate_textblock_list(text)
+        blocks = indentblock.generate_indentblock_list(text)
 
         self.assertEqual(len(blocks), 4)
         self.assertEqual(blocks[0].indent, 0)
@@ -43,7 +43,7 @@ class TextBlockTest(unittest.TestCase):
             LEVEL0
         )
 
-        blocks = textblock.generate_textblock_list(text)
+        blocks = indentblock.generate_indentblock_list(text)
 
         self.assertEqual(len(blocks), 4)
         self.assertEqual(blocks[0].indent, 3)
@@ -62,7 +62,7 @@ class TextBlockTest(unittest.TestCase):
             LEVEL0
         )
 
-        blocks = textblock.generate_textblock_list(text)
+        blocks = indentblock.generate_indentblock_list(text)
 
         self.assertEqual(len(blocks), 7)
         self.assertEqual(blocks[0].indent, 0)
@@ -81,7 +81,7 @@ class TextBlockTest(unittest.TestCase):
             OUTDENT + LEVEL0
         )
 
-        blocks = textblock.generate_textblock_list(text)
+        blocks = indentblock.generate_indentblock_list(text)
 
         self.assertEqual(len(blocks), 4)
         self.assertEqual(blocks[3].indent, 3)
@@ -97,7 +97,7 @@ class TextBlockTest(unittest.TestCase):
             OUTDENT + LEVEL0
         )
 
-        blocks = textblock.generate_textblock_list(text)
+        blocks = indentblock.generate_indentblock_list(text)
 
         self.assertEqual(len(blocks), 7)
         self.assertEqual(blocks[6].indent, 6)
@@ -113,7 +113,7 @@ class TextBlockTest(unittest.TestCase):
             OUTDENT + LEVEL0
         )
 
-        blocks = textblock.generate_textblock_list(text)
+        blocks = indentblock.generate_indentblock_list(text)
 
         self.assertEqual(len(blocks), 7)
         self.assertEqual(blocks[6].indent, 6)
@@ -126,7 +126,7 @@ class TextBlockTest(unittest.TestCase):
             LIST3
         )
 
-        blocks = textblock.generate_textblock_list(text)
+        blocks = indentblock.generate_indentblock_list(text)
 
         self.assertEqual(len(blocks), 4)
         self.assertEqual(blocks[0].indent, 0)

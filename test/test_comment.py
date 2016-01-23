@@ -1,6 +1,6 @@
 import unittest
 import wikichatter.comment as comment
-import wikichatter.textblock as textblock
+import wikichatter.indentblock as indentblock
 
 LEVEL0 = ""
 LEVEL1 = ":"
@@ -20,7 +20,7 @@ class CommentTest(unittest.TestCase):
             LEVEL1 + FILLER + SIGNATURE + EL +
             LEVEL0 + FILLER + SIGNATURE + EL
         )
-        blocks = textblock.generate_textblock_list(text)
+        blocks = indentblock.generate_indentblock_list(text)
 
         comments = comment.identify_comments_linear_merge(blocks)
 
@@ -35,7 +35,7 @@ class CommentTest(unittest.TestCase):
             LEVEL2 + FILLER + SIGNATURE + EL +
             LEVEL1 + FILLER + SIGNATURE + EL
         )
-        blocks = textblock.generate_textblock_list(text)
+        blocks = indentblock.generate_indentblock_list(text)
 
         comments = comment.identify_comments_linear_merge(blocks)
 
