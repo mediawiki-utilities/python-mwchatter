@@ -23,21 +23,6 @@ USER_TALK_RE = re.compile(r"(\[\[\W*user[_ ]talk\W*:(.*?)\|[^\]]+\]\])", re.I)
 USER_CONTRIBS_RE = re.compile(r"(\[\[\W*Special:Contributions/(.*?)\|[^\]]+\]\])", re.I)
 
 
-def extract_signature_blocks(text):
-    blocks = []
-    signatures = extract_signatures(text)
-    start = 0
-    for i, sig in enumerate(signatures):
-        end = _find_next_endline(text, sig['end'])
-        if len(signatures) > i + 1 and signatures[i + 1]['end'] < end:
-            end = sig['end']
-        elif len(signatures) == i + 1:
-            end = len(text)
-        blocks.append(text[start:end])
-        start = end
-    return blocks
-
-
 def extract_signatures(text):
     """
     Returns all signatures found in the text as a list of dictionaries
@@ -164,12 +149,6 @@ def _clean_extracted_username(raw_username):
     parts = re.split('#|/', raw_username)
     username = parts[0]
     return username.strip()
-
-
-def _find_user_locations(text):
-    up = _find_userpage_locations(text)
-    ut = _find_usertalk_locations(text)
-    return up.extend(ut)
 
 
 def _find_timestamp_locations(text):

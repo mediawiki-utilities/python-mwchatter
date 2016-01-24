@@ -109,7 +109,6 @@ def _count_leading_char(line, char):
 def has_continuation_indent(wikicode):
     if len(wikicode.nodes) > 0:
         start_node = wikicode.nodes[0]
-        templates = wikicode.filter_templates()
         if type(start_node) is mwp.nodes.template.Template:
             return "outdent" in str(start_node).lower()
     return False
