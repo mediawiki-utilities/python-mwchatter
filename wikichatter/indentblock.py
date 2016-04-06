@@ -1,14 +1,15 @@
 from . import indentutils as wiu
 from . import signatureutils as su
+import mwparserfromhell as mwp
 
 
 # Unclean code
-def generate_indentblock_list(wikicode):
+def generate_indentblock_list(wcode):
     text_blocks = []
-    wikicode_blocks = wiu.extract_indent_blocks(wikicode)
+    wcode_blocks = _divide_wikicode_into_lines(wcode)
     continuation_indent = 0
     old_indent = 0
-    for block_code in wikicode_blocks:
+    for block_code in wcode_blocks:
         local_indent = wiu.find_min_indent(block_code)
         continues = wiu.has_continuation_indent(block_code)
         if local_indent == 0 and not continues:
@@ -19,6 +20,21 @@ def generate_indentblock_list(wikicode):
         text_blocks.append(IndentBlock(block_code, indent))
         old_indent = indent
     return text_blocks
+
+
+def _divide_wikicode_into_lines(wcode):
+    lines = []
+    line = []
+    for node in wcode.nodes:
+        line.append(node)
+        if type(node) is mwp.nodes.text.Text and '\n' in node:
+            lines.append(mwp.wikicode.Wikicode(line))
+            line = []
+    if len(line) > 0:
+        lines.append(mwp.wikicode.Wikicode(line))
+    return lines
+
+
 
 
 class IndentBlock(object):

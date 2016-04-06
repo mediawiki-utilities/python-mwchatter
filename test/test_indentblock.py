@@ -1,6 +1,6 @@
 import unittest
 import wikichatter.indentblock as indentblock
-import mwparserfromhell as mwp
+import wikichatter.mwparsermod as mwpm
 
 
 LEVEL0 = "Level 0\n"
@@ -27,7 +27,7 @@ class IndentBlockTest(unittest.TestCase):
             LEVEL2 +
             LEVEL3
         )
-        code = mwp.parse(text)
+        code = mwpm.parse(text)
 
         blocks = indentblock.generate_indentblock_list(code)
 
@@ -44,7 +44,7 @@ class IndentBlockTest(unittest.TestCase):
             LEVEL1 +
             LEVEL0
         )
-        code = mwp.parse(text)
+        code = mwpm.parse(text)
 
         blocks = indentblock.generate_indentblock_list(code)
 
@@ -64,7 +64,7 @@ class IndentBlockTest(unittest.TestCase):
             LEVEL1 +
             LEVEL0
         )
-        code = mwp.parse(text)
+        code = mwpm.parse(text)
 
         blocks = indentblock.generate_indentblock_list(code)
 
@@ -84,7 +84,7 @@ class IndentBlockTest(unittest.TestCase):
             LEVEL2 +
             OUTDENT + LEVEL0
         )
-        code = mwp.parse(text)
+        code = mwpm.parse(text)
 
         blocks = indentblock.generate_indentblock_list(code)
 
@@ -101,7 +101,7 @@ class IndentBlockTest(unittest.TestCase):
             LEVEL2 +
             OUTDENT + LEVEL0
         )
-        code = mwp.parse(text)
+        code = mwpm.parse(text)
 
         blocks = indentblock.generate_indentblock_list(code)
 
@@ -118,7 +118,7 @@ class IndentBlockTest(unittest.TestCase):
             LEVEL1 +
             OUTDENT + LEVEL0
         )
-        code = mwp.parse(text)
+        code = mwpm.parse(text)
 
         blocks = indentblock.generate_indentblock_list(code)
 
@@ -132,7 +132,7 @@ class IndentBlockTest(unittest.TestCase):
             LIST2 +
             LIST3
         )
-        code = mwp.parse(text)
+        code = mwpm.parse(text)
 
         blocks = indentblock.generate_indentblock_list(code)
 
