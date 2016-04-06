@@ -14,19 +14,11 @@ EPI_LEVEL = 0
 
 class Section(object):
 
-    def __init__(self, wikitext):
+    def __init__(self, wcode):
         self._subsections = []
         self.comments = []
-        self._wikicode = self._get_wikicode_from_input(wikitext)
+        self._wikicode = wcode
         self._load_section_info()
-
-    def _get_wikicode_from_input(self, wikitext):
-        # wikitext can be either a wikicode object or a string
-        if type(wikitext) is not mwp.wikicode.Wikicode:
-            wikicode = mwp.parse(wikitext, skip_style_tags=True)
-        else:
-            wikicode = wikitext
-        return wikicode
 
     def _load_section_info(self):
         wiki_headings = [h for h in self._wikicode.filter_headings()]
