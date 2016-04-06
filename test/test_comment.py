@@ -1,5 +1,5 @@
 import unittest
-import mwparserfromhell as mwp
+import wikichatter.mwparsermod as mwpm
 import wikichatter.comment as comment
 import wikichatter.indentblock as indentblock
 
@@ -21,7 +21,7 @@ class CommentTest(unittest.TestCase):
             LEVEL1 + FILLER + SIGNATURE + EL +
             LEVEL0 + FILLER + SIGNATURE + EL
         )
-        code = mwp.parse(text)
+        code = mwpm.parse(text)
         blocks = indentblock.generate_indentblock_list(code)
 
         comments = comment.identify_comments_linear_merge(blocks)
@@ -37,7 +37,7 @@ class CommentTest(unittest.TestCase):
             LEVEL2 + FILLER + SIGNATURE + EL +
             LEVEL1 + FILLER + SIGNATURE + EL
         )
-        code = mwp.parse(text)
+        code = mwpm.parse(text)
         blocks = indentblock.generate_indentblock_list(code)
 
         comments = comment.identify_comments_linear_merge(blocks)
@@ -46,3 +46,19 @@ class CommentTest(unittest.TestCase):
         self.assertEqual(len(comments[0].comments), 2)
         self.assertEqual(len(comments[0].comments[0].comments), 1)
         self.assertEqual(len(comments[0].comments[1].comments), 0)
+
+    def test_linear_identification_flat(self):
+        text = (
+            LEVEL0 + FILLER + EL +
+            LEVEL0 + FILLER + SIGNATURE + EL +
+            LEVEL0 + FILLER + SIGNATURE + EL +
+            LEVEL0 + FILLER + EL +
+            LEVEL0 + FILLER + SIGNATURE + EL +
+            LEVEL0 + FILLER + SIGNATURE + EL
+        )
+        code = mwpm.parse(text)
+        blocks = indentblock.generate_indentblock_list(code)
+
+        comments = comment.identify_comments_linear_merge(blocks)
+
+        self.assertEqual(len(comments), 4)
