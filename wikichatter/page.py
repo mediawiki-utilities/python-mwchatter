@@ -1,10 +1,12 @@
 from . import section
+from . import mwparsermod as mwpm
 
 
 class Page(object):
     def __init__(self, text, title):
         self.title = title
-        self.sections = section.generate_sections_from_raw_text(text)
+        wcode = mwpm.parse(text)
+        self.sections = section.generate_sections_from_wikicode(wcode)
 
     def extract_comments(self, extractor):
         for s in self.sections:

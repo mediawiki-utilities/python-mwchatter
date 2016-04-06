@@ -72,14 +72,13 @@ class Section(object):
         return basic
 
 
-def generate_sections_from_raw_text(text):
-    flat_sections = _generate_flat_list_of_sections(text)
+def generate_sections_from_wikicode(wcode):
+    flat_sections = _generate_flat_list_of_sections(wcode)
     return _sort_into_hierarchy(flat_sections)
 
 
-def _generate_flat_list_of_sections(text):
-    wikicode = mwp.parse(text, skip_style_tags=True)
-    mw_sections = wikicode.get_sections(include_lead=True, flat=True)
+def _generate_flat_list_of_sections(wcode):
+    mw_sections = wcode.get_sections(include_lead=True, flat=True)
     sections = [Section(s) for s in mw_sections if len(s.nodes) > 0]
     return sections
 
