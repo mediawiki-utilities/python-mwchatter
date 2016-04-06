@@ -1,11 +1,12 @@
 import mwparserfromhell as mwp
+from .error import Error
 
 
-class Error(Exception):
+class SectionError(Error):
     pass
 
 
-class TooManyHeadingsError(Error):
+class TooManyHeadingsError(SectionError):
     pass
 
 

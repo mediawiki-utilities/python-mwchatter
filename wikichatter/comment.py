@@ -1,5 +1,6 @@
 from . import signatureutils as su
 from . import indentutils as wiu
+from .error import Error
 
 
 def identify_comments_linear_merge(text_blocks):
@@ -34,11 +35,11 @@ def _sort_into_hierarchy(comment_list):
     return top_level_comments
 
 
-class Error(Exception):
+class CommentError(Error):
     pass
 
 
-class MultiSignatureError(Error):
+class MultiSignatureError(CommentError):
     pass
 
 
@@ -72,7 +73,7 @@ class Comment(object):
         for block in self._text_blocks:
             sig_list.extend(su.extract_signatures(block.text))
         if len(sig_list) > 1:
-            raise MultiSignatureError()
+            raise MultiSignatureError(sig_list)
         if len(sig_list) == 1:
             return sig_list[0]
         else:

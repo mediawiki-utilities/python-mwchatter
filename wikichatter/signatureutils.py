@@ -1,20 +1,21 @@
 import re
 import mwparserfromhell as mwp
+from .error import Error
 
 
-class Error(Exception):
+class SignatureUtilsError(Error):
     pass
 
 
-class NoUsernameError(Error):
+class NoUsernameError(SignatureUtilsError):
     pass
 
 
-class NoTimestampError(Error):
+class NoTimestampError(SignatureUtilsError):
     pass
 
 
-class NoSignature(Error):
+class NoSignature(SignatureUtilsError):
     pass
 
 

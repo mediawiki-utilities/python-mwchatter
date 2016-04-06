@@ -1,11 +1,12 @@
 import mwparserfromhell as mwp
+from .error import Error
 
 
-class Error(Exception):
+class MWParserModError(Error):
     pass
 
 
-class NotWikicodeError(Error):
+class NotWikicodeError(MWParserModError):
     pass
 
 
