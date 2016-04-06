@@ -47,6 +47,7 @@ class Comment(object):
 
     def __init__(self):
         self.author = None
+        self.cosigners = []
         self.time_stamp = None
         self._text_blocks = []
         self.comments = []
@@ -63,21 +64,17 @@ class Comment(object):
         self.comments.append(comment)
 
     def load_signature(self):
-        signature = self._find_signature()
-        if signature is not None:
-            self.author = signature['user']
-            self.time_stamp = signature['timestamp']
+        signatures = self._find_signatures()
+        if len(signatures) > 0:
+            self.author = signatures[0]['user']
+            self.time_stamp = signatures[0]['timestamp']
+            self.cosigners = signatures
 
-    def _find_signature(self):
+    def _find_signatures(self):
         sig_list = []
         for block in self._text_blocks:
             sig_list.extend(su.extract_signatures(block.text))
-        if len(sig_list) > 1:
-            raise MultiSignatureError(sig_list)
-        if len(sig_list) == 1:
-            return sig_list[0]
-        else:
-            return None
+        return sig_list
 
     @property
     def level(self):
@@ -92,6 +89,7 @@ class Comment(object):
         basic = {}
         basic["text_blocks"] = [b.simplify() for b in self._text_blocks]
         basic["comments"] = [c.simplify() for c in self.comments]
+        basic["cosigners"] = [{'author': s['user'], 'time_stamp': s['timestamp']} for s in self.cosigners]
         if self.author is not None:
             basic["author"] = self.author
         if self.time_stamp is not None:

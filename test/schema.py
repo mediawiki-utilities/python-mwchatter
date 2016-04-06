@@ -41,7 +41,17 @@ schema = {
                 "text_blocks": {
                     "type": "array",
                     "items": {"$ref": "#/definitions/text_block"}
-                }
+                },
+                "cosigners": {
+                    "type": "array",
+                    "items": {"$ref": "#/definitions/signature"}}
+            }
+        },
+        "signature": {
+            "type": "object",
+            "properties": {
+                "author": {"type": "string"},
+                "time_stamp": {"$ref": "#/definitions/time_stamp"}
             }
         },
         "text_block": {
