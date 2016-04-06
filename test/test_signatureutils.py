@@ -45,3 +45,20 @@ class SignatureUtilsTest(unittest.TestCase):
 
         self.assertEqual(1, len(detected_sigs))
         self.assertEqual(timestamp, detected_sigs[0]['timestamp'])
+
+    def test_identifies_backwards_signature(self):
+        wikitext = ("Hi i wanted to make sure i didnt plagiarize. What are the rules",
+                    " on using others' information on wikipedia. Can i paraphrase it",
+                    " as long as I cite the link? Can anyone get sued from ",
+                    "paraphrasing with citation01:52, 20 September 2013 (UTC)  ",
+                    '<small><span class="autosigned">— Preceding ',
+                    '[[Wikipedia:Signatures|unsigned]] comment added by ',
+                    '[[User:Fishingforspecies|Fishingforspecies]] ',
+                    '([[User talk:Fishingforspecies|talk]] • ',
+                    '[[Special:Contributions/Fishingforspecies|contribs]]) ',
+                    '</span></small>')
+        wcode = mwpm.parse(wikitext)
+
+        detected_sigs = signatureutils.extract_signatures(wcode)
+
+        self.assertEqual(1, len(detected_sigs))

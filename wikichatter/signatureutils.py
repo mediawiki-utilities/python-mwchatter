@@ -74,11 +74,10 @@ def _find_signature_near_timestamp(timestamp_loc, nodes):
     end = timestamp_loc
     start = _find_start_of_signature_ending_at(end, nodes)
     if start is None:
-        end = end + 1
-        if len(nodes) > end:
-            start = _find_start_of_signature_ending_at(end, nodes)
-    if start is None:
-        end = None
+        start = end
+        end = _find_end_of_backwards_signature_starting_at(start, nodes)
+    if end is None:
+        start = None
     return start, end
 
 
@@ -127,6 +126,32 @@ def _find_start_of_signature_ending_at(end, nodes):
     if not (found_user and found_date):
         start = None
     return start
+
+
+def _find_end_of_backwards_signature_starting_at(start, nodes):
+    end = None
+    found_user = False
+    found_date = False
+    for i in range(0, 6):
+        cur = start + i
+        if cur >= len(nodes):
+            break
+        node = nodes[cur]
+        n_has_un = _node_contains_username(node)
+        found_user = found_user or n_has_un
+
+        n_has_ts = _node_has_timestamp(node)
+        if n_has_ts and found_date:
+            break
+        found_date = found_date or n_has_ts
+
+        if n_has_un or n_has_ts:
+            end = cur
+        elif len(str(node)) > 5 and (found_user and found_date):
+            break
+    if not (found_user and found_date):
+        end = None
+    return end
 
 
 def _find_next_endline(text, position):
@@ -186,7 +211,7 @@ def _extract_usercontribs_user(text):
 
 
 def _extract_timestamp_from_sig_code(sig_code):
-    text = str(sig_code.nodes[-1])
+    text = str(sig_code)
     result = re.findall(TIMESTAMP_RE, text)
     if len(result) == 0:
         raise NoTimestampError(text)
