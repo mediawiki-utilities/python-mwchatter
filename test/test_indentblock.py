@@ -141,3 +141,22 @@ class IndentBlockTest(unittest.TestCase):
         self.assertEqual(blocks[1].indent, 1)
         self.assertEqual(blocks[2].indent, 2)
         self.assertEqual(blocks[3].indent, 3)
+
+    def test_breaks_same_level_apart(self):
+        text = (
+            LEVEL0 +
+            LIST1 +
+            LIST1 +
+            LIST2 +
+            LIST3
+        )
+        code = mwpm.parse(text)
+
+        blocks = indentblock.generate_indentblock_list(code)
+
+        self.assertEqual(len(blocks), 5)
+        self.assertEqual(blocks[0].indent, 0)
+        self.assertEqual(blocks[1].indent, 1)
+        self.assertEqual(blocks[2].indent, 1)
+        self.assertEqual(blocks[3].indent, 2)
+        self.assertEqual(blocks[4].indent, 3)

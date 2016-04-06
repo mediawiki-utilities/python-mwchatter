@@ -80,6 +80,13 @@ def find_min_indent(wikicode):
     return min(indents)
 
 
+def find_line_indent(wcode):
+    text = str(wcode)
+    if text.strip() != "":
+        return _find_line_indent(text)
+    return None
+
+
 def _find_line_indent(line):
     return _count_indent_in_some_order(line)
 

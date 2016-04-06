@@ -6,18 +6,19 @@ import mwparserfromhell as mwp
 # Unclean code
 def generate_indentblock_list(wcode):
     text_blocks = []
-    wcode_blocks = _divide_wikicode_into_lines(wcode)
+    wcode_lines = _divide_wikicode_into_lines(wcode)
     continuation_indent = 0
     old_indent = 0
-    for block_code in wcode_blocks:
-        local_indent = wiu.find_min_indent(block_code)
-        continues = wiu.has_continuation_indent(block_code)
+    for line in wcode_lines:
+        local_indent = wiu.find_line_indent(line)
+        continues = wiu.has_continuation_indent(line)
         if local_indent == 0 and not continues:
             continuation_indent = 0
         elif continues:
             continuation_indent = old_indent + 1
-        indent = local_indent + continuation_indent
-        text_blocks.append(IndentBlock(block_code, indent))
+        if local_indent is not None:
+            indent = local_indent + continuation_indent
+        text_blocks.append(IndentBlock(line, indent))
         old_indent = indent
     return text_blocks
 
@@ -33,8 +34,6 @@ def _divide_wikicode_into_lines(wcode):
     if len(line) > 0:
         lines.append(mwp.wikicode.Wikicode(line))
     return lines
-
-
 
 
 class IndentBlock(object):
