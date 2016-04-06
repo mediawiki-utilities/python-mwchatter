@@ -30,17 +30,55 @@ def extract_signatures(wcode):
     [
         {'user':<username>,
          'timestamp':<timestamp_as_string>,
-         'text':<signature text>,
-         'start':<start_location>,
-         'end':<end_location>}
+         'wikicode':<signature text>}
     ]
     """
     nodes = wcode.nodes
     signature_list = []
     signature_loc = _find_signatures_in_nodes(nodes)
     for (start, end) in signature_loc:
-        signature_list.append(mwp.wikicode.Wikicode(nodes[start:end + 1]))
+        sig_code = mwp.wikicode.Wikicode(nodes[start:end + 1])
+        signature = _extract_signature_dict_from_sig_code(sig_code)
+        signature_list.append(signature)
     return signature_list
+
+
+def _extract_signature_dict_from_sig_code(sig_code):
+    signature = {}
+    signature['user'] = _extract_rightmost_user(sig_code)
+    signature['timestamp'] = _extract_timestamp_from_sig_code(sig_code)
+    signature['wikicode'] = sig_code
+    return signature
+
+
+def _find_signatures_in_nodes(nodes):
+    result = []
+    candidate_locations = _find_timestamp_locations(nodes)
+    for loc in candidate_locations:
+        start, end = _find_signature_near_timestamp(loc, nodes)
+        if start is not None:
+            result.append((start, end))
+    return result
+
+
+def _find_timestamp_locations(nodes):
+    locations = []
+    for i, node in enumerate(nodes):
+        if _node_has_timestamp(node):
+            locations.append(i)
+    return locations
+
+
+def _find_signature_near_timestamp(timestamp_loc, nodes):
+    end = timestamp_loc
+    start = _find_start_of_signature_ending_at(end, nodes)
+    if start is None:
+        end = end + 1
+        if len(nodes) > end:
+            start = _find_start_of_signature_ending_at(end, nodes)
+    if start is None:
+        end = None
+    return start, end
 
 
 def _divide_wikicode_on_timestamps(wcode):
@@ -64,45 +102,23 @@ def _divide_nodes_on_timestamp(nodes):
     return divided
 
 
-def _find_signatures_in_nodes(nodes):
-    result = []
-    candidate_locations = _find_timestamp_locations(nodes)
-    for loc in candidate_locations:
-        if "00:47, 30 April 2012" in str(nodes[loc]):
-            wcode = mwp.wikicode.Wikicode([nodes[loc]])
-            links = [l for l in wcode.filter_wikilinks()]
-            import pdb; pdb.set_trace()
-        start, end = _find_signature_near_timestamp(loc, nodes)
-        if start is not None:
-            result.append((start, end))
-    return result
-
-
-def _find_signature_near_timestamp(timestamp_loc, nodes):
-    end = timestamp_loc
-    start = _find_start_of_signature_ending_at(end, nodes)
-    if start is None:
-        end = end + 1
-        if len(nodes) > end:
-            start = _find_start_of_signature_ending_at(end, nodes)
-    if start is None:
-        end = None
-    return start, end
-
-
 def _find_start_of_signature_ending_at(end, nodes):
     start = None
     found_user = False
     found_date = False
-    for i in range(0, 5):
+    for i in range(0, 6):
         cur = end - i
         if cur < 0 or cur >= len(nodes):
             break
         node = nodes[cur]
         n_has_un = _node_contains_username(node)
-        n_has_ts = _node_has_timestamp(node)
         found_user = found_user or n_has_un
+        n_has_ts = _node_has_timestamp(node)
+
+        if n_has_ts and found_date:
+            break
         found_date = found_date or n_has_ts
+
         if n_has_un or n_has_ts:
             start = cur
         elif len(str(node)) > 5 and (found_user and found_date):
@@ -119,41 +135,16 @@ def _find_next_endline(text, position):
     return min(candidates)
 
 
-def _try_extract_signature(text):
-    try:
-        return _extract_rightmost_signature(text)
-    except NoSignature:
-        return None
-
-
-def _extract_rightmost_signature(text):
-    try:
-        (timestamp, ts_start, ts_end) = _extract_rightmost_timestamp(text)
-        (user, u_start, u_end) = _extract_rightmost_user(text)
-    except(NoTimestampError, NoUsernameError) as e:
-        raise NoSignature(e)
-    start = min(u_start, ts_start)
-    end = max(u_end, ts_end)
-    return {
-        'user': user,
-        'timestamp': timestamp,
-        'text': text[start:end],
-        'start': start,
-        'end': end
-    }
-
-
-def _extract_rightmost_timestamp(text):
-    # TODO find_timestamp_locations has changed
-    ts_loc = _find_timestamp_locations(text)
+def _extract_rightmost_timestamp(wcode):
+    nodes = wcode.nodes
+    ts_loc = _find_timestamp_locations(nodes)
     if len(ts_loc) == 0:
         raise NoTimestampError(text)
-    (start, end) = max(ts_loc, key=lambda e: e[1])
-    timestamp = _extract_timestamp_user(text[start:end])
-    return (timestamp, start, end)
+    return mwp.wikicode.Wikicode(nodes[ts_loc[-1]])
 
 
-def _extract_rightmost_user(text):
+def _extract_rightmost_user(wcode):
+    text = str(wcode)
     up_locs = _find_userpage_locations(text)
     ut_locs = _find_usertalk_locations(text)
     uc_locs = _find_usercontribs_location(text)
@@ -166,15 +157,7 @@ def _extract_rightmost_user(text):
         raise NoUsernameError(text)
     (start, end, extractor) = max(func_picker, key=lambda e: e[1])
     user = extractor(text[start:end])
-    return (user, start, end)
-
-
-def _extract_timestamp_user(text):
-    ts = TIMESTAMP_RE.match(text)
-    if ts is None:
-        raise NoTimestampError(text)
-    timestamp = ts.group(0)
-    return timestamp
+    return user
 
 
 def _extract_userpage_user(text):
@@ -201,18 +184,18 @@ def _extract_usercontribs_user(text):
     return _clean_extracted_username(raw_username)
 
 
+def _extract_timestamp_from_sig_code(sig_code):
+    text = str(sig_code.nodes[-1])
+    result = re.findall(TIMESTAMP_RE, text)
+    if len(result) == 0:
+        raise NoTimestampError(text)
+    return result[0]
+
+
 def _clean_extracted_username(raw_username):
     parts = re.split('#|/', raw_username)
     username = parts[0]
     return username.strip()
-
-
-def _find_timestamp_locations(nodes):
-    locations = []
-    for i, node in enumerate(nodes):
-        if _node_has_timestamp(node):
-            locations.append(i)
-    return locations
 
 
 def _node_has_timestamp(node):
