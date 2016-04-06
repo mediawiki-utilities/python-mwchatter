@@ -61,5 +61,13 @@ def verify(output):
     try:
         validate(output, schema)
         return True
-    except:
+    except Exception as e:
         return False
+
+
+def error_msg(output):
+    try:
+        validate(output, schema)
+        return "No error"
+    except Exception as e:
+        return str(e)

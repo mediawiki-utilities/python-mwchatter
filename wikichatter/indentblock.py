@@ -30,4 +30,4 @@ class IndentBlock(object):
         return self.text
 
     def simplify(self):
-        return self.text
+        return str(self.text)

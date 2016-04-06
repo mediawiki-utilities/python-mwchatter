@@ -17,35 +17,35 @@ class Section(object):
     def __init__(self, wikitext):
         self._subsections = []
         self.comments = []
-        wikicode = self._get_wikicode_from_input(wikitext)
-        self._load_section_info(wikicode)
+        self._wikicode = self._get_wikicode_from_input(wikitext)
+        self._load_section_info()
 
     def _get_wikicode_from_input(self, wikitext):
         # wikitext can be either a wikicode object or a string
         if type(wikitext) is not mwp.wikicode.Wikicode:
-            wikicode = mwp.parse(self.wikitext, skip_style_tags=True)
+            wikicode = mwp.parse(wikitext, skip_style_tags=True)
         else:
             wikicode = wikitext
         return wikicode
 
-    def _load_section_info(self, wikicode):
-        wiki_headings = [h for h in wikicode.filter_headings()]
+    def _load_section_info(self):
+        wiki_headings = [h for h in self._wikicode.filter_headings()]
 
         if len(wiki_headings) > 1:
-            raise TooManyHeadingsError()
+            raise TooManyHeadingsError(wiki_headings)
         if len(wiki_headings) == 0:
             self.heading = None
             self.level = EPI_LEVEL
         else:
             self.heading = str(wiki_headings[0].title)
             self.level = wiki_headings[0].level
-        self.text = self._get_section_text_from_wikicode(wikicode)
+        self.text = self._get_section_text_from_wikicode(self._wikicode)
 
     def append_subsection(self, subsection):
         self._subsections.append(subsection)
 
     def extract_comments(self, extractor):
-        self.comments = extractor(self.text)
+        self.comments = extractor(self._wikicode)
         for s in self._subsections:
                 s.extract_comments(extractor)
 
