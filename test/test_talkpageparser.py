@@ -1,6 +1,6 @@
 import unittest
 import wikichatter.talkpageparser as tpp
-from test.schema import verify
+from test.schema import verify, error_msg
 
 
 SECTION1 = "= Title ="
@@ -31,7 +31,7 @@ class TalkPageParser(unittest.TestCase):
 
         output = tpp.parse(text)
 
-        self.assertTrue(verify(output))
+        self.assertTrue(verify(output), error_msg(output))
         self.assertEqual(len(output['sections']), 1)
         self.assertEqual(len(output['sections'][0]['comments']), 1)
         self.assertEqual(len(output['sections'][0]['comments'][0]['comments']), 1)
@@ -51,7 +51,7 @@ class TalkPageParser(unittest.TestCase):
 
         output = tpp.parse(text)
 
-        self.assertTrue(verify(output))
+        self.assertTrue(verify(output), error_msg(output))
         self.assertEqual(len(output['sections']), 1)
         self.assertEqual(len(output['sections'][0]['comments']), 1)
         self.assertEqual(len(output['sections'][0]['comments'][0]['comments']), 1)
@@ -79,7 +79,7 @@ class TalkPageParser(unittest.TestCase):
 
         output = tpp.parse(text)
 
-        self.assertTrue(verify(output))
+        self.assertTrue(verify(output), error_msg(output))
         self.assertEqual(len(output['sections']), 2)
         self.assertEqual(len(output['sections'][0]['comments']), 1)
         self.assertEqual(len(output['sections'][1]['comments']), 1)
@@ -98,7 +98,7 @@ class TalkPageParser(unittest.TestCase):
 
         output = tpp.parse(text)
 
-        self.assertTrue(verify(output))
+        self.assertTrue(verify(output), error_msg(output))
         self.assertEqual(len(output['sections']), 1)
         self.assertEqual(len(output['sections'][0]['comments']), 1)
         self.assertEqual(len(output['sections'][0]['subsections']), 1)

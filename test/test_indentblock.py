@@ -1,7 +1,9 @@
 import unittest
-import wikichatter.textblock as textblock
+import wikichatter.indentblock as indentblock
+import wikichatter.mwparsermod as mwpm
 
 
+EMPTY = "\n"
 LEVEL0 = "Level 0\n"
 LEVEL1 = ":Level 1\n"
 LEVEL2 = "::Level 2\n"
@@ -17,7 +19,7 @@ OUTDENT = "{{outdent}}"
 OUTDENT_LEVEL = "{{outdent|5}}"
 
 
-class TextBlockTest(unittest.TestCase):
+class IndentBlockTest(unittest.TestCase):
 
     def test_generates_list_from_basic_input(self):
         text = (
@@ -26,8 +28,9 @@ class TextBlockTest(unittest.TestCase):
             LEVEL2 +
             LEVEL3
         )
+        code = mwpm.parse(text)
 
-        blocks = textblock.generate_textblock_list(text)
+        blocks = indentblock.generate_indentblock_list(code)
 
         self.assertEqual(len(blocks), 4)
         self.assertEqual(blocks[0].indent, 0)
@@ -42,8 +45,9 @@ class TextBlockTest(unittest.TestCase):
             LEVEL1 +
             LEVEL0
         )
+        code = mwpm.parse(text)
 
-        blocks = textblock.generate_textblock_list(text)
+        blocks = indentblock.generate_indentblock_list(code)
 
         self.assertEqual(len(blocks), 4)
         self.assertEqual(blocks[0].indent, 3)
@@ -61,8 +65,9 @@ class TextBlockTest(unittest.TestCase):
             LEVEL1 +
             LEVEL0
         )
+        code = mwpm.parse(text)
 
-        blocks = textblock.generate_textblock_list(text)
+        blocks = indentblock.generate_indentblock_list(code)
 
         self.assertEqual(len(blocks), 7)
         self.assertEqual(blocks[0].indent, 0)
@@ -80,8 +85,9 @@ class TextBlockTest(unittest.TestCase):
             LEVEL2 +
             OUTDENT + LEVEL0
         )
+        code = mwpm.parse(text)
 
-        blocks = textblock.generate_textblock_list(text)
+        blocks = indentblock.generate_indentblock_list(code)
 
         self.assertEqual(len(blocks), 4)
         self.assertEqual(blocks[3].indent, 3)
@@ -96,8 +102,9 @@ class TextBlockTest(unittest.TestCase):
             LEVEL2 +
             OUTDENT + LEVEL0
         )
+        code = mwpm.parse(text)
 
-        blocks = textblock.generate_textblock_list(text)
+        blocks = indentblock.generate_indentblock_list(code)
 
         self.assertEqual(len(blocks), 7)
         self.assertEqual(blocks[6].indent, 6)
@@ -112,8 +119,9 @@ class TextBlockTest(unittest.TestCase):
             LEVEL1 +
             OUTDENT + LEVEL0
         )
+        code = mwpm.parse(text)
 
-        blocks = textblock.generate_textblock_list(text)
+        blocks = indentblock.generate_indentblock_list(code)
 
         self.assertEqual(len(blocks), 7)
         self.assertEqual(blocks[6].indent, 6)
@@ -125,11 +133,70 @@ class TextBlockTest(unittest.TestCase):
             LIST2 +
             LIST3
         )
+        code = mwpm.parse(text)
 
-        blocks = textblock.generate_textblock_list(text)
+        blocks = indentblock.generate_indentblock_list(code)
 
         self.assertEqual(len(blocks), 4)
         self.assertEqual(blocks[0].indent, 0)
         self.assertEqual(blocks[1].indent, 1)
         self.assertEqual(blocks[2].indent, 2)
         self.assertEqual(blocks[3].indent, 3)
+
+    def test_breaks_same_level_apart(self):
+        text = (
+            LEVEL0 +
+            LIST1 +
+            LIST1 +
+            LIST2 +
+            LIST3
+        )
+        code = mwpm.parse(text)
+
+        blocks = indentblock.generate_indentblock_list(code)
+
+        self.assertEqual(len(blocks), 5)
+        self.assertEqual(blocks[0].indent, 0)
+        self.assertEqual(blocks[1].indent, 1)
+        self.assertEqual(blocks[2].indent, 1)
+        self.assertEqual(blocks[3].indent, 2)
+        self.assertEqual(blocks[4].indent, 3)
+
+    def test_grants_empty_line_previous_indent(self):
+        text = (
+            LEVEL0 +
+            LIST1 +
+            EMPTY +
+            LIST1 +
+            LIST2
+        )
+        code = mwpm.parse(text)
+
+        blocks = indentblock.generate_indentblock_list(code)
+
+        self.assertEqual(len(blocks), 5)
+        self.assertEqual(blocks[0].indent, 0)
+        self.assertEqual(blocks[1].indent, 1)
+        self.assertEqual(blocks[2].indent, 1)
+        self.assertEqual(blocks[3].indent, 1)
+        self.assertEqual(blocks[4].indent, 2)
+
+
+    def test_gives_empty_start_zero_indent(self):
+        text = (
+            EMPTY +
+            LEVEL0 +
+            LIST1 +
+            LIST1 +
+            LIST2
+        )
+        code = mwpm.parse(text)
+
+        blocks = indentblock.generate_indentblock_list(code)
+
+        self.assertEqual(len(blocks), 5)
+        self.assertEqual(blocks[0].indent, 0)
+        self.assertEqual(blocks[1].indent, 0)
+        self.assertEqual(blocks[2].indent, 1)
+        self.assertEqual(blocks[3].indent, 1)
+        self.assertEqual(blocks[4].indent, 2)

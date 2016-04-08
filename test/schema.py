@@ -41,7 +41,17 @@ schema = {
                 "text_blocks": {
                     "type": "array",
                     "items": {"$ref": "#/definitions/text_block"}
-                }
+                },
+                "cosigners": {
+                    "type": "array",
+                    "items": {"$ref": "#/definitions/signature"}}
+            }
+        },
+        "signature": {
+            "type": "object",
+            "properties": {
+                "author": {"type": "string"},
+                "time_stamp": {"$ref": "#/definitions/time_stamp"}
             }
         },
         "text_block": {
@@ -61,5 +71,13 @@ def verify(output):
     try:
         validate(output, schema)
         return True
-    except:
+    except Exception as e:
         return False
+
+
+def error_msg(output):
+    try:
+        validate(output, schema)
+        return "No error"
+    except Exception as e:
+        return str(e)
