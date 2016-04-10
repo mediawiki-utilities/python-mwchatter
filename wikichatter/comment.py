@@ -68,7 +68,7 @@ class Comment(object):
         if len(signatures) > 0:
             self.author = signatures[0]['user']
             self.time_stamp = signatures[0]['timestamp']
-            self.cosigners = signatures
+            self.cosigners = signatures[1:]
 
     def _find_signatures(self):
         sig_list = []

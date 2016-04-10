@@ -55,7 +55,17 @@ observing the following json schema
                     "text_blocks": {
                         "type": "array",
                         "items": {"$ref": "#/definitions/text_block"}
-                    }
+                    },
+                    "cosigners": {
+                        "type": "array",
+                        "items": {"$ref": "#/definitions/signature"}}
+                }
+            },
+            "signature": {
+                "type": "object",
+                "properties": {
+                    "author": {"type": "string"},
+                    "time_stamp": {"$ref": "#/definitions/time_stamp"}
                 }
             },
             "text_block": {
@@ -70,8 +80,8 @@ observing the following json schema
         "$ref": "#/definitions/page"
     }
 
-The children of a node containing a comment are nodes containing the responses
-to the parent comment.
+`cosigners` of a comment are found when multiple signatures all occur on the same line.
+In this case the first is designated the signer and the rest are listed as cosigners.
 
 ## Known Problems ##
 * We currently assemble comments linearly, this occasionally leads to a mis-attribution
