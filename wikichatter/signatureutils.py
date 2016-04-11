@@ -20,6 +20,7 @@ class NoSignature(SignatureUtilsError):
 
 
 TIMESTAMP_RE = re.compile(r"[0-9]{2}:[0-9]{2}, [0-9]{1,2} [^\W\d]+ [0-9]{4} \(UTC\)")
+ALT_TIMESTAMP_RE = re.compile(r"[0-9]{2}:[0-9]{2} [^\W\d]+ [0-9]{1,2}, [0-9]{4} \(UTC\)")
 USER_RE = re.compile(r"(\[\[\W*user\W*:(.*?)\|[^\]]+\]\])", re.I)
 USER_TALK_RE = re.compile(r"(\[\[\W*user[_ ]talk\W*:(.*?)\|[^\]]+\]\])", re.I)
 USER_CONTRIBS_RE = re.compile(r"(\[\[\W*Special:Contributions/(.*?)\|[^\]]+\]\])", re.I)
@@ -213,6 +214,7 @@ def _extract_usercontribs_user(text):
 def _extract_timestamp_from_sig_code(sig_code):
     text = str(sig_code)
     result = re.findall(TIMESTAMP_RE, text)
+    result.append(re.findall(ALT_TIMESTAMP_RE, text))
     if len(result) == 0:
         raise NoTimestampError(text)
     return result[0]
@@ -225,7 +227,8 @@ def _clean_extracted_username(raw_username):
 
 
 def _node_has_timestamp(node):
-    return _node_matches_regex(node, TIMESTAMP_RE)
+    return (_node_matches_regex(node, TIMESTAMP_RE) or _node_matches_regex(node,
+            ALT_TIMESTAMP_RE))
 
 
 def _node_is_part_of_signature(node):
