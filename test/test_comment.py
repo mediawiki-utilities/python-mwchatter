@@ -47,6 +47,25 @@ class CommentTest(unittest.TestCase):
         self.assertEqual(len(comments[0].comments[0].comments), 1)
         self.assertEqual(len(comments[0].comments[1].comments), 0)
 
+    def test_linear_identification_hierarchy_with_extra_endlines(self):
+        text = (
+            LEVEL0 + FILLER + EL + EL +
+            LEVEL0 + FILLER + SIGNATURE + EL + EL +
+            LEVEL1 + FILLER + SIGNATURE + EL + EL +
+            LEVEL2 + FILLER + EL + EL +
+            LEVEL2 + FILLER + SIGNATURE + EL + EL +
+            LEVEL1 + FILLER + SIGNATURE + EL
+        )
+        code = mwpm.parse(text)
+        blocks = indentblock.generate_indentblock_list(code)
+
+        comments = comment.identify_comments_linear_merge(blocks)
+
+        self.assertEqual(len(comments), 1, comments)
+        self.assertEqual(len(comments[0].comments), 2)
+        self.assertEqual(len(comments[0].comments[0].comments), 1)
+        self.assertEqual(len(comments[0].comments[1].comments), 0)
+
     def test_linear_identification_flat(self):
         text = (
             LEVEL0 + FILLER + EL +

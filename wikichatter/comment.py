@@ -78,12 +78,14 @@ class Comment(object):
 
     @property
     def level(self):
-        levels = [block.indent for block in self._text_blocks]
-        return min(levels)
+        levels = [b.indent for b in self._text_blocks if str(b.text).strip() != '']
+        if len(levels) > 0:
+            return min(levels)
+        return 0
 
     @property
     def text(self):
-        return "\n".join([b.text for b in self._text_blocks])
+        return "\n".join([str(b.text) for b in self._text_blocks])
 
     def simplify(self):
         basic = {}
@@ -95,3 +97,6 @@ class Comment(object):
         if self.time_stamp is not None:
             basic["time_stamp"] = self.time_stamp
         return basic
+
+    def __repr__(self):
+        return self.text
