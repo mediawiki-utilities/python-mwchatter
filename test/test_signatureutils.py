@@ -63,10 +63,18 @@ class SignatureUtilsTest(unittest.TestCase):
 
         self.assertEqual(1, len(detected_sigs))
 
-    def test_identifies_irregular_date_signature(self):
+    def test_identifies_hhmm_MMM_DD_YYYY_format(self):
         wikitext = ('the first is also illegible on Netscape, but you can tell'
                     ' what was intended; the second is perfectly legible.  '
                     '[[User:Michael Hardy|Michael Hardy]] 18:45 Mar 10, 2003 (UTC)\n')
+        wcode = mwpm.parse(wikitext)
+
+        detected_sigs = signatureutils.extract_signatures(wcode)
+
+        self.assertEqual(1, len(detected_sigs))
+
+    def test_identifies_hhmmss_YYYYMMDD_format(self):
+        wikitext = ' in my opinion. [[User:Nahaj|Nahaj]] 01:54:53, 2005-09-08 (UTC) '
         wcode = mwpm.parse(wikitext)
 
         detected_sigs = signatureutils.extract_signatures(wcode)
