@@ -2,7 +2,7 @@ from setuptools import setup
 
 setup(
     name='WikiChatter',
-    version='0.2.2',
+    version='0.2.3',
     description='Parser for MediaWiki talk pages',
     url='https://github.com/kjschiroo/WikiChatter',
 
