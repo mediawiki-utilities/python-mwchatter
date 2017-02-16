@@ -1,13 +1,5 @@
 import mwparserfromhell as mwp
-from .error import Error
-
-
-class SectionError(Error):
-    pass
-
-
-class TooManyHeadingsError(SectionError):
-    pass
+from .error import MalformedWikitextError
 
 
 EPI_LEVEL = 0
@@ -25,7 +17,9 @@ class Section(object):
         wiki_headings = [h for h in self._wikicode.filter_headings()]
 
         if len(wiki_headings) > 1:
-            raise TooManyHeadingsError(wiki_headings)
+            raise MalformedWikitextError(
+                    "Multiple headings appear within single section"
+                  )
         if len(wiki_headings) == 0:
             self.heading = None
             self.level = EPI_LEVEL

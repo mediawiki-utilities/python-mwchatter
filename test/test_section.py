@@ -1,6 +1,7 @@
 import unittest
 import wikichatter.section as section
 import wikichatter.mwparsermod as mwpm
+from wikichatter.error import MalformedWikitextError
 
 
 class SectionTest(unittest.TestCase):
@@ -64,3 +65,15 @@ class SectionTest(unittest.TestCase):
         top_level = section.generate_sections_from_wikicode(wcode)
 
         self.assertEqual(len(top_level), 1, top_level)
+
+    def test_malformed_brackets_wikitext_raises_error(self):
+        wikitext = ("= Heading 1 =\n"
+                    "{{malformed|brackets]]\n\n"
+                    "= Heading 2 =\n"
+                    "text\n\n"
+                    "= Heading 3=\n"
+                    "{{}}")
+        wcode = mwpm.parse(wikitext)
+
+        with self.assertRaises(MalformedWikitextError):
+            section.generate_sections_from_wikicode(wcode)
