@@ -1,6 +1,4 @@
-# WikiChatter #
-Kevin Schiroo
-
+# MWChatter
 This is a library currently in development to parse conversations on Wikipedia
 talk pages
 
@@ -97,3 +95,8 @@ that broke indentation rather than the original poster.
 ## Running tests ##
 From base directory
 `python -m unittest test.<text_file>`
+
+# Authors
+
+* Kevin Schiroo
+
